@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: home
+parts:
+- caption: Preface
+  chapters:
+  - file: preface/preface1
+  - file: preface/preface2
+- caption: Python Intro
+  chapters:
+  - file: python/python1
+  - file: python/python2
+  - file: python/notebook
