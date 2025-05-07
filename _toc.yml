@@ -4,12 +4,35 @@
 format: jb-book
 root: home
 parts:
-- caption: Preface
+- caption: Einführung
   chapters:
-  - file: preface/preface1
-  - file: preface/preface2
-- caption: Python Intro
+  - file: dh/digital-humanities-history
+  - file: dh/digitale-hermeneutik
+- caption: Technologische Grundlagen
   chapters:
-  - file: python/python1
-  - file: python/python2
-  - file: python/notebook
+  - file: theorie/modellierung
+  - file: theorie/datenbanken
+  - file: theorie/informationssuche
+  - file: theorie/xml
+  - file: theorie/webentwicklung
+  - file: theorie/python
+- caption: Praktische Anwendungen
+  chapters:
+  - file: praxis/digital-edition
+    sections:
+    - file: praxis/vom-scan-zur-webbasierten-darstellung
+  - file: praxis/forschungsdaten
+  - file: praxis/datenextraktion
+    sections:
+    - file: praxis/apis
+    - file: praxis/formate
+  - file: praxis/korpuslinguistik
+  - file: praxis/natural-language-processing
+  - file: praxis/geschichtswissenschaft-und-ki
+  - file: praxis/historische-netzwerkanalyse
+  - file: praxis/geographische-daten
+  - file: praxis/hinweise-werkzeuge-quellen-projekte
+    sections:
+    - file: praxis/werkzeuge
+    - file: praxis/projekte
+    - file: praxis/literatur
