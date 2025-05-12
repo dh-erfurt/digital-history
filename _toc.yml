@@ -29,6 +29,16 @@ parts:
   - file: praxis/korpuslinguistik
   - file: praxis/natural-language-processing
   - file: praxis/geschichtswissenschaft-und-ki
+    sections:
+    - file: praxis/ki-fehler-beispiele.md
+    - file: praxis/ki-und-llms.md
+    - file: praxis/ki-texte-schreiben.md
+    - file: praxis/llms-anwendungsfelder.md
+    - file: praxis/ki-uni-richtlinien.md
+    - file: praxis/prompting.md
+    - file: praxis/ki-werkzeugkritik.md
+    - file: praxis/ki-ethik.md
+    - file: praxis/ki-links.md
   - file: praxis/historische-netzwerkanalyse
   - file: praxis/geographische-daten
   - file: praxis/hinweise-werkzeuge-quellen-projekte
