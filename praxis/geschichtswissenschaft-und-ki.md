@@ -1,4 +1,4 @@
-# Geschichtswissenschaft und KI
+# Geschichte und KI
 
 ANNA
 
