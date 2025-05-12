@@ -7,6 +7,6 @@ Wesentliche Themenfelder der Digitalen Geisteswissenschaften sind:
 - Auswirkungen der Digitalisierung und damit ein Beitrag zu übergeordneten Fragen von Digitalisierung und Gesellschaft
 - Etablierung neuer, computergestützter Methoden in der geisteswissenschaftlichen Forschung 
 
-Die Digital Humanities in Erfurt bauen auf einer hochschulübergreifenden Kooperation der Universität Erfurt (Philosophische Fakultät) und der Fachhochschule Erfurt (Angewandte Informatik) auf und verstehen sich als Brücke zwischen Informatik und Geisteswissenschaften.
+Die Digital Humanities in Erfurt bauen auf einer hochschulübergreifenden Kooperation der [Universität Erfurt (Philosophische Fakultät)](https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/historisches-seminar/professuren/digital-humanities-hybride-bildungs-und-kommunikationsraeume) und der [Fachhochschule Erfurt (Angewandte Informatik)](https://ai.fh-erfurt.de/neovesky) auf und verstehen sich als Brücke zwischen Informatik und Geisteswissenschaften.
 
 In diesem Kapitel wird ein Überblick zu zentralen Begriffen, Konzepten und der Entstehung und Etablierung der Disziplinen gegeben.

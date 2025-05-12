@@ -1,4 +1,4 @@
-# Home
+# Digital History
 ```{figure} img/logo.png
 :alt: DH Erfurt
 :width: 800px
@@ -6,8 +6,7 @@
 
 Bildunterschrift
 ```
-Hier kommt der Root-Text hin. 
 
+Open Educational Resources für die Lehrveranstaltungen der Professur für Digital Humanities – Hybride Bildungs- und Kommunikationsräume.
 
-Deployment: 
-https://yenchiah.me/jupyter-book-template/docs/home.html#step-5-deploy-the-book-online
+Zitierhinweis: Nina Brolich, Anna Neovesky: Digital History, URL
