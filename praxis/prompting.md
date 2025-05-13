@@ -1,4 +1,4 @@
-# Anfragen an KI-Chatbots stellen: Prompting und Prompt Engineering 
+# Prompting und Prompt Engineering 
 
 ## Was ist ein Prompt?
 

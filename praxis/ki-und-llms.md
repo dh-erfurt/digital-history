@@ -1,4 +1,4 @@
-# KI und LLMs
+# Grundlagen: KI und LLMs
 
 NINA
 

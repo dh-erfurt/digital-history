@@ -22,6 +22,7 @@ parts:
     sections:
     - file: praxis/vom-scan-zur-webbasierten-darstellung
   - file: praxis/forschungsdaten
+  - file: praxis/rse
   - file: praxis/datenextraktion
     sections:
     - file: praxis/apis
@@ -30,6 +31,7 @@ parts:
   - file: praxis/natural-language-processing
   - file: praxis/geschichtswissenschaft-und-ki
     sections:
+    - file: praxis/ki-in-geschichte.md
     - file: praxis/ki-fehler-beispiele.md
     - file: praxis/ki-und-llms.md
     - file: praxis/ki-texte-schreiben.md

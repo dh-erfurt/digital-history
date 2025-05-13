@@ -17,7 +17,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/dh-erfurt/digital-humanities  # Online location of your book (change this to your GitHub repository link)
+  url: https://github.com/dh-erfurt/digital-history  # Online location of your book (change this to your GitHub repository link)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository

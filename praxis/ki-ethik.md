@@ -1,2 +1,3 @@
-# Ethische Fragen
+# KI und ethische Fragen
+
 ANNA

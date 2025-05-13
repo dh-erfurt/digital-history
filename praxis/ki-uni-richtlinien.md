@@ -4,6 +4,22 @@ Um einen verantwortungsvollen und transparenten Umgang mit KI-Systemen sicherzus
 
 Die Universität Erfurt hat 2025 sowohl für Studierende als auch für Lehrende Richtlinien verfasst:
 - Für Student*innen: [Handreichung zum Umgang mit generativer KI im Studium an der Universität Erfurt](https://www.uni-erfurt.de/studium/studienservices/digitales-lernen-lehren/generative-ki-im-studium) (Stand: 29. Januar 2025)
-- Führ Lehrende: [Handreichung zum Umgang mit Generativer KI in Lehre und Prüfung](https://www.uni-erfurt.de/studium/studienservices/digitales-lernen-lehren/generative-ki-in-lehre-und-pruefung) (Stand: 05. Dezember 2024)
+- Für Lehrende: [Handreichung zum Umgang mit Generativer KI in Lehre und Prüfung](https://www.uni-erfurt.de/studium/studienservices/digitales-lernen-lehren/generative-ki-in-lehre-und-pruefung) (Stand: 05. Dezember 2024)
 
-ANNA
+
+## Freigabeerklärung
+
+URL: https://www.uni-erfurt.de/fileadmin/Hauptseiten/Studium/Studienservices/Freigabeerklaerung_Muster.docx
+
+
+Lesen Sie die Erklärung und überlegen Sie:
+- Wie ist Ihr Eindruck von der Erklärung?
+- Welche Tool-Nutzung sollte erlaubt sein?
+
+## Beispiele für weitere Richtlinien
+
+**Beispiel für offene und eigenverantwortliche Tool-Nutzung im Rahmen von Lehrveranstaltungen:**
+Christian Spannagel, „Rules for Tools“, Version 2.3,
+https://github.com/dunkelmunkel/scientific-work/blob/main/rulesfortools/rulesfortools.pdf
+
+
