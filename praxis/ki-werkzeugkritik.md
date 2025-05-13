@@ -18,7 +18,7 @@ Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, versc
 - Berichte / Rezensionen
 - Ethische Kriterien 
 
-Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Aspekte und die Qualität des Codes und der Implementierung beziehen. Solche Bewertungen erfordern umfassende technische Vorkenntnisse sowie eine offene Publikation und Dokumentation des Codes einer Anwendung. 
+Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Aspekte und die Qualität des Codes und der Implementierung beziehen. Solche Bewertungen erfordern umfassende technische Vorkenntnisse sowie eine offene Publikation und Dokumentation des Codes einer
 
 ### Zweck des Tools
 
