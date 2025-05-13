@@ -48,3 +48,7 @@ parts:
     - file: praxis/werkzeuge
     - file: praxis/projekte
     - file: praxis/literatur
+- caption: Bibliografie
+  chapters:
+    - file: bibliography
+

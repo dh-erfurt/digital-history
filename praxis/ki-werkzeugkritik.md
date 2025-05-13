@@ -110,7 +110,7 @@ Quellen:
 The ISO/IEC 25000 series of standards, https://iso25000.com/index.php/en/iso-25000-standards
 David Zubrow, 2004, Measuring Software Product Quality: the ISO 25000 Series and CMMI (Präsentation), https://insights.sei.cmu.edu/library/measuring-software-product-quality-the-iso-25000-series-and-cmmi.
 
-```{figure} img/iso-standard-9126.png
+```{figure} ../img/iso-standard-9126.png
 :alt: Elemente des ISO-Standards für Softwarequalität
 :width: 800px
 :align: left
