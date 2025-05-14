@@ -10,6 +10,8 @@ Diese Kapitel gibt einen Überblick zu Forschungsdaten, der verschiedenen Stadie
 
 #### Literaturhinweise
 
+Herb, Ulrich and Pampel, Heinz. "E 10 Open Access". Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 715-726. https://doi.org/10.1515/9783110769043-061
+
 Neuroth, Heike. "B 17 Forschungsdaten". Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 339-350. https://doi.org/10.1515/9783110769043-029.
 
 Siebenlist, Tobias. "E 11 Open Data". Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 727-734. https://doi.org/10.1515/9783110769043-062
