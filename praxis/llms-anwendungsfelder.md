@@ -11,24 +11,41 @@ LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sond
 Bei der Transkription von historischen Quellen kommt oft *Optical Character Recognition (OCR)* zum Einsatz. *OCR*-Tools werden oft mithilfe von KI verbessert. LLMs können auch hilfreich dabei sein, den Output von OCR zu bereinigen, indem sie Fehler erkennen und korrigieren.
 
 ## Verstehen und Analysieren von Text
-Ein zentrales Anwendungsfeld von LLMs ist nicht nur das Verfassen, sondern auch das Verstehen und die Analyse von Texten. Für die Geschichtswissenschaften hilfreich können u.a. *Named Entity Recognition*, *Sentiment Analysis*, *Topic Modelling* und *Stilometrie*-Analysen sein. 
+Ein zentrales Anwendungsfeld von LLMs ist nicht nur das Verfassen, sondern auch das Verstehen und die Analyse von Texten. Für die Geschichtswissenschaften hilfreich können u.a. *Named Entity Recognition*, *Sentiment Analysis*, *Topic Modelling* und *Stilometrie*-Analysen sein. Diese Methoden werden vor allem dann eingesetzt, wenn große Textmengen schnell und systematisch analysiert werden sollen.
 
 ### Named Entity Recognition
-![](ner.png)
 
 *Named Entity Recognition (NER)* bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z.B. Personen, Orte, Organisationen, Zeitangaben etc.) {cite:p}`ner`. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und eine Institutionen dabei eine Rolle spielen. *NER* ist also eine wichtige Basis für weitergehende Analysen, z.B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.
 
-LLMs, deren Hauptaufgabe es ist, ... 
-- Ambiguität zwischen Ort und Organisation (z.B. "Universität Erfurt")
+```{figure} ../img/ner.png
+:alt: Beispiel Named Entity Recognition
+:name: ner
+:align: left
+
+In dem Beispieltext sind Entitäten wie Orte, Organisationen und numerische Angaben ausgezeichnet.
+```
+<br/>
+
+LLMs, deren Hauptaufgabe es ist, Sprache zu verstehen, haben sich als sehr hilfreich für *NER* erwiesen. 
+
+{numref}`ner` zeigt einen Beispieltext, in dem Entitäten gekennzeichnet wurden. Anhand dieses kurzen Beispiels wird auch ein zentrales Problem der *NER* deutlich, nämlich die Ambiguität zwischen Ort und Organisation (z.B. "Universität Erfurt"), 
 
 
 ### Sentiment Analysis
-- Einschätzen der Stimmung/emotionalen Haltung eines Texts
-- Kontext Geschichtswissenschaften: z.B. Bewertung politischer Reden, zeitungsartikel, Briefe, Auswertung öffentlicher Meinung
-- Beispiel: https://www.deutsche-digitale-bibliothek.de/newspaper/item/ZBJ3S5LCHJIKSQHDTL4URASFOIV4RYXY?issuepage=8
-Erfurt, der Ort der Nationalversammtung!
-Nach Weimar, Leipzig und Nürnberg ist nunmehr von den Volksbeauftragten als Ort der Nationalversammlung Erfurt in Aussicht genommen. Es ist auch Aussicht vorhanden, dass die uralte Metropole Thüringens, das als Binnen- und Industriestadt gleich geschätzte Erfurt, die kommende deutsche Nationalversammlung in ihren Mauern sehen wird.
+
+Im Rahmen von *Sentiment Analysis* wir die Stimmung und/oder emotionale Haltung eines Texts eingeschätzt, was in geschichtswissenschaftlicher Forschung u.a. bei der Bewertung von politischen Reden, Zeitungsartikeln und Briefen oder im Allgemeinen bei der Auswertung öffentlicher Meinung unterstützen kann. Auch hierbei können LLMs effizient unterstützen.   
+
+Im Folgenden betrachten wir diesen Beispieltext aus der Rhein-Ruhr-Zeitung vom 07.01.1919. [[Quelle](https://www.deutsche-digitale-bibliothek.de/newspaper/item/ZBJ3S5LCHJIKSQHDTL4URASFOIV4RYXY?issuepage=8)]
+
+```{dropdown} Zeitungsartikel
+
+Erfurt, der Ort der Nationalversammlung!
+Nach Weimar, Leipzig und Nürnberg ist nunmehr von den Volksbeauftragten als Ort der Nationalversammlung Erfurt in Aussicht genommen. 
+Es ist auch Aussicht vorhanden, dass die uralte Metropole Thüringens, das als Binnen- und Industriestadt gleich geschätzte Erfurt, die kommende deutsche Nationalversammlung in ihren Mauern sehen wird.
 Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besondere Erinnerungen an ihre eigene Geschichte.
+```
+
+Eine simple *Sentimentsanalyse* mit *ChatGPT* ergibt Folgendes:
 
 | Satz                                                                                                                       | Tonlage / Sentiment               | Hinweise                                                                          |
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------- |
@@ -40,13 +57,14 @@ Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besonder
 
 
 ### Topic Modelling 
-- *Topic Modelling*: Welche Themen kommen in einer großen Textsammlung vor?
-- Kontext Geschichtswissenschaft: Welche Themen dominieren z.B. in Zeitungen einer Epoche? 
-- Beispiel (für kurzen Textausschnitt):
-    - Identifizierte Themen (Topics):
-         - Ort der Nationalversammlung
-         Begriffe: „Nationalversammlung“, „Volksbeauftragte“, „in Aussicht genommen“, „kommende“
-         Bedeutung: Der Text berichtet, dass Erfurt als möglicher Veranstaltungsort für eine deutsche Nationalversammlung diskutiert wird.
+*Topic Modelling* ist ein weiteres Anwendungsgebiet von LLMs und untersucht, welche Themen in einer großen Textsammlung vorkommen. Im Kontext der Geschichtswissenschaft lässt sich so z.B. aufzeigen, welche Themen in Zeitungen einer Epoche dominieren. 
+
+Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Textausschnitte kann *Topic Modelling* vorgenommen werden, hier anhand obigen Zeitungsartikels mithilfe von *ChatGPT*
+
+- Identifizierte Themen (Topics):
+    - Ort der Nationalversammlung
+        - Begriffe: „Nationalversammlung“, „Volksbeauftragte“, „in Aussicht genommen“, „kommende“
+        - Bedeutung: Der Text berichtet, dass Erfurt als möglicher Veranstaltungsort für eine deutsche Nationalversammlung diskutiert wird.
 
     - Symbolische Bedeutung Erfurts für die Parteien
         - Begriffe: „besondere Erinnerungen“, „eigene Geschichte“, „alle politischen Parteien“
@@ -55,7 +73,8 @@ Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besonder
     - Charakteristik der Stadt Erfurt
         - Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“
         - Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.
-- oder Beispiel von hier: https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/ ?
+
+<!-- oder Beispiel von hier: https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/ ? -->
 
 ### Stilometrie/Autorschaftsanalyse
 - Analyse individueller Schreibstile anhand sprachlicher Merkmale (z.B. Wortwahl, Satzstruktur)
