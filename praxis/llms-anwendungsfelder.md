@@ -59,7 +59,7 @@ Eine simple *Sentimentsanalyse* mit *ChatGPT* ergibt Folgendes:
 ### Topic Modelling 
 *Topic Modelling* ist ein weiteres Anwendungsgebiet von LLMs und untersucht, welche Themen in einer großen Textsammlung vorkommen. Im Kontext der Geschichtswissenschaft lässt sich so z.B. aufzeigen, welche Themen in Zeitungen einer Epoche dominieren. 
 
-Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Textausschnitte kann *Topic Modelling* vorgenommen werden, hier anhand obigen Zeitungsartikels mithilfe von *ChatGPT*
+Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Textausschnitte kann *Topic Modelling* vorgenommen werden, hier anhand obigen Zeitungsartikels mithilfe von *ChatGPT*.
 
 - Identifizierte Themen (Topics):
     - Ort der Nationalversammlung
@@ -74,13 +74,12 @@ Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Text
         - Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“
         - Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.
 
-<!-- oder Beispiel von hier: https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/ ? -->
+[Hier](https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/) werden beispielsweise 1.8 Millionen Artikel der *New York Times* auf ihre Themen hin untersucht und die Potenziale, die *Topic Modelling* bietet, beleuchtet.
 
 ### Stilometrie/Autorschaftsanalyse
-- Analyse individueller Schreibstile anhand sprachlicher Merkmale (z.B. Wortwahl, Satzstruktur)
-- Ziel: Erkennung des Autors oder Abgrenzung mehrerer Autoren in einem Text
-- Kontext Geschichtswissenschaft: Zuschreibung an bestimmte Autoren, Analyse kollektiver Autorenschaft
-- Beispiel: 
+Auch Stilometrie - die Analyse individueller Schreibstile anhand sprachlicher Merkmale (z.B. Wortwahl, Satzstruktur) - ist ein Anwendungsfeld von LLMs. Ein Ziel kann hier beispielsweise sein, Autorenschaft zu erkennen oder mehrere Autoren in einem Text abzugrenzen.
+
+Für den kurzen Abschnitt aus obigem Beispiel trifft *ChatGPT* folgende Stilometrie-Analyse.
 
 | Merkmal   | Beschreibung                               |
 | --------- | ------------------------------------------ |
@@ -90,9 +89,10 @@ Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Text
 | Tempus    | Präsens / Futurisch mit prognostischem Ton |
 | Funktion  | Informativ und legitimierend (politisch)   |
 
+Auch bei der Stilometrie ist die Methode besonders sinnvoll bei großen Textsammlungen - hier lassen sich die Ähnlichkeiten zwischen verschiedenen Texten messen und Stile quantisieren.
 
 # Fazit 
-evtl hier was zu Netzwerkanalyse - Karten - Visualisierung
+LLMs können auf vielfältige Weise zu einem vertieften Textverständnis beitragen - angefangen von Zusammenfassungen und "Übersetzungen" in leichte Sprache, über Verfeinerung automatischer Transkription, bis hin zur Textanalyse. Methoden wie  *NER*, *Sentiment Analysis* eröffnen neue Herangehensweisen an die Analyse historischer Quellen. Auf ihrer Basis können Daten erschlossen und visualisiert werden - u.a. können identifizierte Entitäten (Persone, Orte, ...) in Beziehungsnetzwerken dargestellt werden, chronologische Zusammenhänge können erschlossen werden und Entitäten mit Ortsbezug können auf Karten projiziert werden
 
 
 # Quellen und weiterführende Links

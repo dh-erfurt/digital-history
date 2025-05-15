@@ -1,0 +1,3 @@
+# Computerlinguistik
+ 
+Die Computerlinguistik ist ein wissenschaftliches Fachgebiet an der Schnittstelle zwischen Sprachwissenschaft und Informatik. Sie beschäftigt sich mit der computergestützten Verarbeitung natürlicher Sprache, bearbeitet aber auch sprachtheoretische Fragestellungen mit digitalen Methoden. So stellt sie einen theoretischen und technologischen Rahmen für viele DH-Methoden und -Verfahren zur Verfügung - von LLMs bis zu klassischer Korpuslinguistik. Grundlegende Konzepte und Begriffe sollen hier vorgestellt werden.
