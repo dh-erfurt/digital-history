@@ -16,7 +16,7 @@ parts:
   - file: theorie/xml
   - file: theorie/webentwicklung
   - file: theorie/python
-  - file: praxis/rse
+  - file: theorie/rse
 - caption: Methoden und Anwendungen
   chapters:
   - file: praxis/digital-edition

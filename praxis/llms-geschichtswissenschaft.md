@@ -100,6 +100,7 @@ Die Chancen und Herausforderungen von LLMs in der Geschichtswissenschaft schlüs
 
 Darüber hinaus gibt es viele hilfreiche Online-Ressourcen, z.B. 
 - [Überblick/Tutorial zu Named Entity Recognition mit Python](https://www.geeksforgeeks.org/named-entity-recognition/)
+- [Einführung/Tutorial zu Topic Modelling mit Python](https://python-textbook.pythonhumanities.com/04_topic_modeling/04_01_01_intro.html)
 
 ## Zitierte Literatur
 ```{bibliography}
