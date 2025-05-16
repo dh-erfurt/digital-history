@@ -1,3 +1,0 @@
-# Natural Language Processing
- 
-*Natural Language Processing (NLP)* ist eine Teildisziplin der Informatik, für die KI besonders relevant ist. Sie ist damit befasst, wie Computer natürliche Sprache interpretieren, analysieren und generieren können. Im Gegensatz zu Computerlinguistik liegt der Schwerpunkt weniger auf linguistischer Theorie, sondern auf praktischen, datengestützten Anwendungen. Im Kontext der DH ist *NLP* wesentlich, da die automatisierte Verarbeitung großer Textmengen ermöglicht wird, was u.a. neue Perspektiven auf historische Quellen eröffnet. DH-Methoden, die unter *NLP* fallen, sind z.B. *Named Entity Recognition*, *Topic Modelling* oder *Sentiment Analysis*, welche im Rahmen dieses Kapitels näher vorgestellt werden sollen.
