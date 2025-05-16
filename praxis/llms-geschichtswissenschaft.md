@@ -1,4 +1,4 @@
-# Weitere Anwendungsfelder für LLMs
+# LLMs in der Geschichtswissenschaft
 
 LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sondern bieten darüber hinaus vielfältige Einsatzmöglichkeiten, auch besonders im Bereich der Geschichtswissenschaften.
 

@@ -7,7 +7,7 @@ parts:
 - caption: Einführung
   chapters:
   - file: dh/digital-humanities-history
-  - file: dh/digitale-hermeneutik
+  - file: dh/digitale-quellenkritik.md
 - caption: Technologische Grundlagen
   chapters:
   - file: theorie/modellierung
@@ -16,38 +16,39 @@ parts:
   - file: theorie/xml
   - file: theorie/webentwicklung
   - file: theorie/python
+  - file: praxis/rse
 - caption: Methoden und Anwendungen
   chapters:
   - file: praxis/digital-edition
   #  sections:
-  # - file: praxis/vom-scan-zur-webbasierten-darstellung-->
+  # - file: praxis/vom-scan-zur-webbasierten-darstellung
   - file: praxis/forschungsdaten
-  - file: praxis/rse
   - file: praxis/datenextraktion
     sections:
     - file: praxis/apis
     - file: praxis/formate
-  - file: praxis/computerlinguistik
   - file: praxis/natural-language-processing
   - file: praxis/geschichtswissenschaft-und-ki
     sections:
     - file: praxis/ki-in-geschichte.md
-    - file: praxis/ki-fehler-beispiele.md
     - file: praxis/ki-und-llms.md
+    - file: praxis/ki-texte-schreiben.mdsa
+    - file: praxis/llms-geschichtswissenschaft.md
+    - file: praxis/ki-erinnerungskultur.md
     - file: praxis/ki-texte-schreiben.md
-    - file: praxis/llms-anwendungsfelder.md
-    - file: praxis/ki-uni-richtlinien.md
     - file: praxis/prompting.md
+    - file: praxis/ki-fehler-beispiele.md
+    - file: praxis/ki-uni-richtlinien.md
     - file: praxis/ki-werkzeugkritik.md
     - file: praxis/ki-ethik.md
     - file: praxis/ki-links.md
   - file: praxis/historische-netzwerkanalyse
   - file: praxis/geographische-daten
   - file: praxis/hinweise-werkzeuge-quellen-projekte
-    sections:
-    - file: praxis/werkzeuge
-    - file: praxis/projekte
-    - file: praxis/literatur
+#    sections:
+#    - file: praxis/werkzeuge
+#    - file: praxis/projekte
+#    - file: praxis/literatur
 - caption: Bibliografie
   chapters:
     - file: bibliography

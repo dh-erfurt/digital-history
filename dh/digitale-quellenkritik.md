@@ -1,4 +1,4 @@
-# Digitale Hermeneutik
+# Digitale Quellenkritik
 
 Hermeneutik ist die Methode des systematisierten und reflektierenden Lesens, Verstehens und Interpretierens von Texten. Sie wird in der Geschichtswissenschaft, aber auch in Literaturwissenschaft, Theologie, Philosophie und Rechtswissenschaft angewendet. Ein wichtiger Baustein ist dabei die Quellenkritik.
 
