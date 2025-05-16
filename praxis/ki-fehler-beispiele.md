@@ -20,4 +20,43 @@ Zu den typischen Fehler- und Risikoquellen zählen u. a.
 - Instabilität: Selbst bei identischen Prompts können die Antworten von KI-Chatbots variieren, da sie auf statistischen Modellen basieren.
 
 
-Dazu ein einfaches Beispiel:
+Dazu einige Beispiele:
+
+```{figure} ../img/chatgpt-fehler.drawio.png
+:alt: Beispiel Konversation mit KI-Chatbot
+:name: jakob-viehausen
+:width: 600px
+:align: left
+
+Bei der Frage nach einem erfundenen Bürger Erfurts antwortet der KI-Chatbot überzeugend, aber faktisch falsch.
+```
+<br/>
+
+In {numref}`jakob-viehausen` antwortet *ChatGPT* bei der Frage nach einem erfundenen Erfurter Bürger mit halluzinierten Informationen, die in ihrer Fülle und Darstellung überzeugend echt wirken.
+
+```{figure} ../img/europa.png
+:alt: Generierte Karte der Länder Europas
+:name: europa
+:width: 500px
+:align: left
+
+Soll eine Karte mit den Ländern Europas erzeugt werden, werden die Grenzen der KI schnell deutlich.
+```
+<br/>
+
+```{figure} ../img/capitals.png
+:alt: Generierte Karte der Hauptstädte Europas
+:name: capitals
+:width: 500px
+:align: left
+
+Beim Generieren einer Karte mit europäischen Hauptstädten fallen noch stärkere Halluzinationen auf.
+```
+<br/>
+
+Gerade auch beim Generieren von Bildmaterial sind KI-Anwendungen fehlerhaft, wie anhand der erzeugten Karten der Länder Europas ({numref}`europa`) und ihrer Hauptstädte ({numref}`capitals`) schnell klar wird.
+
+
+Halluzinationen in Text- und Bildausgaben wie in obigen Beispielen führen deutlich vor Augen, dass KI-Chatbots keine absolute *Wahrheit* liefern, sondern lediglich plausibel klingende Inhalte erzeugen. Für den wissenschaftlichen wie gesellschaftlichen Einsatz bedeutet das: KI-Chatbots können ein mächtiges Werkzeug sein, ihre Ausgaben müssen aber stets kritisch überprüft und kontextualisiert werden.
+
+
