@@ -2,3 +2,5 @@
 
 Auch in Gedenkstätten und im Kontext der Erinnerungskultur wird der Einsatz von KI diskutiert und erprobt. Vor allem geht es dabei um Überlegungen, wie Zeitzeugnisse digital bewahrt, erschlossen und für kommende Generationen erfahrbar gemacht werden können. KI-gestützte Spracherkennung, automatische Transkription und inhaltliche Analyse ermöglichen neue Zugänge zu umfangreichen Interviewarchiven. In Kombination mit Virtual Reality entstehen immersive Formate – z. B. [Dimensions in Testimony](https://sfi.usc.edu/dit) und [In Echt? – Virtuelle Begegnung mit NS-Zeitzeug:innen](https://gesellschaft-kultur-geschichte.de/in-echt-virtuelle-begegnung-mit-ns-zeitzeuginnen) –  die ausgehend von aufgezeichneten Interviews von NS-Zeitzeug*innen neue Formate der Geschichtsvermittlung erproben.
 Diese Entwicklungen werfen zugleich Fragen nach Authentizität, Verantwortung und ethische Fragestellungen im Umgang mit biografischen Quellen auf.
+
+Diese Seite befindet sich im Aufbau.

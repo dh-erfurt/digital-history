@@ -5,3 +5,5 @@ Python ist eine der beliebtesten Programmiersprachen der Welt. Sie überzeugt du
 Im Kontext der Digital Humanities, die geisteswissenschaftliche Themen mit digitalen Methoden verbinden, ist Python besonders wertvoll, z. B. für Textanalyse, Datenverarbeitung, Web Scraping, Visualisierung, Künstliche Intelligenz, ... 
 
 Dieses Kapitel soll einen kurzen Überblick über Kernkonzepte geben. Eine ausführlichere Einführung in Python soll zu einem späteren Zeitpunkt als separates Jupyterbook veröffentlicht werden.
+
+Diese Seite befindet sich im Aufbau.

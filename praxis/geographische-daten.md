@@ -8,3 +8,5 @@ Dieses Kapitel widmet sich geographischen Daten und der digital gestützten Fors
 - Techniken zur Verarbeitung und Visualisierung von Ortsinformationen, etwa durch Geoinformationssysteme GIS, Mapping-Tools und webbasierte Anwendungen (Leaflet)
 - Verfahren zur (semantischen) Annotation von Ortsbezügen
 - Theoretische und kritische Perspektiven auf Raumdarstellungen, einschließlich Fragen nach der Aussagekraft, Verzerrung und historischen Bedingtheit von Karten, Konzepten der kritischen Kartografie, zeitgeschichtliche Aspekte von Benennungen und sensible Metadaten
+
+Diese Seite befindet sich im Aufbau.

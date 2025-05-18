@@ -20,3 +20,5 @@ Quelle: https://initiatived21.de/publikationen/d21-digital-index/2024-25#KI
 In diesem Kapitel werden zunächst wesentliche Anwendungsfelder von KI in der Geschichtswissenschaft dargestellt, mögliche Fehler bei der Nutzung von KI-Chatbots an konkreten Beispielen aufgezeigt, Grundlagen für ein Verständnis von Large Language Models (LLM) und deren Verortung im Feld der Künstlichen Intelligenz vermittelt.
 Dann wird das Schreiben von Texten mit KI-Chatbots und weitere Anwendungsfelder von LLMs betrachtet, die Richtlinien von Universitäten, die einen Rahmen für die Nutzung bilden, und die Möglichkeiten, mit optimierten Anfragen – dem *Prompt Engineering* – bestmögliche Ergebnisse zu erzielen. 
 Abschließend werden Leitfragen und Kriterien für einen reflektierten Einsatz und eine Bewertung von KI-Werkzeugen und wesentliche ethische Fragestellungen rund um KI-Chatbots behandelt.
+
+Diese Seite befindet sich im Aufbau.

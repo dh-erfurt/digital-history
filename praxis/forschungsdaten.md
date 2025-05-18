@@ -7,6 +7,8 @@ Ein Kernkriterium für die Nachnutzbarkeit von Forschungsdaten ist, dass sie der
 
 Diese Kapitel gibt einen Überblick zu Forschungsdaten, der verschiedenen Stadien im Verlauf des Forschungsprozesses (*Datenlebenszyklus* oder *data life cycle*), Open Data, Open Access, sowie zu Datenpublikationen und Rezensionswesen zu Forschungsdaten. 
 
+Diese Seite befindet sich im Aufbau.
+
 
 #### Literaturhinweise
 
