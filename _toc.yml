@@ -19,7 +19,7 @@ parts:
   - file: theorie/rse
 - caption: Methoden und Anwendungen
   chapters:
-  - file: praxis/digital-edition
+  - file: praxis/digitale-editionen
   #  sections:
   # - file: praxis/vom-scan-zur-webbasierten-darstellung
   - file: praxis/forschungsdaten
@@ -40,8 +40,6 @@ parts:
     - file: praxis/ki-fehler-beispiele.md
     - file: praxis/ki-uni-richtlinien.md
     - file: praxis/ki-werkzeugkritik.md
-    - file: praxis/ki-ethik.md
-    - file: praxis/ki-links.md
   - file: praxis/historische-netzwerkanalyse
   - file: praxis/geographische-daten
   - file: praxis/hinweise-werkzeuge-quellen-projekte

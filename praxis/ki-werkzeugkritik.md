@@ -10,7 +10,7 @@ Denken Sie dabei an konkrete Beispiele, die bei KI-Tools eine besondere Rolle sp
 
 ## Werkzeugkritik mit Fokus auf KI-gestützte Tools: Vorschläge für Leitfragen
 
-Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, verschiedene Aspekte einzubeziehen. An dieser Stelle werden nur Kriterien betrachtet, die sich auf das Werkzeug als "Produkt" beziehen und damit Aspekte der Nutzung, Bedienbarkeit und weiterer übergeordneter Kriterien beziehen. Die vorgeschlagenen Leitfragen sind gebündelt in Fragen nach:
+Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, verschiedene Aspekte einzubeziehen. An dieser Stelle werden nur Kriterien betrachtet, die sich auf das Werkzeug als „Produkt“ beziehen und damit Aspekte der Nutzung, Bedienbarkeit und weiterer übergeordneter Kriterien beziehen. Die vorgeschlagenen Leitfragen sind gebündelt in Fragen nach:
 - Zweck des Werkzeugs
 - Alternativen
 - Bedienbarkeit
@@ -18,7 +18,7 @@ Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, versc
 - Berichte / Rezensionen
 - Ethische Kriterien 
 
-Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Aspekte und die Qualität des Codes und der Implementierung beziehen. Solche Bewertungen erfordern umfassende technische Vorkenntnisse sowie eine offene Publikation und Dokumentation des Codes einer
+Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Aspekte und die Qualität des Codes und der Implementierung beziehen. Solche Bewertungen erfordern umfassende technische Vorkenntnisse sowie eine offene Publikation und Dokumentation des Codes einer Anwendung.
 
 ### Zweck des Tools
 
