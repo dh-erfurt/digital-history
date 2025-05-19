@@ -27,5 +27,5 @@ jobs:
         git add path/to/literatur.bib
         git commit -m "Automatisches Update der .bib-Datei von Zotero" || echo "Keine Änderungen zum Commit"
     
-    - name: Push changes
-      run: git push origin HEAD
+    #- name: Push changes
+    #  run: git push
