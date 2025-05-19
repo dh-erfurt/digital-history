@@ -112,7 +112,7 @@ David Zubrow, 2004, Measuring Software Product Quality: the ISO 25000 Series and
 
 ```{figure} ../img/iso-standard-9126.png
 :alt: Elemente des ISO-Standards für Softwarequalität
-:width: 800px
+:width: 500px
 :align: left
 
 Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Standard ISO/IEC 25000 aufgegangen – hier noch die alte Bezeichnung). Bildnachweis: Sae1962, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ISO_9126_quality_(de).svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 

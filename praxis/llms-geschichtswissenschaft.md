@@ -1,11 +1,10 @@
 # LLMs in der Geschichtswissenschaft
 
-LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sondern bieten darüber hinaus vielfältige Einsatzmöglichkeiten, auch besonders im Bereich der Geschichtswissenschaften.
-
-–  Orte, Personen, Zeitangaben in einem Text identifizieren (NER)
-–  Netzwerkanalyse
-–  Topic Modelling
-–  Quellenarbeit mit KI
+LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sondern bieten darüber hinaus vielfältige Einsatzmöglichkeiten, auch besonders im Bereich der Geschichtswissenschaften:
+- Orte, Personen, Zeitangaben in einem Text identifizieren (NER)
+- Netzwerkanalyse
+- Topic Modelling
+- Quellenarbeit mit KI
 
 ## Arbeit mit historischen Quellen
 Bei der Transkription von historischen Quellen kommt oft *Optical Character Recognition (OCR)* zum Einsatz. *OCR*-Tools werden oft mithilfe von KI verbessert. LLMs können auch hilfreich dabei sein, den Output von OCR zu bereinigen, indem sie Fehler erkennen und korrigieren.
