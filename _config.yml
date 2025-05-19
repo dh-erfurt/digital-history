@@ -1,9 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-author: <a href="https://github.com/dh-erfurt">Digital Humanities Erfurt</a> 
-copyright: "2025"
-logo: img/logo.png
+title                       : Digital History  # The title of the book. Will be placed in the left navbar.
+author                      :  <a href="https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/historisches-seminar/professuren/digital-humanities-hybride-bildungs-und-kommunikationsraeume">Digital Humanities Erfurt</a>   # The author of the book
+copyright                   : "2025"  # Copyright year to be placed in the footer
+# logo                        : "img/logo.png"  # A path to the book logo
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
