@@ -18,7 +18,7 @@ Wenn von KI-Chatbots wie *ChatGPT* o. Ä. gesprochen wird, ist die Rede von *LL
 
 *Künstliche Intelligenz* bezeichnet zunächst einmal nur die Theorie, dass menschliche Intelligenz von einer Maschine gezeigt wird. 
 
-*Machine Learning* (ML), eines der größten und schnellst wachsenden Forschungsgebiete der Informatik, ist ein Teilbereich von KI. ML-Algorithmen verwenden große Datensätze, um Muster zu erkennen und zu lernen, autonome Entscheidungen und Vorhersagen zu treffen {cite:p}`sarkar2018practical`. Neben ML stehen weitere Forschungsansätze, die unter *Künstliche Intelligenz* fallen, z. B. formale Logik, die aber heute seltener diskutiert werden. 
+*Machine Learning* (ML), eines der größten und schnellstwachsenden Forschungsgebiete der Informatik, ist ein Teilbereich von KI. ML-Algorithmen verwenden große Datensätze, um Muster zu erkennen und zu lernen, autonome Entscheidungen und Vorhersagen zu treffen {cite:p}`sarkar2018practical`. Neben ML stehen weitere Forschungsansätze, die unter *Künstliche Intelligenz* fallen, z. B. formale Logik, die aber heute seltener diskutiert werden. 
 
 *Deep Learning* (DL) ist wiederum ein Teilbereich von *Machine Learning*, bei dem künstliche neuronale Netze mit vielen Schichten zum Einsatz kommen (die Funktionsweise wird im Folgenden noch näher erläutert). DL ist sehr leistungsfähig und bildet die Grundlage vieler aktueller KI-Anwendungen, erfordert aber auch erhebliche Mengen an Daten- und Rechenressourcen {cite:p}`janiesch_machine_2021`.
 
@@ -129,7 +129,7 @@ Output
 ```
 <br/>
 
-Auch der Endknoten wird in {numref}`ml-beispiel-output` genauso berechnet. Dieser Wert könnte jetzt z. B. eine Aussage darüber machen, mit welcher Wahrscheinlichkeit es sich bei dem Bild um einen Vogel handelt – in diesem Beispiel mit 89.1 %. 
+Auch der Endknoten wird in {numref}`ml-beispiel-output` genauso berechnet. Dieser Wert könnte jetzt z. B. eine Aussage darüber machen, mit welcher Wahrscheinlichkeit es sich bei dem Bild um einen Vogel handelt – in diesem Beispiel mit 89,1 Prozent. 
 
 Modelle erhalten also einen Input, stellen einige Berechnungen damit an und geben einen entsprechenden Output aus. 
 

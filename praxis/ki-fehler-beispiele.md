@@ -46,7 +46,7 @@ Beim Generieren einer Karte mit europäischen Hauptstädten fallen noch stärker
 ```
 <br/>
 
-Gerade auch beim Generieren von Bildmaterial sind KI-Anwendungen fehlerhaft, wie anhand der erzeugten Karten der Länder Europas ({numref}`europa`) und ihrer Hauptstädte ({numref}`capitals`) schnell klar wird.
+Gerade auch beim Generieren von Bildmaterial sind KI-Anwendungen oft fehlerbehaftet, wie anhand der erzeugten Karten der Länder Europas ({numref}`europa`) und ihrer Hauptstädte ({numref}`capitals`) schnell klar wird.
 
 
 Halluzinationen in Text- und Bildausgaben wie in obigen Beispielen führen deutlich vor Augen, dass KI-Chatbots keine absolute *Wahrheit* liefern, sondern lediglich plausibel klingende Inhalte erzeugen. Für den wissenschaftlichen wie gesellschaftlichen Einsatz bedeutet das: KI-Chatbots können ein mächtiges Werkzeug sein, ihre Ausgaben müssen aber stets kritisch überprüft und kontextualisiert werden.
