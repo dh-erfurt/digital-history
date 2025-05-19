@@ -10,19 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Download Zotero BibTeX
-        run: |
-          curl -H "Zotero-API-Key: ${{ secrets.ZOTERO_API_KEY }}" \
-               "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&style=apa&limit=1000" \
-               -o references.bib
+    - name: Set up Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and Push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add references.bib
-          git commit -m "Update references.bib from Zotero" || echo "No changes"
-          git push
+    - name: Download latest BibTeX from Zotero
+      run: |
+        curl -L -o path/to/literatur.bib "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&key=${{ secrets.ZOTERO_API_KEY }}"
+
+    - name: Commit changes
+      run: |
+        git add path/to/literatur.bib
+        git commit -m "Automatisches Update der .bib-Datei von Zotero" || echo "Keine Änderungen zum Commit"
+    
+    - name: Push changes
+      run: git push origin HEAD
