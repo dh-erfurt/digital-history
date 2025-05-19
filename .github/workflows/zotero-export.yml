@@ -20,7 +20,7 @@ jobs:
 
     - name: Download latest BibTeX from Zotero
       run: |
-        curl -L -o path/to/literatur.bib "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&key=${{ secrets.ZOTERO_API_KEY }}"
+        curl -L -o references.bib "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&key=${{ secrets.ZOTERO_API_KEY }}"
 
     - name: Commit changes
       run: |
