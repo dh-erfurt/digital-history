@@ -13,19 +13,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Git
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
     - name: Download latest BibTeX from Zotero
       run: |
         curl -L -o references.bib "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&key=${{ secrets.ZOTERO_API_KEY }}"
 
     - name: Commit changes
       run: |
-        git add path/to/literatur.bib
-        git commit -m "Automatisches Update der .bib-Datei von Zotero" || echo "Keine Änderungen zum Commit"
+        git add references.bib
+        git -c user.email="${{ secrets.EMAIL }}" -c user.name="${{ secrets.USERNAME }}" commit -am "Automatisches Update der .bib-Datei von Zotero" || echo "Keine Änderungen zum Commit"
     
-    #- name: Push changes
-    #  run: git push
+    - name: Push change to repo
+      run: git push origin main
