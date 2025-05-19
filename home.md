@@ -11,4 +11,6 @@ Die Digital Humanities in Erfurt bauen auf einer hochschulübergreifenden Kooper
 
 ## Zitierhinweis
 
-Nina Brolich, Anna Neovesky: Digital History, Open Educational Resource, 2025, [https://github.com/dh-erfurt/digital-history](https://github.com/dh-erfurt/digital-history), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de).
+Nina Brolich, Anna Neovesky, Digital History. Open Educational Resource, 2025, [https://github.com/dh-erfurt/digital-history](https://github.com/dh-erfurt/digital-history).
+
+Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de).
