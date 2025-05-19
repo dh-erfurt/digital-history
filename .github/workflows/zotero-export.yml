@@ -1,0 +1,28 @@
+name: Zotero Bib Export
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # täglich um 12:00 Uhr UTC
+  workflow_dispatch:      # manuell auslösbar
+
+jobs:
+  export-bib:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Download Zotero BibTeX
+        run: |
+          curl -H "Zotero-API-Key: ${{ secrets.ZOTERO_API_KEY }}" \
+               "https://api.zotero.org/groups/${{ secrets.ZOTERO_GROUP_ID }}/items?format=bibtex&style=apa&limit=1000" \
+               -o references.bib
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add references.bib
+          git commit -m "Update references.bib from Zotero" || echo "No changes"
+          git push
