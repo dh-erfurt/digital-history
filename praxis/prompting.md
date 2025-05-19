@@ -25,13 +25,12 @@ Eine zentrale Strategie beim Schreiben effektiver Prompts besteht darin, der KI 
 
 ```{figure} ../img/prompting.drawio.png
 :alt: Aspekte eines guten Prompts: Kontext, Rolle, Erwartung
-:width: 600px
 :align: left
 
 Ein guter Prompt definiert Kontext, Rolle und Erwartung.
 ```
 
-Beispiel für die Formulierung von Kontext, Rolle und Erwartung:
+#### Beispiel für die Formulierung von Kontext, Rolle und Erwartung
 
 - Kontext: Sachverhalt beschrieben. z. B. „Es geht um vier noch nicht erschlossene Quellen aus dem 19. Jahrhundert, die ich für eine Seminararbeit analysieren möchte.“
 - Rolle: Informationen zur eigenen Rolle, Vorwissen oder Erfahrungshorizont geben, z. B. „Ich bin Geschichtsstudent\*in im zweiten Semester und kenne mich mit Quellenkritik noch nicht so gut aus.“
@@ -48,7 +47,7 @@ Weitere Strategien, um die Ausgabe präzise an die eigenen Bedarfe anzupassen, s
 - Angabe eines Output-Formats (z. B. Tabelle, bestimmtes Datenformat)
 - Benennung einer Tonalität (z. B. sachlicher, wissenschaftlicher Stil)
 
-### Zusammenfassung: Grund„regeln“ für effektive Prompts:
+### Zusammenfassung: Grund„regeln“ für effektive Prompts
 
 - Rolle definieren („Du bist ein/e Expert\*in für…“)
 - Zielgruppe nennen („erkläre das für Schüler:innen einer Grundschule“)
@@ -59,9 +58,8 @@ Weitere Strategien, um die Ausgabe präzise an die eigenen Bedarfe anzupassen, s
 
 Auch wenn klar formulierte Prompts helfen können, eine bessere Ausgabe zu erhalten, gibt es Grenzen, auf die Prompt Engineering keinen Einfluss hat. Diese betreffen grundlegende Eigenschaften und Beschränkungen von KI-Modellen, sowie die Daten, auf denen sie trainiert wurden.
 
----
 
-#### Exkurs: Welche Daten liegen ChatGPT zugrunde?
+```{dropdown} Exkurs: Welche Daten liegen ChatGPT zugrunde?
 
 Die Antworten von Sprachmodellen wie ChatGPT beruhen auf dem Training auf umfangreichen Textmengen, die zum großen Teil aus öffentlich zugänglichen Quellen stammen. OpenAI selbst hat keine vollständige, öffentlich verfügbare Liste aller verwendeten Datensätze veröffentlicht. Einige der bekanntesten Quellen lassen sich dennoch identifizieren. Diese sind:
 
@@ -73,8 +71,7 @@ Die Antworten von Sprachmodellen wie ChatGPT beruhen auf dem Training auf umfang
 Quelle: Dennis Layton, ChatGPT — Show me the Data Sources, 30.1.2023, Medium, https://medium.com/@dlaytonj2/chatgpt-show-me-the-data-sources-11e9433d57e8
 
 Über Partnerschaften mit Unternehmen wurden weitere, ansonsten kostenpflichtige Inhalte einbezogen, in Deutschland beispielsweise mit Axel Springer ([Pressemitteilung von Axel Springer](https://www.axelspringer.com/de/ax-press-release/axel-springer-und-openai-neue-partnerschaft-staerkt-nutzen-von-ki-im-journalismus)).
-
----
+```
 
 
 Diese Daten sind somit nur ein Ausschnitt und können gesellschaftliche, kulturelle oder politische Verzerrungen enthalten, die sich auch in den Antworten widerspiegeln – unabhängig davon, wie der Prompt formuliert ist. 

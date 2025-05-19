@@ -118,6 +118,7 @@ David Zubrow, 2004, Measuring Software Product Quality: the ISO 25000 Series and
 Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Standard ISO/IEC 25000 aufgegangen – hier noch die alte Bezeichnung). Bildnachweis: Sae1962, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ISO_9126_quality_(de).svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 
 ```
 
+<!-- 
 
 ### Technikfolgenabschätzung und Technikbewertung
 
@@ -132,3 +133,4 @@ Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Sta
 Institut für Technikfolgen­abschätzung und System­analyse (ITAS) am Karlsruher Institut für Technologie (KIT): 
 Was ist Technikfolgenabschätzung?, https://www.itas.kit.edu/technikfolgenabschaetzung.php
 
+-->
