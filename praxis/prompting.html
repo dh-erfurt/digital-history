@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Prompting und Prompt Engineering &#8212; My Jupyter Book</title>
+    <title>Prompting und Prompt Engineering &#8212; Digital History</title>
   
   
   
@@ -152,14 +152,8 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../_static/logo.png" class="logo__image only-light" alt="My Jupyter Book - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="My Jupyter Book - Home"/>`);</script>
   
+    <p class="title logo__title">Digital History</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -179,7 +173,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Digital History
+                    Home
                 </a>
             </li>
         </ul>
@@ -378,15 +372,15 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#was-ist-ein-prompt">Was ist ein Prompt?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-engineering">Prompt Engineering</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einen-effektiven-prompt-formulieren">Einen effektiven Prompt formulieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einen-effektiven-prompt-formulieren">Einen effektiven Prompt formulieren</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-fur-die-formulierung-von-kontext-rolle-und-erwartung">Beispiel für die Formulierung von Kontext, Rolle und Erwartung</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-strategien">Weitere Strategien</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exkurs-welche-daten-liegen-chatgpt-zugrunde">Exkurs: Welche Daten liegen ChatGPT zugrunde?</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-hinweise">Literatur und Hinweise</a></li>
 </ul>
             </nav>
@@ -403,7 +397,7 @@ document.write(`
 <h1>Prompting und Prompt Engineering<a class="headerlink" href="#prompting-und-prompt-engineering" title="Permalink to this heading">#</a></h1>
 <section id="was-ist-ein-prompt">
 <h2>Was ist ein Prompt?<a class="headerlink" href="#was-ist-ein-prompt" title="Permalink to this heading">#</a></h2>
-<p>In der Informatik bedeutet ein <em>prompt</em> die Aufforderung an Nutzer*innen, eine Eingabe (<em>input</em>) zu tätigen. Bezogen auf KI-Chatbots ist ein Prompt die Frage bzw. Aufgabe, die man stellt.</p>
+<p>In der Informatik bezeichnet ein <em>Prompt</em> die Aufforderung an Nutzer*innen, eine Eingabe (<em>input</em>) zu tätigen. Im Kontext von KI-Chatbots versteht man unter einem Prompt die Frage bzw. Aufgabe, die man stellt.</p>
 <p><strong>Überlegen Sie:</strong></p>
 <ul class="simple">
 <li><p>Wie stellen Sie eine Anfrage an einen KI-Chatbot?</p></li>
@@ -416,18 +410,19 @@ document.write(`
 <h2>Prompt Engineering<a class="headerlink" href="#prompt-engineering" title="Permalink to this heading">#</a></h2>
 <p>Prompt Engineering beschreibt die Optimierung der Kommunikation mit einem KI-Tool (d. h. des Prompts), um eine optimale oder zumindest zufriedenstellende Ausgabe bzw. Antwort zu erhalten.
 Verschiedene Faktoren beeinflussen die Qualität des Outputs. Einige sehr wesentliche hängen mit den zugrundeliegenden Trainingsdaten, der Funktionsweise und den Anpassungen des Sprachmodells zusammen und können nicht von Nutzer*innen beeinflusst werden. Der Faktor, den Nutzer*innen beeinflussen können, ist allein die Anfrage.</p>
-<p>Hierfür gibt es übergeordnete Strategien, die je nach eingesetztem Werkzeug – nachfolgend am Beispiel von ChatGPT (vgl. hierzu <a class="reference external" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api">Prompt engineering best practices for ChatGPT</a> – etwas unterschiedlich ausfallen.
-Diese sind: <strong>context, role/persona, expectation</strong>.</p>
+<p>Hierfür gibt es übergeordnete Strategien, die je nach eingesetztem Werkzeug – nachfolgend am Beispiel von ChatGPT (vgl. hierzu <a class="reference external" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api">Prompt engineering best practices for ChatGPT</a>) – etwas unterschiedlich ausfallen.
+Diese sind: <strong>Kontext, Rolle, Erwartung</strong>.</p>
 <section id="einen-effektiven-prompt-formulieren">
 <h3>Einen effektiven Prompt formulieren<a class="headerlink" href="#einen-effektiven-prompt-formulieren" title="Permalink to this heading">#</a></h3>
-<p>Eine zentrale Strategie beim Schreiben effektiver Prompts besteht darin, der KI möglichst genau mitzuteilen, <strong>worum es geht (context), wer man selbst ist (role) und welches Ziel man verfolgt (expectation)</strong>.</p>
+<p>Eine zentrale Strategie beim Schreiben effektiver Prompts besteht darin, der KI möglichst genau mitzuteilen, <strong>worum es geht (Kontext), wer man selbst ist (Rolle) und welches Ziel man verfolgt (Erwartung)</strong>.</p>
 <figure class="align-default" id="id1">
 <img alt="../_images/prompting.drawio.png" src="../_images/prompting.drawio.png" />
 <figcaption>
 <p><span class="caption-number">Fig. 13 </span><span class="caption-text">Ein guter Prompt definiert Kontext, Rolle und Erwartung.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Beispiel für die Formulierung von Kontext, Rolle und Erwartung:</p>
+<section id="beispiel-fur-die-formulierung-von-kontext-rolle-und-erwartung">
+<h4>Beispiel für die Formulierung von Kontext, Rolle und Erwartung<a class="headerlink" href="#beispiel-fur-die-formulierung-von-kontext-rolle-und-erwartung" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p>Kontext: Sachverhalt beschrieben. z. B. „Es geht um vier noch nicht erschlossene Quellen aus dem 19. Jahrhundert, die ich für eine Seminararbeit analysieren möchte.“</p></li>
 <li><p>Rolle: Informationen zur eigenen Rolle, Vorwissen oder Erfahrungshorizont geben, z. B. „Ich bin Geschichtsstudent*in im zweiten Semester und kenne mich mit Quellenkritik noch nicht so gut aus.“</p></li>
@@ -438,18 +433,19 @@ Diese sind: <strong>context, role/persona, expectation</strong>.</p>
 <div><p>„Ich bin Student*in im Fach Geschichte und schreibe eine Hausarbeit über vier bisher wenig erforschte Briefe aus dem frühen 19. Jahrhundert. Ich bin mir unsicher, wie ich sie methodisch einordnen und analysieren soll. Kannst du mir helfen, eine sinnvolle Gliederung zu entwickeln und auf mögliche Analyseansätze hinweisen?“</p>
 </div></blockquote>
 </section>
+</section>
 <section id="weitere-strategien">
 <h3>Weitere Strategien<a class="headerlink" href="#weitere-strategien" title="Permalink to this heading">#</a></h3>
 <p>Weitere Strategien, um die Ausgabe präzise an die eigenen Bedarfe anzupassen, sind:</p>
 <ul class="simple">
 <li><p>Einsatz von <em>Delimiters</em> (Trennungszeichen, z. B. Doppelpunkt oder Anführungszeichen), um deutlich zu machen, welche Teile der Eingabe eine Aufforderung und welche etwa Textteile, die überarbeitet werden sollen, darstellen</p></li>
 <li><p>Formulierung einer Schritt-für-Schritt-Anleitung</p></li>
-<li><p>Angabe eines Output-Format (z. B. Tabelle, bestimmtes Datenformat)</p></li>
+<li><p>Angabe eines Output-Formats (z. B. Tabelle, bestimmtes Datenformat)</p></li>
 <li><p>Benennung einer Tonalität (z. B. sachlicher, wissenschaftlicher Stil)</p></li>
 </ul>
 </section>
 <section id="zusammenfassung-grundregeln-fur-effektive-prompts">
-<h3>Zusammenfassung: Grund„regeln“ für effektive Prompts:<a class="headerlink" href="#zusammenfassung-grundregeln-fur-effektive-prompts" title="Permalink to this heading">#</a></h3>
+<h3>Zusammenfassung: Grund„regeln“ für effektive Prompts<a class="headerlink" href="#zusammenfassung-grundregeln-fur-effektive-prompts" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Rolle definieren („Du bist ein/e Expert*in für…“)</p></li>
 <li><p>Zielgruppe nennen („erkläre das für Schüler:innen einer Grundschule“)</p></li>
@@ -461,22 +457,21 @@ Diese sind: <strong>context, role/persona, expectation</strong>.</p>
 <section id="worauf-kann-prompt-engineering-keinen-einfluss-nehmen">
 <h2>Worauf kann Prompt Engineering keinen Einfluss nehmen?<a class="headerlink" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen" title="Permalink to this heading">#</a></h2>
 <p>Auch wenn klar formulierte Prompts helfen können, eine bessere Ausgabe zu erhalten, gibt es Grenzen, auf die Prompt Engineering keinen Einfluss hat. Diese betreffen grundlegende Eigenschaften und Beschränkungen von KI-Modellen, sowie die Daten, auf denen sie trainiert wurden.</p>
-<hr class="docutils" />
-<section id="exkurs-welche-daten-liegen-chatgpt-zugrunde">
-<h3>Exkurs: Welche Daten liegen ChatGPT zugrunde?<a class="headerlink" href="#exkurs-welche-daten-liegen-chatgpt-zugrunde" title="Permalink to this heading">#</a></h3>
-<p>Die Antworten von Sprachmodellen wie ChatGPT beruhen auf dem Training auf umfangreichen Textmengen, die zum großen Teil aus öffentlich zugänglichen Quellen stammen. OpenAI selbst hat keine vollständige, öffentlich verfügbare Liste aller verwendeten Datensätze veröffentlicht. Einige der bekanntesten Quellen lassen sich dennoch identifizieren. Diese sind:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Exkurs: Welche Daten liegen ChatGPT zugrunde?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Die Antworten von Sprachmodellen wie ChatGPT beruhen auf dem Training auf umfangreichen Textmengen, die zum großen Teil aus öffentlich zugänglichen Quellen stammen. OpenAI selbst hat keine vollständige, öffentlich verfügbare Liste aller verwendeten Datensätze veröffentlicht. Einige der bekanntesten Quellen lassen sich dennoch identifizieren. Diese sind:</p>
 <ul class="simple">
-<li><p><strong>Common Crawl</strong>, ein Internet-Corpus. Eigenbeschreibung: „The Common Crawl corpus contains petabytes of data, regularly collected since 2008…stored on Amazon Web Services’ Public Data Sets and on multiple academic cloud platforms across the world“ [<a class="reference external" href="https://commoncrawl.org/overview">Common Crawl</a>]</p></li>
-<li><p><strong>WebText2</strong>, ein Datenset, das Inhalte enthält, die als Links in populären Reddit-Beiträgen (mindestens drei Upvotes) geteilt wurden; d. h. es sind Inhalte, die von Nutzenden als besonders relevant oder interessant bewertet wurden</p></li>
-<li><p><strong>Internetbasierte Buchkorpora</strong> aus offen lizenzierten Sammlungen wie Project Gutenberg oder anderen Open-Access-Plattformen zu digitalisierten Büchern</p></li>
-<li><p><strong>Wikipedia</strong></p></li>
+<li><p class="sd-card-text"><strong>Common Crawl</strong>, ein Internet-Corpus. Eigenbeschreibung: „The Common Crawl corpus contains petabytes of data, regularly collected since 2008…stored on Amazon Web Services’ Public Data Sets and on multiple academic cloud platforms across the world“ [<a class="reference external" href="https://commoncrawl.org/overview">Common Crawl</a>]</p></li>
+<li><p class="sd-card-text"><strong>WebText2</strong>, ein Datenset, das Inhalte enthält, die als Links in populären Reddit-Beiträgen (mindestens drei Upvotes) geteilt wurden; d. h. es sind Inhalte, die von Nutzenden als besonders relevant oder interessant bewertet wurden</p></li>
+<li><p class="sd-card-text"><strong>Internetbasierte Buchkorpora</strong> aus offen lizenzierten Sammlungen wie Project Gutenberg oder anderen Open-Access-Plattformen zu digitalisierten Büchern</p></li>
+<li><p class="sd-card-text"><strong>Wikipedia</strong></p></li>
 </ul>
-<p>Quelle: Dennis Layton, ChatGPT — Show me the Data Sources, 30.1.2023, Medium, <a class="reference external" href="https://medium.com/&#64;dlaytonj2/chatgpt-show-me-the-data-sources-11e9433d57e8">https://medium.com/&#64;dlaytonj2/chatgpt-show-me-the-data-sources-11e9433d57e8</a></p>
-<p>Über Partnerschaften mit Unternehmen wurden weitere, ansonsten kostenpflichtige Inhalte einbezogen, in Deutschland beispielsweise mit Axel Springer <a class="reference external" href="https://www.axelspringer.com/de/ax-press-release/axel-springer-und-openai-neue-partnerschaft-staerkt-nutzen-von-ki-im-journalismus">Pressemitteilung von Axel Springer</a>.</p>
-<hr class="docutils" />
-<p>Diese Daten sind somit nur ein Ausschnitt und können gesellschaftliche, kulturelle oder politische Verzerrungen enthalten, die sich auch in den Antworten widerspiegeln – unabhängig davon, wie der Prompt formuliert ist.
+<p class="sd-card-text">Quelle: Dennis Layton, ChatGPT — Show me the Data Sources, 30.1.2023, Medium, <a class="reference external" href="https://medium.com/&#64;dlaytonj2/chatgpt-show-me-the-data-sources-11e9433d57e8">https://medium.com/&#64;dlaytonj2/chatgpt-show-me-the-data-sources-11e9433d57e8</a></p>
+<p class="sd-card-text">Über Partnerschaften mit Unternehmen wurden weitere, ansonsten kostenpflichtige Inhalte einbezogen, in Deutschland beispielsweise mit Axel Springer (<a class="reference external" href="https://www.axelspringer.com/de/ax-press-release/axel-springer-und-openai-neue-partnerschaft-staerkt-nutzen-von-ki-im-journalismus">Pressemitteilung von Axel Springer</a>).</p>
+</div>
+</details><p>Diese Daten sind somit nur ein Ausschnitt und können gesellschaftliche, kulturelle oder politische Verzerrungen enthalten, die sich auch in den Antworten widerspiegeln – unabhängig davon, wie der Prompt formuliert ist.
 <strong>Bias in den Trainingsdaten</strong> hat somit einen großen Einfluss auf die Ergebnisse. Weitere Faktoren sind begrenztes Wissen („Cut off“, sich danamisch veränderndes Echtzeit-Wissen) und Halluzinationen (Modell kann Inhalte generieren, die zwar plausibel klingen, aber faktisch falsch oder frei erfunden sind) sowie grundlegende (statistische) „Fähigkeit“ des Modells.</p>
-</section>
 </section>
 <section id="literatur-und-hinweise">
 <h2>Literatur und Hinweise<a class="headerlink" href="#literatur-und-hinweise" title="Permalink to this heading">#</a></h2>
@@ -553,15 +548,15 @@ Diese sind: <strong>context, role/persona, expectation</strong>.</p>
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#was-ist-ein-prompt">Was ist ein Prompt?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-engineering">Prompt Engineering</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einen-effektiven-prompt-formulieren">Einen effektiven Prompt formulieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einen-effektiven-prompt-formulieren">Einen effektiven Prompt formulieren</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-fur-die-formulierung-von-kontext-rolle-und-erwartung">Beispiel für die Formulierung von Kontext, Rolle und Erwartung</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-strategien">Weitere Strategien</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#exkurs-welche-daten-liegen-chatgpt-zugrunde">Exkurs: Welche Daten liegen ChatGPT zugrunde?</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-hinweise">Literatur und Hinweise</a></li>
 </ul>
   </nav></div>
@@ -577,7 +572,7 @@ Diese sind: <strong>context, role/persona, expectation</strong>.</p>
   <div class="footer-item">
     
 <p class="component-author">
-By <a href="https://github.com/dh-erfurt">Digital Humanities Erfurt</a>
+By <a href="https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/historisches-seminar/professuren/digital-humanities-hybride-bildungs-und-kommunikationsraeume">Digital Humanities Erfurt</a>
 </p>
 
   </div>

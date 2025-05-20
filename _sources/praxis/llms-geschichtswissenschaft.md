@@ -1,10 +1,6 @@
 # LLMs in der Geschichtswissenschaft
 
-LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sondern bieten darüber hinaus vielfältige Einsatzmöglichkeiten, auch besonders im Bereich der Geschichtswissenschaften:
-- Orte, Personen, Zeitangaben in einem Text identifizieren (NER)
-- Netzwerkanalyse
-- Topic Modelling
-- Quellenarbeit mit KI
+LLMs wie ChatGPT können nicht nur beim Verfassen von Texten unterstützen, sondern bieten darüber hinaus vielfältige Einsatzmöglichkeiten, auch besonders im Bereich der Geschichtswissenschaften.
 
 ## Arbeit mit historischen Quellen
 Bei der Transkription von historischen Quellen kommt oft *Optical Character Recognition (OCR)* zum Einsatz. *OCR*-Tools werden oft mithilfe von KI verbessert. LLMs können auch hilfreich dabei sein, den Output von OCR zu bereinigen, indem sie Fehler erkennen und korrigieren.
@@ -27,12 +23,12 @@ In dem Beispieltext sind Entitäten wie Orte, Organisationen und numerische Anga
 
 LLMs, deren Hauptaufgabe es ist, Sprache zu verstehen, haben sich als sehr hilfreich für *NER* erwiesen. 
 
-{numref}`ner` zeigt einen Beispieltext, in dem Entitäten gekennzeichnet wurden. Anhand dieses kurzen Beispiels wird auch ein zentrales Problem der *NER* deutlich, nämlich die Ambiguität zwischen Ort und Organisation (z.B. „Universität Erfurt“), 
+{numref}`ner` zeigt einen Beispieltext, in dem Entitäten gekennzeichnet wurden. Anhand dieses kurzen Beispiels wird auch ein zentrales Problem der *NER* deutlich, nämlich die Ambiguität zwischen Ort und Organisation (z. B. „Universität Erfurt“), 
 
 
 ### Sentiment Analysis
 
-Im Rahmen von *Sentiment Analysis* wir die Stimmung und/oder emotionale Haltung eines Texts eingeschätzt, was in geschichtswissenschaftlicher Forschung u. a. bei der Bewertung von politischen Reden, Zeitungsartikeln und Briefen oder im Allgemeinen bei der Auswertung öffentlicher Meinung unterstützen kann. Auch hierbei können LLMs effizient unterstützen.   
+Im Rahmen von *Sentiment Analysis* wir die Stimmung und/oder emotionale Haltung eines Texts eingeschätzt, was in geschichtswissenschaftlicher Forschung u. a. bei der Bewertung von politischen Reden, Zeitungsartikeln und Briefen oder im Allgemeinen bei der Auswertung öffentlicher Meinung unterstützen kann. Auch hierbei können LLMs effizient eingesetzt werden.   
 
 Im Folgenden betrachten wir diesen Beispieltext aus der Rhein-Ruhr-Zeitung vom 07.01.1919. [[Quelle](https://www.deutsche-digitale-bibliothek.de/newspaper/item/ZBJ3S5LCHJIKSQHDTL4URASFOIV4RYXY?issuepage=8)]
 
@@ -60,18 +56,18 @@ Eine simple *Sentimentsanalyse* mit *ChatGPT* ergibt Folgendes:
 
 Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Textausschnitte kann *Topic Modelling* vorgenommen werden, hier anhand obigen Zeitungsartikels mithilfe von *ChatGPT*.
 
-- Identifizierte Themen (Topics):
-    - Ort der Nationalversammlung
-        - Begriffe: „Nationalversammlung“, „Volksbeauftragte“, „in Aussicht genommen“, „kommende“
-        - Bedeutung: Der Text berichtet, dass Erfurt als möglicher Veranstaltungsort für eine deutsche Nationalversammlung diskutiert wird.
+Identifizierte Themen (Topics):
+- Ort der Nationalversammlung
+    - Begriffe: „Nationalversammlung“, „Volksbeauftragte“, „in Aussicht genommen“, „kommende“
+    - Bedeutung: Der Text berichtet, dass Erfurt als möglicher Veranstaltungsort für eine deutsche Nationalversammlung diskutiert wird.
 
-    - Symbolische Bedeutung Erfurts für die Parteien
-        - Begriffe: „besondere Erinnerungen“, „eigene Geschichte“, „alle politischen Parteien“
-        - Bedeutung: Erfurt wird als Ort mit historischer Bedeutung für verschiedene politische Bewegungen dargestellt.
+- Symbolische Bedeutung Erfurts für die Parteien
+    - Begriffe: „besondere Erinnerungen“, „eigene Geschichte“, „alle politischen Parteien“
+    - Bedeutung: Erfurt wird als Ort mit historischer Bedeutung für verschiedene politische Bewegungen dargestellt.
 
-    - Charakteristik der Stadt Erfurt
-        - Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“
-        - Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.
+- Charakteristik der Stadt Erfurt
+    - Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“
+    - Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.
 
 [Hier](https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/) werden beispielsweise 1.8 Millionen Artikel der *New York Times* auf ihre Themen hin untersucht und die Potenziale, die *Topic Modelling* bietet, beleuchtet.
 
@@ -91,7 +87,7 @@ Für den kurzen Abschnitt aus obigem Beispiel trifft *ChatGPT* folgende Stilomet
 Auch bei der Stilometrie ist die Methode besonders sinnvoll bei großen Textsammlungen – hier lassen sich die Ähnlichkeiten zwischen verschiedenen Texten messen und Stile quantisieren.
 
 ## Fazit 
-LLMs können auf vielfältige Weise zu einem vertieften Textverständnis beitragen – angefangen von Zusammenfassungen und „Übersetzungen“ in leichte Sprache, über Verfeinerung automatischer Transkription, bis hin zur Textanalyse. Methoden wie  *NER*, *Sentiment Analysis* eröffnen neue Herangehensweisen an die Analyse historischer Quellen. Auf ihrer Basis können Daten erschlossen und visualisiert werden – u. a. können identifizierte Entitäten (Personen, Orte, ...) in Beziehungsnetzwerken dargestellt werden, chronologische Zusammenhänge können erschlossen und Entitäten mit Ortsbezug können auf Karten projiziert werden.
+LLMs können auf vielfältige Art und Weise zu einem vertieften Textverständnis beitragen – angefangen von Zusammenfassungen und „Übersetzungen“ in leichte Sprache über Verfeinerung automatischer Transkription bis hin zur computergestützten Textanalyse. Methoden wie  *NER*, *Sentiment Analysis* eröffnen neue Herangehensweisen an die Analyse historischer Quellen. Auf ihrer Basis können Daten ausgewertet und visualisiert werden – u. a. können identifizierte Entitäten (Personen, Orte, ...) in Beziehungsnetzwerken dargestellt, chronologische Zusammenhänge können erschlossen und Entitäten mit Ortsbezug können auf Karten projiziert werden.
 
 
 ## Quellen und weiterführende Links

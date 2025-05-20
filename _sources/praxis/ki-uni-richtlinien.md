@@ -9,7 +9,7 @@ Die Universität Erfurt hat 2025 sowohl für Studierende als auch für Lehrende 
 
 ## Freigabeerklärung
 
-URL: https://www.uni-erfurt.de/fileadmin/Hauptseiten/Studium/Studienservices/Freigabeerklaerung_Muster.docx
+[Freigabeerklärung als PDF-Download](../resources/Freigabeerklaerung_Muster.pdf)
 
 Lesen Sie die Erklärung und überlegen Sie:
 - Wie ist Ihr Eindruck von der Erklärung?

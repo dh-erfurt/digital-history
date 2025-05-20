@@ -10,7 +10,7 @@ Denken Sie dabei an konkrete Beispiele, die bei KI-Tools eine besondere Rolle sp
 
 ## Werkzeugkritik mit Fokus auf KI-gestützte Tools: Vorschläge für Leitfragen
 
-Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, verschiedene Aspekte einzubeziehen. An dieser Stelle werden nur Kriterien betrachtet, die sich auf das Werkzeug als „Produkt“ beziehen und damit Aspekte der Nutzung, Bedienbarkeit und weiterer übergeordneter Kriterien beziehen. Die vorgeschlagenen Leitfragen sind gebündelt in Fragen nach:
+Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, verschiedene Aspekte einzubeziehen. An dieser Stelle werden nur Kriterien betrachtet, die sich auf das Werkzeug als „Produkt“ und damit Aspekte der Nutzung, Bedienbarkeit und weiterer übergeordneter Kriterien beziehen. Die vorgeschlagenen Leitfragen sind gebündelt in Fragen nach:
 - Zweck des Werkzeugs
 - Alternativen
 - Bedienbarkeit
@@ -59,7 +59,7 @@ Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Asp
 ### Rezensionen
 
 - Wurde an anderer Stelle (Fachjournal, Tech-Zeitschrift wie heise.de) über das Tool berichtet?
-- Findet sich das Tool in Auflistungen und Empfehlungen von relevanten Tools meiner Fachdisziplin/ für meinen Anwendungszweck?
+- Findet sich das Tool in Auflistungen und Empfehlungen von relevanten Tools meiner Fachdisziplin / für meinen Anwendungszweck?
 - Welche Funktionen oder Aspekte des Tools haben überzeugt bzw. nicht überzeugt?
 - Gibt es Artikel oder Studien, die die Nutzung in der Wissenschaft thematisieren oder Use Cases beschreiben?
 
@@ -97,7 +97,7 @@ Leitfragen:
 
 ### ISO-Leitlinien
 
-Mit dem ISO-Standard *ISO/IEC 25000* gibt es eine internationale Norm für Softwarequalität, die "Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE)". Die Kriterien bewerten dabei die Software und ihre Qualität des Produkts und nicht die Qualität der Herstellung (also Software-Enwticklung.) Die ISO – *[International Organization for Standardization](https://www.iso.org/about)*  mit Sitz in der Schweiz erarbeitet intrnationale Normen in nahezu allen Bereichen.  
+Mit dem ISO-Standard *ISO/IEC 25000* gibt es eine internationale Norm für Softwarequalität, die "Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE)". Die Kriterien bewerten dabei die Software und ihre Qualität des Produkts und nicht die Qualität der Herstellung (also Software-Enwticklung.) Die ISO – *[International Organization for Standardization](https://www.iso.org/about)*  mit Sitz in der Schweiz erarbeitet internationale Normen in nahezu allen Bereichen.  
 Die zentralen Kriterien sind:
 - Funktionalität
 - Zuverlässigkeit
@@ -118,6 +118,7 @@ David Zubrow, 2004, Measuring Software Product Quality: the ISO 25000 Series and
 Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Standard ISO/IEC 25000 aufgegangen – hier noch die alte Bezeichnung). Bildnachweis: Sae1962, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ISO_9126_quality_(de).svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). 
 ```
 
+<!-- 
 
 ### Technikfolgenabschätzung und Technikbewertung
 
@@ -132,3 +133,4 @@ Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Sta
 Institut für Technikfolgen­abschätzung und System­analyse (ITAS) am Karlsruher Institut für Technologie (KIT): 
 Was ist Technikfolgenabschätzung?, https://www.itas.kit.edu/technikfolgenabschaetzung.php
 
+-->
