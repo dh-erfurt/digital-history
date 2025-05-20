@@ -10,7 +10,7 @@ Ein zentrales Anwendungsfeld von LLMs ist nicht nur das Verfassen, sondern auch 
 
 ### Named Entity Recognition
 
-*Named Entity Recognition (NER)* bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z. B. Personen, Orte, Organisationen, Zeitangaben etc.) {cite:p}`ner`. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und Institutionen dabei eine Rolle spielen. *NER* ist also eine wichtige Basis für weitergehende Analysen, z. B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.
+*Named Entity Recognition (NER)* bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z. B. Personen, Orte, Organisationen, Zeitangaben etc.) {cite:p}`li_survey_2022`. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und Institutionen dabei eine Rolle spielen. *NER* ist also eine wichtige Basis für weitergehende Analysen, z. B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.
 
 ```{figure} ../img/ner.png
 :alt: Beispiel Named Entity Recognition

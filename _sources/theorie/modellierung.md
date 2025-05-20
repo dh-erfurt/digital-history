@@ -8,7 +8,7 @@ Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der 
 - sichern eine höhere Qualität der Daten, indem sie Bedingungen formulieren, denen Daten bei der Eingabe entsprechen müssen
 - ermöglichen den Austausch oder das Zusammenführen von Daten (→ Nachhaltigkeit)
 
-Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis2017digital`. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.
+Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis_digital_2017`. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.
 
 ```{bibliography}
 :filter: docname in docnames
