@@ -1,0 +1,689 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>KI-Werkzeuge einordnen und bewerten &#8212; My Jupyter Book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'praxis/ki-werkzeugkritik';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Historische Netzwerkanalyse" href="historische-netzwerkanalyse.html" />
+    <link rel="prev" title="KI-Richtlinien an der Universität" href="ki-uni-richtlinien.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../home.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="My Jupyter Book - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="My Jupyter Book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../home.html">
+                    Digital History
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Einführung</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../dh/digital-humanities-history.html">Digital Humanities und Digital History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dh/digitale-quellenkritik.html">Digitale Quellenkritik</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/webentwicklung.html">Grundlagen Webentwicklung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/python.html">Grundlagen Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theorie/rse.html">Research Software Engineering (RSE)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Methoden und Anwendungen</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="digitale-editionen.html">Digitale Editionen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="forschungsdaten.html">Forschungsdaten</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="datenextraktion.html">Datenextraktion und Data Scraping</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="apis.html">APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompting.html">Prompting und Prompt Engineering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ki-fehler-beispiele.html">Fehler und falsche Informationen in KI-Chatbots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ki-uni-richtlinien.html">KI-Richtlinien an der Universität</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">KI-Werkzeuge einordnen und bewerten</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../bibliography.html">Bibliografie</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/praxis/ki-werkzeugkritik.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>KI-Werkzeuge einordnen und bewerten</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wie-bewertet-man-ki-tools">Wie bewertet man KI-Tools?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#werkzeugkritik-mit-fokus-auf-ki-gestutzte-tools-vorschlage-fur-leitfragen">Werkzeugkritik mit Fokus auf KI-gestützte Tools: Vorschläge für Leitfragen</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zweck-des-tools">Zweck des Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beabsichtigte-nutzung-und-alternativen">Beabsichtigte Nutzung und Alternativen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability-und-user-experience">Usability und User Experience</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#transparenz">Transparenz</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rezensionen">Rezensionen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethische-kriterien">Ethische Kriterien</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leitfragen-des-datenkompetenzzentrums-hermes">Leitfragen des Datenkompetenzzentrums HERMES</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standards-zur-bewertung-von-technologien-und-softwarequalitat">Standards zur Bewertung von Technologien und Softwarequalität</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iso-leitlinien">ISO-Leitlinien</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technikfolgenabschatzung-und-technikbewertung">Technikfolgenabschätzung und Technikbewertung</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ki-werkzeuge-einordnen-und-bewerten">
+<h1>KI-Werkzeuge einordnen und bewerten<a class="headerlink" href="#ki-werkzeuge-einordnen-und-bewerten" title="Permalink to this heading">#</a></h1>
+<section id="wie-bewertet-man-ki-tools">
+<h2>Wie bewertet man KI-Tools?<a class="headerlink" href="#wie-bewertet-man-ki-tools" title="Permalink to this heading">#</a></h2>
+<p>Wie bewertet man Technologien und digitale Werkzeuge allgemein?</p>
+<p>Überlegen Sie: <strong>Welche Fragen können als Leitfragen für die Bewertung von Werkzeugen dienen?</strong></p>
+<p>Denken Sie dabei an konkrete Beispiele, die bei KI-Tools eine besondere Rolle spielen, aber auch an allgemeine Kriterien, wie man die Qualität von Software erkennt oder bewertet.</p>
+</section>
+<section id="werkzeugkritik-mit-fokus-auf-ki-gestutzte-tools-vorschlage-fur-leitfragen">
+<h2>Werkzeugkritik mit Fokus auf KI-gestützte Tools: Vorschläge für Leitfragen<a class="headerlink" href="#werkzeugkritik-mit-fokus-auf-ki-gestutzte-tools-vorschlage-fur-leitfragen" title="Permalink to this heading">#</a></h2>
+<p>Um die Qualität eines Werkzeugs oder einer Software zu bewerten, gilt es, verschiedene Aspekte einzubeziehen. An dieser Stelle werden nur Kriterien betrachtet, die sich auf das Werkzeug als „Produkt“ beziehen und damit Aspekte der Nutzung, Bedienbarkeit und weiterer übergeordneter Kriterien beziehen. Die vorgeschlagenen Leitfragen sind gebündelt in Fragen nach:</p>
+<ul class="simple">
+<li><p>Zweck des Werkzeugs</p></li>
+<li><p>Alternativen</p></li>
+<li><p>Bedienbarkeit</p></li>
+<li><p>Transparenz</p></li>
+<li><p>Berichte / Rezensionen</p></li>
+<li><p>Ethische Kriterien</p></li>
+</ul>
+<p>Nicht betrachtet werden hier Qualitätsmerkmale, die sich auf technologische Aspekte und die Qualität des Codes und der Implementierung beziehen. Solche Bewertungen erfordern umfassende technische Vorkenntnisse sowie eine offene Publikation und Dokumentation des Codes einer Anwendung.</p>
+<section id="zweck-des-tools">
+<h3>Zweck des Tools<a class="headerlink" href="#zweck-des-tools" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Was ist das Ziel oder der Zweck des Tools?</p></li>
+<li><p>Für welche Aufgaben wurde es gemacht?</p></li>
+<li><p>Steht das Tool für sich oder wird es mit anderen Werkzeugen oder Workflows kombiniert?</p></li>
+<li><p>Wie zuverlässig sind die Ergebnisse?</p></li>
+</ul>
+</section>
+<section id="beabsichtigte-nutzung-und-alternativen">
+<h3>Beabsichtigte Nutzung und Alternativen<a class="headerlink" href="#beabsichtigte-nutzung-und-alternativen" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Was möchte ich mit dem Tool machen?</p></li>
+<li><p>An welche Tätigkeitsfelder knüpft das Tool an?</p></li>
+<li><p>Kann ich Alternativen wählen?</p></li>
+<li><p>Was sind Alternativen?</p></li>
+<li><p>Wie gut funktioniert das Tool im Vergleich zu anderen Tools?</p></li>
+</ul>
+</section>
+<section id="usability-und-user-experience">
+<h3>Usability und User Experience<a class="headerlink" href="#usability-und-user-experience" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Ist das Interface intuitiv und leicht zu bedienen?</p></li>
+<li><p>Sind Vorkenntnisse nötig, um das Tool zu nutzen?</p></li>
+<li><p>Wird Hilfe geboten? (FAQs, Dokumentation, Tutorials)</p></li>
+<li><p>Ist der Zugang beschränkt? (z. B. auf ausgewählte Länder, durch einen Preis)</p></li>
+<li><p>Ist das Tool barrierefrei?</p></li>
+</ul>
+</section>
+<section id="transparenz">
+<h3>Transparenz<a class="headerlink" href="#transparenz" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Wie transparent ist die Funktionsweise bzw. der Weg zu den Ergebnissen?</p></li>
+<li><p>Basiert das Tool auf einer Datengrundlage / Algorithmen? Gibt es Informationen dazu?</p></li>
+<li><p>Werden von mir als Nutzer*in Daten gespeichert? Welche und wo?</p></li>
+<li><p>Gibt es Hinweise zu Einschränkungen?</p></li>
+<li><p>Wer steht dahinter? Wo sind die Betreiber?</p></li>
+<li><p>Wie langfristig wird das Tool verfügbar sein?</p></li>
+</ul>
+</section>
+<section id="rezensionen">
+<h3>Rezensionen<a class="headerlink" href="#rezensionen" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Wurde an anderer Stelle (Fachjournal, Tech-Zeitschrift wie <a class="reference external" href="http://heise.de">heise.de</a>) über das Tool berichtet?</p></li>
+<li><p>Findet sich das Tool in Auflistungen und Empfehlungen von relevanten Tools meiner Fachdisziplin/ für meinen Anwendungszweck?</p></li>
+<li><p>Welche Funktionen oder Aspekte des Tools haben überzeugt bzw. nicht überzeugt?</p></li>
+<li><p>Gibt es Artikel oder Studien, die die Nutzung in der Wissenschaft thematisieren oder Use Cases beschreiben?</p></li>
+</ul>
+</section>
+<section id="ethische-kriterien">
+<h3>Ethische Kriterien<a class="headerlink" href="#ethische-kriterien" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Wie verhält sich die Technologie zum Gemeinwohl?</p>
+<ul>
+<li><p>Dient es vielen oder wenigen?</p></li>
+<li><p>Fördert das Tool Bildung und Zugang zu Wissen?</p></li>
+</ul>
+</li>
+<li><p>Welche ökologischen Auswirkungen hat das Tool?</p>
+<ul>
+<li><p>Falls ja: Wird dies benannt? Gibt es Anstrengungen, die Auswirkungen zu reduzieren?</p></li>
+</ul>
+</li>
+<li><p>Besteht Gefahr für Manipulation oder Desinformation? (z. B. Bias in Trainingsdaten, algorithmische Bias / Fairness?)</p>
+<ul>
+<li><p>Welche Schutzmechanismen / Eigenverpflichtungen gibt es dagegen?</p></li>
+<li><p>Können Fehler gemeldet werden?</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="leitfragen-des-datenkompetenzzentrums-hermes">
+<h2>Leitfragen des Datenkompetenzzentrums HERMES<a class="headerlink" href="#leitfragen-des-datenkompetenzzentrums-hermes" title="Permalink to this heading">#</a></h2>
+<p>Die nachfolgenden Leitfragen entstanden im Kontext des Datenkompetenzzentrums <em>HERMES – Humanities Education in Research, Data, and Methods</em>, vgl. Schlander, A., Konstanciak, J., &amp; Reiche, R. (2025). LLMs in den Digital Humanities nutzen und reflektieren. Text+ Plenary, Mannheim. Zenodo. DOI: <a class="reference external" href="https://doi.org/10.5281/zenodo.15088755">https://doi.org/10.5281/zenodo.15088755</a>”&gt;<a class="reference external" href="https://doi.org/10.5281/zenodo.15088755">https://doi.org/10.5281/zenodo.15088755</a>.</p>
+<p>Leitfragen:</p>
+<ul class="simple">
+<li><p>Wie helfen LLMs in der Recherche?</p></li>
+<li><p>Welchen Einfluss nehmen LLMs beim Verfassen und Bewerten von Texten?</p></li>
+<li><p>Welchen Nutzen haben LLMs und KI-Tools für den GLAM-Bereich (GLAM = Galeries, Libraries, Archives, Museums)?</p></li>
+<li><p>Wie können LLMs zur Untersuchung von Daten eingesetzt werden?</p></li>
+</ul>
+</section>
+<section id="standards-zur-bewertung-von-technologien-und-softwarequalitat">
+<h2>Standards zur Bewertung von Technologien und Softwarequalität<a class="headerlink" href="#standards-zur-bewertung-von-technologien-und-softwarequalitat" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Eng mit der Entstehung und Entwicklung  von Software verbunden</p></li>
+<li><p>Verschiedene Qualitätsmodelle</p></li>
+<li><p>Aufgliederung in übergeordnete und untergeordnete Qualitätsmerkmale</p></li>
+<li><p>ISO-Standards (International Organization for Standardization) ISO/IEC 25000 als Leitfäden für Qualitätskriterien von Software und die Bewertung von Software</p></li>
+</ul>
+<section id="iso-leitlinien">
+<h3>ISO-Leitlinien<a class="headerlink" href="#iso-leitlinien" title="Permalink to this heading">#</a></h3>
+<p>Mit dem ISO-Standard <em>ISO/IEC 25000</em> gibt es eine internationale Norm für Softwarequalität, die “Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE)”. Die Kriterien bewerten dabei die Software und ihre Qualität des Produkts und nicht die Qualität der Herstellung (also Software-Enwticklung.) Die ISO – <em><a class="reference external" href="https://www.iso.org/about">International Organization for Standardization</a></em>  mit Sitz in der Schweiz erarbeitet intrnationale Normen in nahezu allen Bereichen.<br />
+Die zentralen Kriterien sind:</p>
+<ul class="simple">
+<li><p>Funktionalität</p></li>
+<li><p>Zuverlässigkeit</p></li>
+<li><p>Benutzerfreundlichkeit</p></li>
+<li><p>Leistungsfähigkeit</p></li>
+<li><p>Wartbarkeit</p></li>
+<li><p>Übertragbarkeit</p></li>
+</ul>
+<p>Quellen:
+The ISO/IEC 25000 series of standards, <a class="reference external" href="https://iso25000.com/index.php/en/iso-25000-standards">https://iso25000.com/index.php/en/iso-25000-standards</a>
+David Zubrow, 2004, Measuring Software Product Quality: the ISO 25000 Series and CMMI (Präsentation), <a class="reference external" href="https://insights.sei.cmu.edu/library/measuring-software-product-quality-the-iso-25000-series-and-cmmi">https://insights.sei.cmu.edu/library/measuring-software-product-quality-the-iso-25000-series-and-cmmi</a>.</p>
+<figure class="align-left" id="id1">
+<a class="reference internal image-reference" href="../_images/iso-standard-9126.png"><img alt="Elemente des ISO-Standards für Softwarequalität" src="../_images/iso-standard-9126.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 17 </span><span class="caption-text">Die Qualitätskriterien für Software als Produkt nach ISO 9126 (ist 2001 im Standard ISO/IEC 25000 aufgegangen – hier noch die alte Bezeichnung). Bildnachweis: Sae1962, <a class="reference external" href="https://commons.wikimedia.org/wiki/File:ISO_9126_quality_(de).svg">Wikimedia Commons</a>, <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>.</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="technikfolgenabschatzung-und-technikbewertung">
+<h3>Technikfolgenabschätzung und Technikbewertung<a class="headerlink" href="#technikfolgenabschatzung-und-technikbewertung" title="Permalink to this heading">#</a></h3>
+<p>Übergeordneter Kontext.</p>
+<ul class="simple">
+<li><p>Teilgebiet der Technikphilosophie und Techniksoziologie, in 1960er Jahren in den USA entstanden</p></li>
+<li><p>Beobachtung und Analyse von Trends in Wissenschaft und Technik und Zusammenhängen mit gesellschaftlichen Entwicklungen</p></li>
+<li><p>Abschätzung von Chancen und Risiken,Betrachtung möglicher „Nebenwirkungen“</p></li>
+<li><p>Entwicklung von Handlungsempfehlungen und Leitlinien</p></li>
+<li><p>Problem: Wirkung von Technologie kann nicht ausreichend bewertet werden, solange nicht weit genug entwickelt und verbreitet</p></li>
+</ul>
+<p>Institut für Technikfolgen­abschätzung und System­analyse (ITAS) am Karlsruher Institut für Technologie (KIT):
+Was ist Technikfolgenabschätzung?, <a class="reference external" href="https://www.itas.kit.edu/technikfolgenabschaetzung.php">https://www.itas.kit.edu/technikfolgenabschaetzung.php</a></p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./praxis"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ki-uni-richtlinien.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">KI-Richtlinien an der Universität</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="historische-netzwerkanalyse.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Historische Netzwerkanalyse</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wie-bewertet-man-ki-tools">Wie bewertet man KI-Tools?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#werkzeugkritik-mit-fokus-auf-ki-gestutzte-tools-vorschlage-fur-leitfragen">Werkzeugkritik mit Fokus auf KI-gestützte Tools: Vorschläge für Leitfragen</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zweck-des-tools">Zweck des Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beabsichtigte-nutzung-und-alternativen">Beabsichtigte Nutzung und Alternativen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability-und-user-experience">Usability und User Experience</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#transparenz">Transparenz</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rezensionen">Rezensionen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethische-kriterien">Ethische Kriterien</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#leitfragen-des-datenkompetenzzentrums-hermes">Leitfragen des Datenkompetenzzentrums HERMES</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#standards-zur-bewertung-von-technologien-und-softwarequalitat">Standards zur Bewertung von Technologien und Softwarequalität</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#iso-leitlinien">ISO-Leitlinien</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technikfolgenabschatzung-und-technikbewertung">Technikfolgenabschätzung und Technikbewertung</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://github.com/dh-erfurt">Digital Humanities Erfurt</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
