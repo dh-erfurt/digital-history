@@ -30,9 +30,9 @@ parts:
   - file: praxis/natural-language-processing
   - file: praxis/geschichtswissenschaft-und-ki
     sections:
-    - file: praxis/ki-in-geschichte.md
+    #- file: praxis/ki-in-geschichte.md
     - file: praxis/ki-und-llms.md
-    - file: praxis/ki-texte-schreiben.mdsa
+    #- file: praxis/ki-texte-schreiben.mdsa
     - file: praxis/llms-geschichtswissenschaft.md
     - file: praxis/ki-erinnerungskultur.md
     - file: praxis/ki-texte-schreiben.md

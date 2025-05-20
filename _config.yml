@@ -1,11 +1,12 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title                       : Digital History  # The title of the book. Will be placed in the left navbar.
-author                      :  <a href="https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/historisches-seminar/professuren/digital-humanities-hybride-bildungs-und-kommunikationsraeume">Digital Humanities Erfurt</a>   # The author of the book
-copyright                   : "2025"  # Copyright year to be placed in the footer
-# logo                        : "img/logo.png"  # A path to the book logo
+title: "Digital History" # The title of the book. Will be placed in the left navbar.
+author: <a href="https://www.uni-erfurt.de/philosophische-fakultaet/seminare-professuren/historisches-seminar/professuren/digital-humanities-hybride-bildungs-und-kommunikationsraeume">Digital Humanities Erfurt</a> # The author of the book
+copyright: "2025" # Copyright year to be placed in the footer
+#logo: "img/logo.png" # A path to the book logo
 
+only_build_toc_files: true
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -22,13 +23,22 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/dh-erfurt/digital-history  # Online location of your book (change this to your GitHub repository link)
+  url: https://github.com/dh-erfurt/digital-history # Online location of your book (change this to your GitHub repository link)
+  path_to_book: ""
+  branch: main
+  provider: github
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+
 html:
   use_issues_button: true
   use_repository_button: true
+  use_edit_page_button: true
+  extra_css:
+    - custom.css
+  extra_static_paths:
+    - img
 
 # Add launch buttons
 launch_buttons:
@@ -41,14 +51,18 @@ sphinx:
     # This is to work around the bug of no syntax highlighting
     - "IPython.sphinxext.ipython_console_highlighting"
   config:
-    # language: de
     numfig: true
     html_js_files:
-      # This is for plotly to work
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-
-html:
-  extra_css:
-    - custom.css
-  extra_static_paths:
-    - img
+    ## für das logo und den titel und den github repo button gleichzeitig
+    #html_theme_options:
+    #  logo:
+    #    image_light: img/logo.png
+    #    image_dark: img/logo.png
+    #    text: "Digital History"
+    #  repository_url: https://github.com/dh-erfurt/digital-history
+    #  repository_branch: main
+    #  path_to_docs: ""
+    #  use_repository_button: true
+    #  use_issues_button: true
+    #  use_edit_page_button: true
