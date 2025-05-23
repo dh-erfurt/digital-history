@@ -40,6 +40,7 @@ parts:
     - file: praxis/ki-fehler-beispiele.md
     - file: praxis/ki-uni-richtlinien.md
     - file: praxis/ki-werkzeugkritik.md
+    - file: praxis/werkzeuge
   - file: praxis/historische-netzwerkanalyse
   - file: praxis/geographische-daten
   - file: praxis/hinweise-werkzeuge-quellen-projekte
