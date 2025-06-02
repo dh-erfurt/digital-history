@@ -7,6 +7,7 @@ Dieses Kapitel wird nach einer initialen Begriffsklärung grundlegende Konzepte 
 Diese Seite befindet sich im Aufbau.
 
 <!--
+https://zenodo.org/records/10698210
 # Begriffsklärung
 Digitale Editionen werden oft auch wahlweise als *Scholarly Digital Editions* oder *Digital Scholarly Editions* bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um *wissenschaftliche* digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, so dass im Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht {cite:p}`fritze_wohin_2019`.
 

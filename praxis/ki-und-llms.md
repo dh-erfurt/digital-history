@@ -163,11 +163,11 @@ Das LLM generiert die Ausgabe Textbaustein für Textbaustein, d. h. für jedes 
 
 # Fazit
 
-KI ist abhängig von seiner Datenbasis und kann Biases seiner Trainingsdaten reproduzieren und verstärken.
+ML ist abhängig von seiner Datenbasis und kann Biases seiner Trainingsdaten reproduzieren und verstärken.
 
-KI-Modelle sind statistische Systeme → Die *wahrscheinlichste* Antwort wird zurückgegeben.
+ML-Modelle sind statistische Systeme → Die *wahrscheinlichste* Antwort wird zurückgegeben.
 
-KI basiert oft auf sehr großen Modellen und benötigt entsprechende Ressourcen (Rechenleistung, Energie, Datenmengen).
+ML basiert oft auf sehr großen Modellen und benötigt entsprechende Ressourcen (Rechenleistung, Energie, Datenmengen).
 
 
 # Quellen und weiterführende Links
