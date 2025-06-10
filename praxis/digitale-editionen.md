@@ -29,10 +29,11 @@ Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
 - Benutzerfreundlichkeit
 - Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)
 
-Digitale Editionen sind insbesondere keine
+Digitale Editionen sind insbesondere **keine**
 - digitialisierten Printeditionen
 - digitalen Facsimiles ohne editorischen Apparat
 - Datenpublikationen, 
+  
 sondern eine eigene Form innerhalb der wissenschaftlichen Editionspraxis im digitalen Raum.
 
 # Akteur*innen
@@ -42,10 +43,10 @@ Digitale Editionen entstehen oft im Rahmen von geisteswissenschaftlichen Forschu
 # Editionsformen und Typen
 
 ## Editionsformen
-Wie eingangs erläutert, stehen digitale Editionen den traditionellen gedruckten Editionen gegenüber. Von einer *Hybridedition* spricht man, wenn eine Edition sowohl in digitalen als auch in analogen Medien publiziert wird{cite:p}`sahle_digitale_2017`.
+Wie eingangs erläutert, stehen digitale Editionen den traditionellen gedruckten Editionen gegenüber. Von einer *Hybridedition* spricht man, wenn eine Edition sowohl in digitalen als auch in analogen Medien publiziert wird {cite:p}`jannidis_digitale_2017`.
 
 ## Transkriptionstypen
-*Transkription* bezeichnet in der Editionswissenschaft die „Übertragung eines historischen Quellentexts in ein modernes Medium, heutzutage i. d. R. maschinenlesbarer Text“{cite:p}`klug_transkription_2021`. Es gibt mehrere Transkriptionsansätze, die für digitale Editionen sinnvoll sein können. 
+*Transkription* bezeichnet in der Editionswissenschaft die „Übertragung eines historischen Quellentexts in ein modernes Medium, heutzutage i. d. R. maschinenlesbarer Text“ {cite:p}`klug_transkription_2021`. Es gibt mehrere Transkriptionsansätze, die für digitale Editionen sinnvoll sein können. 
 
 Das Ziel einer *diplomatischen* Transkription ist es, die „historische Quelle so layout- und zeichengetreu wie möglich abzubilden“, wobei folgende Aspekte von Relevanz sind {cite:p}`cugliana_diplomatische_2024`:
 - Dokumenteigenschaften: Abmessungen, Tinte, Schäden, Änderungen an der Integrität des physischen Objekts.
@@ -63,11 +64,12 @@ Das Ziel einer *diplomatischen* Transkription ist es, die „historische Quelle 
 
 Diese Art der Transkription ist vor allem für sprachhistorische Forschung von Relevanz.
 
-Der diplomatischen Transkription steht die *normalisierte* Transkription gegenüber: Hier werden historische oder individuelle Schreibweisen an eine standardisierte Norm angepasst. Das kann unter anderem Klein- und Großschreibung, Interpunktion, Konsonantenverdoppelung oder Getrennt- und Zusammenbeschreibung betreffen {cite:p}`galka_normalisierung_2021`. Dieses Vorgehen verbessert u.a. die Verständlichkeit und die computergestützte Auswertbarkeit des Textes.
+Der diplomatischen Transkription steht die *normalisierte* Transkription gegenüber: Hier werden historische oder individuelle Schreibweisen an eine standardisierte Norm angepasst. Das kann unter anderem Klein- und Großschreibung, Interpunktion, Konsonantenverdoppelung oder Getrennt- und Zusammenbeschreibung betreffen {cite:p}`galka_normalisierung_2021`. Dieses Vorgehen verbessert u. a. die Verständlichkeit und die computergestützte Auswertbarkeit des Textes.
 
 Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvarianten zur Verfügung zu stellen, welche das Editionsprojekt interdisziplinär nutzbar machen.
 
 In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, in den *Transkriptionsrichtlinien* genau dokumentiert werden.
+<!-- evtl. Beispiel für normalisiert vs diplomatisch? -->
 
 ## Textsorten
 Textsorten, die sich besonders für digitale Editionen eignen, sind Briefe, Tagebücher, Notizbücher und Manuskripte, prinzipiell sind aber digitale Editionen vielfältiger textueller Dokumente und, darüber hinaus, physischer Kulturobjekte vorstell- und umsetzbar.
@@ -80,14 +82,14 @@ Sie sind eingebettet in eine Projektwebsite, die nicht nur den Zugang zu den edi
 All dies wird getragen von einem technischen Unterbau, der u. a. durch Datenbanktechnologien, Webframeworks und Versionierungssysteme realisiert wird.
 
 # Nutzung
-Digitale Editionen eröffnen vielfältige Forschungszugänge: Historiker\*innen können, neben der hermeneutischen Auseinandersetzung mit dem Material, historische Kontexte durch Zeitachsen, Georeferenzierung oder Netzwerkanalysen erschließen.  Sprachwissenschaftler\*innen nutzen digitale Editionen als Korpora (s. [**NLP**](natural-language-processing.md)) und können so etwa Varianten, Wortgebrauch oder stilistische Merkmale systematisch auswerten. Auch andere Disziplinen, wie die Literatur- und Religionswissenschaften oder die Kunstgeschichte, profitieren von den vielfältigen Möglichkeiten, die digitale Editionen bieten. Durch die digitale Aufbereitung und Auszeichnung der Texte sind computergestützte Untersuchungen möglich, di emit analogen Mitteln kaum denkbar wären. Nicht zuletzt sind digitale Editionen für die Informatik von Interesse, etwa bei der Entwicklung von Algorithmen für Handschriftenerkennung (z. B. {cite:t}`mayr_data-efficient_2025`) oder für semantische Annotation oder in der Forschung bei Fragen zu Usability, Datenmodellierung und Wissensrepräsentation.
+Digitale Editionen eröffnen vielfältige Forschungszugänge: Historiker\*innen können, neben der hermeneutischen Auseinandersetzung mit dem Material, historische Kontexte durch Zeitachsen, Georeferenzierung oder Netzwerkanalysen erschließen.  Sprachwissenschaftler\*innen nutzen digitale Editionen als Korpora (s. [**NLP**](natural-language-processing.md)) und können so etwa Varianten, Wortgebrauch oder stilistische Merkmale systematisch auswerten. Auch andere Disziplinen, wie die Literatur- und Religionswissenschaften oder die Kunstgeschichte, profitieren von den vielfältigen Möglichkeiten, die digitale Editionen bieten. Durch die digitale Aufbereitung und Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären. Nicht zuletzt sind digitale Editionen für die Informatik von Interesse, etwa bei der Entwicklung von Algorithmen für Handschriftenerkennung (z. B. {cite:t}`mayr_data-efficient_2025`) oder für semantische Annotation oder in der Forschung bei Fragen zu Usability, Datenmodellierung und Wissensrepräsentation.
 Durch die digitale Aufbereitung und semantische Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären.
 
 Über [APIs](apis.md) und Downloadfunktionen lassen sich strukturierte Daten exportieren, was wissenschaftliche Nachnutzbarkeit und Weiterverwendung gewährleistet. Jedoch veröffentlichen nicht alle Editionen ihren Quellcode oder bieten vollständige Datensätze an. Teilweise fehlen auch wichtige Informationen zur technischen Infrastruktur und zu den Daten, was nicht den FAIR-Prinzipien entspricht und Möglichkeiten der tieferen Analyse und Reproduzierbarkeit einschränkt.
 
 
 # Herausforderungen und Chancen
-Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Diese konsistent zu halten und umzusetzen ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind.
+Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Diese konsistent zu halten und umzusetzen, ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind.
 
 Im Allgemeinen umfasst der Editionsprozess viele Schritte (Digitalisierung, Transkription, Annotation, Kommentierung, technische Umsetzung, Publikation, ...), die im Team sinnvoll aufeinander abgestimmt und dokumentiert werden müssen.
 
@@ -95,7 +97,7 @@ Automatisierte Verfahren, unterstützt von KI-Technologien, wie OCR, automatisch
 
 Gleichermaßen wirft ihr Einsatz aber auch Fragen der Qualitätssicherung und Transparenz auf. KI-gestützte Tools erfordern nicht nur ein technisches Verständnis durch die Editor*innen, die oft nicht aus technischen Disziplinen kommen, sondern auch eine kritische Reflexion ihrer Resultate.
 
-Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zetilich befristeten Projekten{cite:p}`birr_das_2024`, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte. 
+Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zetilich befristeten Projekten {cite:p}`birr_digitale_2024`, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte. 
 Zur langfristigen Nutzbarkeit digitaler Editionen trägt außerdem bei, wenn offene Standards (wie TEI/XML) verwendet werden, Wert auf klare Dokumentation gelegt wird und Maßnahmen zur Langzeitarchivierung (etwa durch die Verwenden von Repositorien wie Zenodo) getroffen werden.
   
 
