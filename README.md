@@ -1,3 +1,3 @@
-# DH OER
+# Open Educational Resource 'Digital History'
 
-This website hosts info compiled by DH Erfurt.
+Die zugehörige Website zum Repository lässt sich (hier)[https://dh-erfurt.github.io/digital-history/home.html] finden.

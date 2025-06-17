@@ -11,6 +11,7 @@ Zu den typischen Fehler- und Risikoquellen zählen u. a.
 
 - Instabilität: Selbst bei identischen Prompts können die Antworten von KI-Chatbots variieren, da sie auf statistischen Modellen basieren.
 
+## Beispiele
 
 Dazu einige Beispiele:
 
@@ -50,3 +51,22 @@ Gerade auch beim Generieren von Bildmaterial sind KI-Anwendungen oft fehlerbehaf
 
 
 Halluzinationen in Text- und Bildausgaben wie in obigen Beispielen führen deutlich vor Augen, dass KI-Chatbots keine absolute *Wahrheit* liefern, sondern lediglich plausibel klingende Inhalte erzeugen. Für den wissenschaftlichen wie gesellschaftlichen Einsatz bedeutet das: KI-Chatbots können ein mächtiges Werkzeug sein, ihre Ausgaben müssen aber stets kritisch überprüft und kontextualisiert werden.
+
+## Arten algorithmischer Biases
+
+Es gibt verschiedene Arten algorithmischer Biases, die im Kontext von Machine-Learning-Pipelines auftreten können. Diese reichen vom *historical bias* bis zum *deployment bias*, wie {numref}`algorithmic-bias` (nach {cite:p}`suresh_framework_2021`) illustriert. 
+```{figure} ../img/algorithmic-biases.drawio.png
+:alt: Arten algorithmischer Biases
+:name: algorithmic-bias
+:width: 600px
+:align: left
+
+Im Kontext von Machine-Learning-Pipelines entstehen verschiedene Arten algorithmischer Biases: *historical, representation, measurement, aggregation, learning, evaluation* und *deployment bias*. 
+```
+Viele dieser Biases liegen in der Verantwortung der Entwickler\*innen, aber gerade der *historical Bias* als auch der *deployment bias* wirken über die Entwicklung hinaus und erfordern auch ein verantwortungsbewusstes Handeln seitens der Nutzer\*innen.
+
+
+## Zitierte Literatur
+```{bibliography}
+:filter: docname in docnames
+```
