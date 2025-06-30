@@ -5,12 +5,12 @@ Digitale Editionen sind ein zentraler Forschungsschwerpunkt in den Digital Human
 Dieses Kapitel wird nach einer initialen Begriffsklärung grundlegende Konzepte darlegen und Möglichkeiten und Herausforderungen digitaler Editionspraxis diskutieren.
 
 # Begriffsklärung
-Digitale Editionen werden oft auch wahlweise als *Scholarly Digital Editions* oder *Digital Scholarly Editions* bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um *wissenschaftliche* digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, so dass im Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht {cite:p}`fritze_wohin_2019`.
+Digitale Editionen werden oft auch wahlweise als *Scholarly Digital Editions* oder *Digital Scholarly Editions* bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um *wissenschaftliche* digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, sodass in Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht {cite:p}`fritze_wohin_2019`.
 
 Patrick Sahle definiert den Begriff wie folgt: „A scholarly edition is the critical representation of historic documents“ {cite:p}`sahle_what_2016`. Zum Verständnis dieser Definition ist es nötig, ihre zentralen Konzepte zu klären: 
-- *Repräsentation*: Übertragung/Umcodierung eines Dokuments in ein anderes (oder das gleiche) Medium, z.B. Faksimile, Transkription
-- *kritisch*: wissenschaftliche Auseinandersetzung mit dem Material (u.a. textuelle, bibliographische, materielle, visuelle Kritik), die reflektiert und regelgeleitet erfolgen soll (z.B. Festlegen von Transkriptionsrichtlinien, Annotation von Entitäten, Bewerten von Varianten)
-- *Dokument*: materielles Dokument stets als Ausgangspunkt, Editionen nicht immer mit klar abgegrenztem Text, sondern z.B. auch von physischen Objekten
+- *Repräsentation*: Übertragung/Umcodierung eines Dokuments in ein anderes (oder das gleiche) Medium, z. B. Faksimile, Transkription
+- *kritisch*: wissenschaftliche Auseinandersetzung mit dem Material (u. a. textuelle, bibliographische, materielle, visuelle Kritik), die reflektiert und regelgeleitet erfolgen soll (z. B. Festlegen von Transkriptionsrichtlinien, Annotation von Entitäten, Bewerten von Varianten)
+- *Dokument*: materielles Dokument stets als Ausgangspunkt, Editionen nicht immer mit klar abgegrenztem Text, sondern z. B. auch von physischen Objekten
 - *historisch*: zeitlicher Abstand zwischen Dokumententstehung und Rezeption (zeitgenössische Texte benötigen im Gegensatz zu historischen Dokumenten oft keine editorische Vermittlung, sondern „sprechen für sich selbst“)
 
 Digitale Editionen erfüllen die gleiche grundlegende Aufgabe: Auch sie sollen historische Dokumente kritisch repräsentieren. 
@@ -31,7 +31,7 @@ Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
 
 Digitale Editionen sind insbesondere **keine**
 - digitialisierten Printeditionen
-- digitalen Facsimiles ohne editorischen Apparat
+- digitalen Faksimiles ohne editorischen Apparat
 - Datenpublikationen, 
   
 sondern eine eigene Form innerhalb der wissenschaftlichen Editionspraxis im digitalen Raum.
@@ -75,7 +75,7 @@ In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, 
 Textsorten, die sich besonders für digitale Editionen eignen, sind Briefe, Tagebücher, Notizbücher und Manuskripte, prinzipiell sind aber digitale Editionen vielfältiger textueller Dokumente und, darüber hinaus, physischer Kulturobjekte vorstell- und umsetzbar.
 
 # Aufbau und Bestandteile
-Das Herzstück jeder digitalen Edition ist das edierte *Dokument*, also im Falle einer Briefedition beispielsweise ein einzelner Brief. In der Regel wird dieser in mehreren Repräsentationen bereitgestellt. Neben einem digitalen Faksimile (meistens einem Scan der Originalquelle) liegen oft eine oder mehrere Transkriptionen vor. Darüber hinaus werden Metadaten zum Dokument zur Verfügung gestellt, die etwa zu Autor*in, Ort, Datierung oder Überlieferung Aufschluss geben. Diese Dokumente liegen dabei häufig im [TEI/XML-Format](../theorie/xml.md) vor.
+Das Herzstück jeder digitalen Edition ist das edierte *Dokument*, also im Falle einer Briefedition beispielsweise ein einzelner Brief. In der Regel wird dieser in mehreren Repräsentationen bereitgestellt. Neben einem digitalen Faksimile (meistens einem Scan der Originalquelle) liegen oft eine oder mehrere Transkriptionen vor. Ferner werden Metadaten zum Dokument zur Verfügung gestellt, die etwa zu Autor*in, Ort, Datierung oder Überlieferung Aufschluss geben. Diese Dokumente liegen dabei häufig im [TEI/XML-Format](../theorie/xml.md) vor.
 
 Sie sind eingebettet in eine Projektwebsite, die nicht nur den Zugang zu den edierten Dokumenten ermöglicht, sondern auch Hintergrundinformationen zum Projekt und weitere Kontextualisierungen bietet: z. B. durch Editionsrichtlinien, editorische Kommentare oder Visualisierungen wie Zeitachsen, Netzwerkgrafiken oder Karten. Darüber hinaus enthalten viele digitale Editionen weitere funktionale Komponenten wie eine Volltextsuche oder eine Filterfunktion (z. B. nach Datierung, Ort, Person) zum Auffinden relevanter Texte.
 
@@ -97,8 +97,8 @@ Automatisierte Verfahren, unterstützt von KI-Technologien, wie OCR, automatisch
 
 Gleichermaßen wirft ihr Einsatz aber auch Fragen der Qualitätssicherung und Transparenz auf. KI-gestützte Tools erfordern nicht nur ein technisches Verständnis durch die Editor*innen, die oft nicht aus technischen Disziplinen kommen, sondern auch eine kritische Reflexion ihrer Resultate.
 
-Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zetilich befristeten Projekten {cite:p}`birr_digitale_2024`, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte. 
-Zur langfristigen Nutzbarkeit digitaler Editionen trägt außerdem bei, wenn offene Standards (wie TEI/XML) verwendet werden, Wert auf klare Dokumentation gelegt wird und Maßnahmen zur Langzeitarchivierung (etwa durch die Verwenden von Repositorien wie Zenodo) getroffen werden.
+Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zeitlich befristeten Projekten {cite:p}`birr_digitale_2024`, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte. 
+Zur langfristigen Nutzbarkeit digitaler Editionen trägt außerdem bei, wenn offene Standards (wie TEI/XML) verwendet werden, Wert auf klare Dokumentation gelegt wird und Maßnahmen zur Langzeitarchivierung (etwa durch das Verwenden von Repositorien wie Zenodo) getroffen werden.
   
 
 # Beispiele
