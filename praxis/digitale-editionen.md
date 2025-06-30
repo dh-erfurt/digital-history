@@ -5,7 +5,7 @@ Digitale Editionen sind ein zentraler Forschungsschwerpunkt in den Digital Human
 Dieses Kapitel wird nach einer initialen Begriffsklärung grundlegende Konzepte darlegen und Möglichkeiten und Herausforderungen digitaler Editionspraxis diskutieren.
 
 # Begriffsklärung
-Digitale Editionen werden oft auch wahlweise als *Scholarly Digital Editions* oder *Digital Scholarly Editions* bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um *wissenschaftliche* digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, sodass in Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht {cite:p}`fritze_wohin_2019`.
+Digitale Editionen werden oft auch als *Scholarly Digital Editions* oder *Digital Scholarly Editions* bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um *wissenschaftliche* digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, sodass in Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht {cite:p}`fritze_wohin_2019`.
 
 Patrick Sahle definiert den Begriff wie folgt: „A scholarly edition is the critical representation of historic documents“ {cite:p}`sahle_what_2016`. Zum Verständnis dieser Definition ist es nötig, ihre zentralen Konzepte zu klären: 
 - *Repräsentation*: Übertragung/Umcodierung eines Dokuments in ein anderes (oder das gleiche) Medium, z. B. Faksimile, Transkription
