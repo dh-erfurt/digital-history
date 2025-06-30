@@ -12,10 +12,12 @@ Diese Seite befindet sich im Aufbau.
 
 #### Literaturhinweise
 
-Herb, Ulrich and Pampel, Heinz. E 10 Open Access. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 715-726. https://doi.org/10.1515/9783110769043-061
+Fabian Cremer, Marina Lemaire, Katrin Moeller, Clio-Guide: Forschungsdaten, in: Clio Guide – Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, hrsg. von Silvia Daniel, Wilfried Enderle, Rüdiger Hohls, Thomas Meyer, Jens Prellwitz, Claudia Prinz, Annette Schuhmann, Silke Schwandt, 3. erw. und aktualisierte Aufl., Berlin 2023–2024, https://doi.org/10.60693/hqgv-qz86
 
-Neuroth, Heike. B 17 Forschungsdaten. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 339-350. https://doi.org/10.1515/9783110769043-029.
+Ulrich Herb, Heinz Pampel, E 10 Open Access. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 715-726. https://doi.org/10.1515/9783110769043-061
 
-Siebenlist, Tobias. E 11 Open Data. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 727-734. https://doi.org/10.1515/9783110769043-062
+Heike Neuroth, B 17 Forschungsdaten. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 339-350. https://doi.org/10.1515/9783110769043-029.
+
+Tobias Siebenlist, E 11 Open Data. Grundlagen der Informationswissenschaft, edited by Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar and Christa Womser-Hacker, Berlin, Boston: De Gruyter Saur, 2023, pp. 727-734. https://doi.org/10.1515/9783110769043-062
 
 Informationsplattforms zu Forschungsdaten, hrsg. von der Universität Konstanz, https://forschungsdaten.info

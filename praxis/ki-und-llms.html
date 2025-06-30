@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Grundlagen: KI und LLMs &#8212; Digital History</title>
   
@@ -29,37 +28,36 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'praxis/ki-und-llms';</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -471,119 +469,120 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="grundlagen-ki-und-llms">
-<h1>Grundlagen: KI und LLMs<a class="headerlink" href="#grundlagen-ki-und-llms" title="Permalink to this heading">#</a></h1>
+<h1>Grundlagen: KI und LLMs<a class="headerlink" href="#grundlagen-ki-und-llms" title="Link to this heading">#</a></h1>
 <p>Künstliche Intelligenz ist nicht nur ein bedeutendes und interdisziplinäres Teilgebiet der Informatik, sondern spätestens seit dem Aufkommen von KI-Chatbots wie <em>ChatGPT</em> auch eines der meistdiskutierten gesellschaftlichen Themen. Um informiert und präzise über Chancen und Risiken sprechen zu können, ist es sinnvoll, zunächst zentrale Begrifflichkeiten zu klären und ein grundlegendes Verständnis der Funktionsweise von KI-Technologien zu entwickeln. Beides wird Gegenstand dieses Kapitels sein.</p>
 <section id="begriffsabgrenzung">
-<h2>Begriffsabgrenzung<a class="headerlink" href="#begriffsabgrenzung" title="Permalink to this heading">#</a></h2>
+<h2>Begriffsabgrenzung<a class="headerlink" href="#begriffsabgrenzung" title="Link to this heading">#</a></h2>
 <figure class="align-left" id="begriffsabgrenzung-ki">
-<a class="reference internal image-reference" href="../_images/ml-verortung.drawio.png"><img alt="Begrifssabgrenzung KI - Machine Learning - Deep Learning - LLMs" src="../_images/ml-verortung.drawio.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/ml-verortung.drawio.png"><img alt="Begrifssabgrenzung KI - Machine Learning - Deep Learning - LLMs" src="../_images/ml-verortung.drawio.png" style="width: 600px;" />
+</a>
 <figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">KI-Chatbots wie <em>ChatGPT</em>, also <em>Large Language Models (LLMs)</em>, machen nur einen kleinen Teil der Technologien aus, die unter <em>Künstliche Intelligenz</em> fallen.</span><a class="headerlink" href="#begriffsabgrenzung-ki" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">KI-Chatbots wie <em>ChatGPT</em>, also <em>Large Language Models (LLMs)</em>, machen nur einen kleinen Teil der Technologien aus, die unter <em>Künstliche Intelligenz</em> fallen.</span><a class="headerlink" href="#begriffsabgrenzung-ki" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Wenn von KI-Chatbots wie <em>ChatGPT</em> o. Ä. gesprochen wird, ist die Rede von <em>LLMs (Large Language Models)</em>. Diese machen aber nur einen kleinen Teil der Technologien und Konzepte aus, die unter den Schirm der <em>künstlichen Intelligenz</em> fallen, wie <a class="reference internal" href="#begriffsabgrenzung-ki"><span class="std std-numref">Fig. 1</span></a> zeigt.</p>
+<p>Wenn von KI-Chatbots wie <em>ChatGPT</em> o. Ä. gesprochen wird, ist die Rede von <em>LLMs (Large Language Models)</em>. Diese machen aber nur einen kleinen Teil der Technologien und Konzepte aus, die unter den Schirm der <em>künstlichen Intelligenz</em> fallen, wie <a class="reference internal" href="#begriffsabgrenzung-ki"><span class="std std-numref">Fig. 2</span></a> zeigt.</p>
 <p><em>Künstliche Intelligenz</em> bezeichnet zunächst einmal nur die Theorie, dass menschliche Intelligenz von einer Maschine gezeigt wird.</p>
-<p><em>Machine Learning</em> (ML), eines der größten und schnellstwachsenden Forschungsgebiete der Informatik, ist ein Teilbereich von KI. ML-Algorithmen verwenden große Datensätze, um Muster zu erkennen und zu lernen, autonome Entscheidungen und Vorhersagen zu treffen <span id="id1">[<a class="reference internal" href="#id7" title="Dipanjan Sarkar, Raghav Bali, and Tushar Sharma. Practical Machine Learning with Python. Apress, 2018. ISBN 978-1-4842-3207-1. doi:10.1007/978-1-4842-3207-1.">SBS18</a>]</span>. Neben ML stehen weitere Forschungsansätze, die unter <em>Künstliche Intelligenz</em> fallen, z. B. formale Logik, die aber heute seltener diskutiert werden.</p>
-<p><em>Deep Learning</em> (DL) ist wiederum ein Teilbereich von <em>Machine Learning</em>, bei dem künstliche neuronale Netze mit vielen Schichten zum Einsatz kommen (die Funktionsweise wird im Folgenden noch näher erläutert). DL ist sehr leistungsfähig und bildet die Grundlage vieler aktueller KI-Anwendungen, erfordert aber auch erhebliche Mengen an Daten- und Rechenressourcen <span id="id2">[<a class="reference internal" href="#id6" title="Christian Janiesch, Patrick Zschech, and Kai Heinrich. Machine learning and deep learning. Electronic Markets, 31(3):685–695, September 2021. URL: https://doi.org/10.1007/s12525-021-00475-2, doi:10.1007/s12525-021-00475-2.">JZH21</a>]</span>.</p>
-<p>Ein besonders sichtbares Anwendungsfeld von DL ist die Verarbeitung natürlicher Sprache, wobei <em>LLMs</em> verwendet werden - tiefe neuronale Netze, die mit sehr großen Textmengen trainiert wurden und deren Ziel es ist, Sprache zu verstehen und zu erzeugen <span id="id3">[<a class="reference internal" href="#id12" title="Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. ACM Trans. Intell. Syst. Technol., March 2024. URL: https://doi.org/10.1145/3641289, doi:10.1145/3641289.">CWW+24</a>]</span>.</p>
+<p><em>Machine Learning</em> (ML), eines der größten und schnellstwachsenden Forschungsgebiete der Informatik, ist ein Teilbereich von KI. ML-Algorithmen verwenden große Datensätze, um Muster zu erkennen und zu lernen, autonome Entscheidungen und Vorhersagen zu treffen <span id="id1">[<a class="reference internal" href="#id17" title="Dipanjan Sarkar, Raghav Bali, and Tushar Sharma. Practical Machine Learning with Python. Apress, 2018. ISBN 978-1-4842-3207-1. doi:10.1007/978-1-4842-3207-1.">SBS18</a>]</span>. Neben ML stehen weitere Forschungsansätze, die unter <em>Künstliche Intelligenz</em> fallen, z. B. formale Logik, die aber heute seltener diskutiert werden.</p>
+<p><em>Deep Learning</em> (DL) ist wiederum ein Teilbereich von <em>Machine Learning</em>, bei dem künstliche neuronale Netze mit vielen Schichten zum Einsatz kommen (die Funktionsweise wird im Folgenden noch näher erläutert). DL ist sehr leistungsfähig und bildet die Grundlage vieler aktueller KI-Anwendungen, erfordert aber auch erhebliche Mengen an Daten- und Rechenressourcen <span id="id2">[<a class="reference internal" href="#id16" title="Christian Janiesch, Patrick Zschech, and Kai Heinrich. Machine learning and deep learning. Electronic Markets, 31(3):685–695, September 2021. URL: https://doi.org/10.1007/s12525-021-00475-2, doi:10.1007/s12525-021-00475-2.">JZH21</a>]</span>.</p>
+<p>Ein besonders sichtbares Anwendungsfeld von DL ist die Verarbeitung natürlicher Sprache, wobei <em>LLMs</em> verwendet werden - tiefe neuronale Netze, die mit sehr großen Textmengen trainiert wurden und deren Ziel es ist, Sprache zu verstehen und zu erzeugen <span id="id3">[<a class="reference internal" href="#id21" title="Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. ACM Trans. Intell. Syst. Technol., March 2024. URL: https://doi.org/10.1145/3641289, doi:10.1145/3641289.">CWW+24</a>]</span>.</p>
 </section>
 <section id="wie-funktioniert-deep-learning">
-<h2>Wie funktioniert Deep Learning?<a class="headerlink" href="#wie-funktioniert-deep-learning" title="Permalink to this heading">#</a></h2>
+<h2>Wie funktioniert Deep Learning?<a class="headerlink" href="#wie-funktioniert-deep-learning" title="Link to this heading">#</a></h2>
 <p>Was steckt nun eigentlich hinter KI-Anwendungen wie <em>ChatGPT</em>? Im Grunde zunächst: sehr viel Mathematik.</p>
 <figure class="align-left" id="grundprinzip">
 <img alt="Grundprinzip DL (Input - Model - Output)" src="../_images/ml-beispiel-grundprinzip.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Grundprinzip Deep Learning: Input - Model - Output.</span><a class="headerlink" href="#grundprinzip" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Grundprinzip Deep Learning: Input - Model - Output.</span><a class="headerlink" href="#grundprinzip" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p><a class="reference internal" href="#grundprinzip"><span class="std std-numref">Fig. 2</span></a> veranschaulicht das Grundprinzip von Deep-Learning-Anwendungen. Ein <em>DL-Modell</em> bekommt einen Input, z.B. ein Bild eines Tiers, übergeben und trifft davon ausgehend eine Voraussage (<em>Prediction</em>), ob es sich bei diesem Tier um einen Vogel handelt – gibt also einen Output aus.</p>
+<p><a class="reference internal" href="#grundprinzip"><span class="std std-numref">Fig. 3</span></a> veranschaulicht das Grundprinzip von Deep-Learning-Anwendungen. Ein <em>DL-Modell</em> bekommt einen Input, z.B. ein Bild eines Tiers, übergeben und trifft davon ausgehend eine Voraussage (<em>Prediction</em>), ob es sich bei diesem Tier um einen Vogel handelt – gibt also einen Output aus.</p>
 <section id="was-ist-ein-modell">
-<h3>Was ist ein Modell?<a class="headerlink" href="#was-ist-ein-modell" title="Permalink to this heading">#</a></h3>
+<h3>Was ist ein Modell?<a class="headerlink" href="#was-ist-ein-modell" title="Link to this heading">#</a></h3>
 <p>Zentral für diese Funktionsweise ist das Modell, das den Input verarbeitet und durch Training darauf optimiert wurde, möglichst akkurate <em>Predictions</em> basierend auf dem Input zu treffen. Ein Modell ist zunächst einmal ein mathematisches System. Künstliche neuronale Netze sind eine Art von Modellen, die bei <em>Deep Learning</em>-Anwendungen verwendet werden.</p>
 <figure class="align-left" id="skizze-modell">
 <img alt="Skizze Modell" src="../_images/ml-beispiel-model-skizze.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Skizze Modell (neuronales Netzwerk)</span><a class="headerlink" href="#skizze-modell" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Skizze Modell (neuronales Netzwerk)</span><a class="headerlink" href="#skizze-modell" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p><a class="reference internal" href="#skizze-modell"><span class="std std-numref">Fig. 3</span></a> illustriert ein solches Netzwerk aus Knotenpunkten, die miteinander verbunden sind. Diese Knoten bekommen Informationen von anderen Knoten, rechnen etwas mit ihnen und geben im Anschluss das Ergebnis weiter. Diese Funktionsweise soll im Folgenden an Ausschnitt aus obigem Modell veranschaulicht werden.</p>
+<p><a class="reference internal" href="#skizze-modell"><span class="std std-numref">Fig. 4</span></a> illustriert ein solches Netzwerk aus Knotenpunkten, die miteinander verbunden sind. Diese Knoten bekommen Informationen von anderen Knoten, rechnen etwas mit ihnen und geben im Anschluss das Ergebnis weiter. Diese Funktionsweise soll im Folgenden an Ausschnitt aus obigem Modell veranschaulicht werden.</p>
 <figure class="align-left" id="ml-beispiel-ausschnitt">
 <img alt="Ausschnitt ML-Modell" src="../_images/ml-beispiel-1.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Ausschnitt ML-Modell</span><a class="headerlink" href="#ml-beispiel-ausschnitt" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Ausschnitt ML-Modell</span><a class="headerlink" href="#ml-beispiel-ausschnitt" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p><a class="reference internal" href="#ml-beispiel-ausschnitt"><span class="std std-numref">Fig. 4</span></a> illustriert diesen Ausschnitt. Die Verbindungen zwischen den Knoten haben Gewichte, die bemessen, wie wichtig die jeweils weitergegebene Information für den Folgeknoten ist.</p>
+<p><a class="reference internal" href="#ml-beispiel-ausschnitt"><span class="std std-numref">Fig. 5</span></a> illustriert diesen Ausschnitt. Die Verbindungen zwischen den Knoten haben Gewichte, die bemessen, wie wichtig die jeweils weitergegebene Information für den Folgeknoten ist.</p>
 <figure class="align-left" id="ml-beispiel-input">
 <img alt="Input" src="../_images/ml-beispiel-2.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Input</span><a class="headerlink" href="#ml-beispiel-input" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Input</span><a class="headerlink" href="#ml-beispiel-input" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>In <a class="reference internal" href="#ml-beispiel-input"><span class="std std-numref">Fig. 5</span></a> bekommt der Modell-Ausschnitt nun einen numerischen Input übergeben. Das könnte z. B. ein Pixelfarbwert sein, wenn es um Bilderkennung geht.</p>
+<p>In <a class="reference internal" href="#ml-beispiel-input"><span class="std std-numref">Fig. 6</span></a> bekommt der Modell-Ausschnitt nun einen numerischen Input übergeben. Das könnte z. B. ein Pixelfarbwert sein, wenn es um Bilderkennung geht.</p>
 <figure class="align-left" id="ml-beispiel-1">
 <img alt="Erster Knoten wird berechnet" src="../_images/ml-beispiel-3.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Erster Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Erster Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Die Berechnung des ersten Knotens erfolgt als Summe der eingehenden Knotenverbindungen, entsprechend ihren Gewichtungen, wie in <a class="reference internal" href="#ml-beispiel-1"><span class="std std-numref">Fig. 6</span></a> gezeigt.</p>
+<p>Die Berechnung des ersten Knotens erfolgt als Summe der eingehenden Knotenverbindungen, entsprechend ihren Gewichtungen, wie in <a class="reference internal" href="#ml-beispiel-1"><span class="std std-numref">Fig. 7</span></a> gezeigt.</p>
 <figure class="align-left" id="ml-beispiel-2">
 <img alt="Zweiter Knoten wird berechnet" src="../_images/ml-beispiel-4.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Zweiter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-2" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Zweiter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-2" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Ebenso wird der zweite Knotenwert berechnet, s. <a class="reference internal" href="#ml-beispiel-2"><span class="std std-numref">Fig. 7</span></a>.</p>
+<p>Ebenso wird der zweite Knotenwert berechnet, s. <a class="reference internal" href="#ml-beispiel-2"><span class="std std-numref">Fig. 8</span></a>.</p>
 <figure class="align-left" id="ml-beispiel-3">
 <img alt="Dritter Knoten wird berechnet" src="../_images/ml-beispiel-5.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Dritter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-3" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Dritter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-3" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Beim dritten Knotenwert gibt es zwei eingehende Verbindungen, die gewichtet summiert werden, wie in <a class="reference internal" href="#ml-beispiel-3"><span class="std std-numref">Fig. 8</span></a> gezeigt wird.</p>
+<p>Beim dritten Knotenwert gibt es zwei eingehende Verbindungen, die gewichtet summiert werden, wie in <a class="reference internal" href="#ml-beispiel-3"><span class="std std-numref">Fig. 9</span></a> gezeigt wird.</p>
 <figure class="align-left" id="ml-beispiel-4">
 <img alt="Vierter Knoten wird berechnet" src="../_images/ml-beispiel-6.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Vierter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-4" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Vierter Knoten wird berechnet</span><a class="headerlink" href="#ml-beispiel-4" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Analog erfolgt die Berechnung des vierten Knotens in <a class="reference internal" href="#ml-beispiel-4"><span class="std std-numref">Fig. 9</span></a>.</p>
+<p>Analog erfolgt die Berechnung des vierten Knotens in <a class="reference internal" href="#ml-beispiel-4"><span class="std std-numref">Fig. 10</span></a>.</p>
 <figure class="align-left" id="ml-beispiel-output">
 <img alt="Output" src="../_images/ml-beispiel-7.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Output</span><a class="headerlink" href="#ml-beispiel-output" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Output</span><a class="headerlink" href="#ml-beispiel-output" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Auch der Endknoten wird in <a class="reference internal" href="#ml-beispiel-output"><span class="std std-numref">Fig. 10</span></a> genauso berechnet. Dieser Wert könnte jetzt z. B. eine Aussage darüber machen, mit welcher Wahrscheinlichkeit es sich bei dem Bild um einen Vogel handelt – in diesem Beispiel mit 89,1 Prozent.</p>
+<p>Auch der Endknoten wird in <a class="reference internal" href="#ml-beispiel-output"><span class="std std-numref">Fig. 11</span></a> genauso berechnet. Dieser Wert könnte jetzt z. B. eine Aussage darüber machen, mit welcher Wahrscheinlichkeit es sich bei dem Bild um einen Vogel handelt – in diesem Beispiel mit 89,1 Prozent.</p>
 <p>Modelle erhalten also einen Input, stellen einige Berechnungen damit an und geben einen entsprechenden Output aus.</p>
 </section>
 <section id="wie-funktioniert-das-training-des-modells">
-<h3>Wie funktioniert das Training des Modells?<a class="headerlink" href="#wie-funktioniert-das-training-des-modells" title="Permalink to this heading">#</a></h3>
+<h3>Wie funktioniert das Training des Modells?<a class="headerlink" href="#wie-funktioniert-das-training-des-modells" title="Link to this heading">#</a></h3>
 <p>Was macht dieses Prinzip nun <em>intelligent</em>, d. h., wie kann sich das Modell selbst verbessern?</p>
 <figure class="align-left" id="trainingsmechanismus">
 <img alt="Trainingsmechanismus" src="../_images/ml-beispiel-training.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Visualisierung des Trainingsmechanismus</span><a class="headerlink" href="#trainingsmechanismus" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Visualisierung des Trainingsmechanismus</span><a class="headerlink" href="#trainingsmechanismus" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <br/>
-<p>Im Trainingsprozess des Modells macht es immer wieder <em>Predictions</em>, basierend auf verschiedenen Input-Daten. Diese <em>Prediction</em> wird dann überprüft und, falls sie falsch war, werden die Gewichte des Modells angepasst. Das erfolgt durch den Algorithmus selbst – an dieser Stelle <em>lernt die Maschine</em>. Dieser Prozess wird in <a class="reference internal" href="#trainingsmechanismus"><span class="std std-numref">Fig. 11</span></a> dargestellt.</p>
+<p>Im Trainingsprozess des Modells macht es immer wieder <em>Predictions</em>, basierend auf verschiedenen Input-Daten. Diese <em>Prediction</em> wird dann überprüft und, falls sie falsch war, werden die Gewichte des Modells angepasst. Das erfolgt durch den Algorithmus selbst – an dieser Stelle <em>lernt die Maschine</em>. Dieser Prozess wird in <a class="reference internal" href="#trainingsmechanismus"><span class="std std-numref">Fig. 12</span></a> dargestellt.</p>
 <p>Um das Modell so zu trainieren, dass es möglichst akkurate <em>Predictions</em> trifft, braucht man eine große Menge an Trainingsdaten, bei denen die „Lösung“ (d. h., ist es ein Vogel?) schon bekannt ist. Mit genügend Wiederholungen des Trainingsvorgangs kann sich das Modell dann für seine Aufgabe optimieren.</p>
 <p>Das macht deutlich, dass die Auswahl der Trainingsdaten entscheidend ist – sie sollten möglichst heterogen und vielfältig sein, damit das Modell auf unbekannten Daten gut <em>generalisieren</em> kann.</p>
 </section>
 <section id="wie-funktionieren-llms">
-<h3>Wie funktionieren LLMs?<a class="headerlink" href="#wie-funktionieren-llms" title="Permalink to this heading">#</a></h3>
+<h3>Wie funktionieren LLMs?<a class="headerlink" href="#wie-funktionieren-llms" title="Link to this heading">#</a></h3>
 <p>Wie oben beschrieben sind LLMs <em>Large Language Models</em>, also sehr große neuronale Netze, die mit erheblichen Mengen an Daten darauf trainiert werden, mit Sprache umzugehen und Sprache zu erzeugen. Insbesondere lernen LLMs:</p>
 <ul class="simple">
 <li><p>wie Wörter typischerweise aufeinander folgen</p></li>
@@ -595,28 +594,31 @@ document.write(`
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="fazit">
-<h1>Fazit<a class="headerlink" href="#fazit" title="Permalink to this heading">#</a></h1>
-<p>KI ist abhängig von seiner Datenbasis und kann Biases seiner Trainingsdaten reproduzieren und verstärken.</p>
-<p>KI-Modelle sind statistische Systeme → Die <em>wahrscheinlichste</em> Antwort wird zurückgegeben.</p>
-<p>KI basiert oft auf sehr großen Modellen und benötigt entsprechende Ressourcen (Rechenleistung, Energie, Datenmengen).</p>
+<h1>Fazit<a class="headerlink" href="#fazit" title="Link to this heading">#</a></h1>
+<p>ML ist abhängig von seiner Datenbasis und kann Biases seiner Trainingsdaten reproduzieren und verstärken.</p>
+<p>ML-Modelle sind statistische Systeme → Die <em>wahrscheinlichste</em> Antwort wird zurückgegeben.</p>
+<p>ML basiert oft auf sehr großen Modellen und benötigt entsprechende Ressourcen (Rechenleistung, Energie, Datenmengen).</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="quellen-und-weiterfuhrende-links">
-<h1>Quellen und weiterführende Links<a class="headerlink" href="#quellen-und-weiterfuhrende-links" title="Permalink to this heading">#</a></h1>
+<h1>Quellen und weiterführende Links<a class="headerlink" href="#quellen-und-weiterfuhrende-links" title="Link to this heading">#</a></h1>
 <p>Es gibt viele gute Online-Resourcen, die KI definieren und seine Funktionsweise anschaulich erläutern, z. B. kurze Artikel (z. B. <a class="reference external" href="https://youtu.be/LPZh9BOjkQs?si=3tipF644tRCWeLJc">hier</a>), Erklärvideos (z. B. <a class="reference external" href="https://youtu.be/LPZh9BOjkQs?si=3tipF644tRCWeLJc">hier</a>) oder Online-Kurse (z. B. <a class="reference external" href="https://ki-campus.org/courses/kifueralle-hhu">KI-Campus</a>).</p>
 <section id="zitierte-literatur">
-<h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Permalink to this heading">#</a></h2>
+<h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Link to this heading">#</a></h2>
 <div class="docutils container" id="id4">
-<dl class="citation">
-<dt class="label" id="id12"><span class="brackets"><a class="fn-backref" href="#id3">CWW+24</a></span></dt>
-<dd><p>Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. <em>ACM Trans. Intell. Syst. Technol.</em>, March 2024. URL: <a class="reference external" href="https://doi.org/10.1145/3641289">https://doi.org/10.1145/3641289</a>, <a class="reference external" href="https://doi.org/10.1145/3641289">doi:10.1145/3641289</a>.</p>
-</dd>
-<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id2">JZH21</a></span></dt>
-<dd><p>Christian Janiesch, Patrick Zschech, and Kai Heinrich. Machine learning and deep learning. <em>Electronic Markets</em>, 31(3):685–695, September 2021. URL: <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">https://doi.org/10.1007/s12525-021-00475-2</a>, <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">doi:10.1007/s12525-021-00475-2</a>.</p>
-</dd>
-<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id1">SBS18</a></span></dt>
-<dd><p>Dipanjan Sarkar, Raghav Bali, and Tushar Sharma. <em>Practical Machine Learning with Python</em>. Apress, 2018. ISBN 978-1-4842-3207-1. <a class="reference external" href="https://doi.org/10.1007/978-1-4842-3207-1">doi:10.1007/978-1-4842-3207-1</a>.</p>
-</dd>
-</dl>
+<div role="list" class="citation-list">
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">CWW+24</a><span class="fn-bracket">]</span></span>
+<p>Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. <em>ACM Trans. Intell. Syst. Technol.</em>, March 2024. URL: <a class="reference external" href="https://doi.org/10.1145/3641289">https://doi.org/10.1145/3641289</a>, <a class="reference external" href="https://doi.org/10.1145/3641289">doi:10.1145/3641289</a>.</p>
+</div>
+<div class="citation" id="id16" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">JZH21</a><span class="fn-bracket">]</span></span>
+<p>Christian Janiesch, Patrick Zschech, and Kai Heinrich. Machine learning and deep learning. <em>Electronic Markets</em>, 31(3):685–695, September 2021. URL: <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">https://doi.org/10.1007/s12525-021-00475-2</a>, <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">doi:10.1007/s12525-021-00475-2</a>.</p>
+</div>
+<div class="citation" id="id17" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">SBS18</a><span class="fn-bracket">]</span></span>
+<p>Dipanjan Sarkar, Raghav Bali, and Tushar Sharma. <em>Practical Machine Learning with Python</em>. Apress, 2018. ISBN 978-1-4842-3207-1. <a class="reference external" href="https://doi.org/10.1007/978-1-4842-3207-1">doi:10.1007/978-1-4842-3207-1</a>.</p>
+</div>
+</div>
 </div>
 </section>
 </section>
