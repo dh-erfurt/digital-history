@@ -72,7 +72,7 @@ Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvariante
 ```{figure} ../img/briefbuecher-ansicht.png
 :alt: Ansicht der Edition der Nürnberger Briefbücher: diplomatisch - Facsimile - normalisiert
 :name: nbb
-:width: 600px
+:width: 800px
 :align: left
 
 Die Edition der Nürnberger Briefbücher kombiniert drei Ansichten: diplomatische Transkription, Facsimile und normalisierte Transkription.
