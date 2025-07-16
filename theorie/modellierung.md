@@ -10,8 +10,8 @@ Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der 
 
 Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis_digital_2017`. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.
 
+Diese Seite befindet sich im Aufbau.
+
 ```{bibliography}
 :filter: docname in docnames
 ```
-
-Diese Seite befindet sich im Aufbau.
