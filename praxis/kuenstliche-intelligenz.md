@@ -1,4 +1,4 @@
-# Geschichtswissenschaft und KI
+# Künstliche Intelligenz
 
 ## KI-Nutzung: Ergebnisse des Digital-Index 2024/2025
 
