@@ -21,13 +21,17 @@ parts:
   chapters:
   - file: praxis/digitale-editionen
   #  sections:
+  # - file: praxis/vom-scan-zur-webbasierten-darstellung
   - file: praxis/forschungsdaten
   - file: praxis/datenextraktion
     sections:
     - file: praxis/apis
     - file: praxis/formate
   - file: praxis/natural-language-processing
-  - file: praxis/kuenstliche-intelligenz
+    sections:
+      - file: praxis/computerlinguistische-grundlagen
+      - file: praxis/nlp-methoden-in-der-digital-history
+  - file: praxis/geschichtswissenschaft-und-ki
     sections:
     #- file: praxis/ki-in-geschichte.md
     - file: praxis/ki-und-llms.md
@@ -47,9 +51,6 @@ parts:
 #    - file: praxis/werkzeuge
 #    - file: praxis/projekte
 #    - file: praxis/literatur
-- caption: Lehrveranstaltungen
-  chapters: 
-   - file: lehre/datengestuetzte-forschung-analyse-methodik.md
 - caption: Bibliografie
   chapters:
     - file: bibliography
