@@ -232,3 +232,4 @@ _build/html/theorie/python.html
 _build/html/theorie/webentwicklung.html
 _build/html/theorie/xml.html
 _build/
+jupyterbook-env/
