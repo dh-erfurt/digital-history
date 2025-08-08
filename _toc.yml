@@ -51,6 +51,9 @@ parts:
 #    - file: praxis/werkzeuge
 #    - file: praxis/projekte
 #    - file: praxis/literatur
+- caption: projekte
+  chapters:
+    - file: scan-zu-html
 - caption: Bibliografie
   chapters:
     - file: bibliography
