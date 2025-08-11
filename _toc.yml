@@ -31,7 +31,7 @@ parts:
     sections:
       - file: praxis/computerlinguistische-grundlagen
       - file: praxis/nlp-methoden-in-der-digital-history
-  - file: praxis/geschichtswissenschaft-und-ki
+  - file: praxis/kuenstliche-intelligenz
     sections:
     #- file: praxis/ki-in-geschichte.md
     - file: praxis/ki-und-llms.md
@@ -51,9 +51,9 @@ parts:
 #    - file: praxis/werkzeuge
 #    - file: praxis/projekte
 #    - file: praxis/literatur
-- caption: projekte
+- caption: Projekte
   chapters:
-    - file: scan-zu-html
+    - file: projekte/scan-zu-html
 - caption: Bibliografie
   chapters:
     - file: bibliography
