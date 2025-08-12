@@ -12,12 +12,8 @@ Ein zentrales Anwendungsfeld von LLMs ist nicht nur das Verfassen, sondern auch 
 LLMs können auf vielfältige Art und Weise zu einem vertieften Textverständnis beitragen – angefangen von Zusammenfassungen und „Übersetzungen“ in leichte Sprache über Verfeinerung automatischer Transkription bis hin zur computergestützten Textanalyse. Methoden wie  *NER*, *Sentiment Analysis* eröffnen neue Herangehensweisen an die Analyse historischer Quellen. Auf ihrer Basis können Daten ausgewertet und visualisiert werden – u. a. können identifizierte Entitäten (Personen, Orte, ...) in Beziehungsnetzwerken dargestellt, chronologische Zusammenhänge können erschlossen und Entitäten mit Ortsbezug können auf Karten projiziert werden.
 
 
-## Quellen und weiterführende Links
+# Quellen und weiterführende Ressourcen
 Die Chancen und Herausforderungen von LLMs in der Geschichtswissenschaft schlüsselt auch [dieser](https://dhdhi.hypotheses.org/9197) Blogbeitrag auf. 
-
-Darüber hinaus gibt es viele hilfreiche Online-Ressourcen, z. B. 
-- [Überblick/Tutorial zu Named Entity Recognition mit Python](https://www.geeksforgeeks.org/named-entity-recognition/)
-- [Einführung/Tutorial zu Topic Modelling mit Python](https://python-textbook.pythonhumanities.com/04_topic_modeling/04_01_01_intro.html)
 
 ## Zitierte Literatur
 ```{bibliography}
