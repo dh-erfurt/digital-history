@@ -70,7 +70,7 @@ Der volle Umfang des TEI-Vokabulars ist [hier](https://tei-c.org/release/doc/tei
 :align: left
 :width: 800px
 
-Shakespeares Sonnett 130 als Beispiel für TEI-Codierung [Quelle Bild](https://books.openedition.org/oep/688#tocfrom1n2)
+Shakespeares Sonnett 130 als Beispiel für TEI-Codierung [[Quelle Bild](https://books.openedition.org/oep/688#tocfrom1n2)]
 ```
 <br/>
 
