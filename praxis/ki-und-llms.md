@@ -37,7 +37,7 @@ Grundprinzip Deep Learning: Input - Model - Output.
 ```
 <br/>
 
-{numref}`grundprinzip` veranschaulicht das Grundprinzip von Deep-Learning-Anwendungen. Ein *DL-Modell* bekommt einen Input, z.B. ein Bild eines Tiers, übergeben und trifft davon ausgehend eine Voraussage (*Prediction*), ob es sich bei diesem Tier um einen Vogel handelt – gibt also einen Output aus.
+{numref}`grundprinzip` veranschaulicht das Grundprinzip von Deep-Learning-Anwendungen. Ein *DL-Modell* bekommt einen Input, z. B. ein Bild eines Tiers, übergeben und trifft davon ausgehend eine Voraussage (*Prediction*), ob es sich bei diesem Tier um einen Vogel handelt – gibt also einen Output aus.
 
 ### Was ist ein Modell?
 

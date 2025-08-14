@@ -3,7 +3,7 @@ Im Rahmen des Seminars "Von der historischen Quelle zur digitalen Präsentation 
 
 
 ## Normalisierung
-In einem ersten Schritt überprüfen die Studierenden manuell die Transkription anhand der Scans und normalisieren im Anschluss den transkribierten Text, z.B. durch Ersetzen des Schaft-S. 
+In einem ersten Schritt überprüfen die Studierenden manuell die Transkription anhand der Scans und normalisieren im Anschluss den transkribierten Text, z. B. durch Ersetzen des Schaft-S. 
 
 ```python
 text = "hern Nyclaſen hopgarten Probſten des Stiffts cʒu ſant Auguſtin cʒu Erfforden"

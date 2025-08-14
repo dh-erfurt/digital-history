@@ -8,7 +8,7 @@ Dieses Kapitel wird sich einführend zentralen Konzepten im Bereich *Datenbanken
 
 ## Einführung
 
-*"Eine Datenbank hat die Aufgabe, große Datenmengen in einer strukturierten Form widerspruchsfrei zu speichern und vor Verlust und unbefugtem Zugriff zu schützen."* {cite}`buehler_webtechnologien_2018`
+*"Eine Datenbank hat die Aufgabe, große Datenmengen in einer strukturierten Form widerspruchsfrei zu speichern und vor Verlust und unbefugtem Zugriff zu schützen."* {cite}`buhler_webtechnologien_2018`
 
 
 **Relationale Datenbanken**, die Daten in Tabellen mit verschiedenen Beziehungen untereinander speichern, stehen hierbei anderen Datenbankkonzepten gegenüber (z. B. Graphdatenbanken). Relationale Datenbanken bestehen aus folgenden Elementen:
@@ -29,7 +29,7 @@ Veranschaulichung der Bestandteile einer relationalen Datenbank
 
 ## SQL als Datenbankabfragesprache
 
-**SQL (Structured Query Language)** ist eine Abfragesprache für programmunabhängigen Zugriff auf Datenbanken. Sie ermöglicht u.a. das
+**SQL (Structured Query Language)** ist eine Abfragesprache für programmunabhängigen Zugriff auf Datenbanken. Sie ermöglicht u. a. das
 - Erstellen von Datenbanken und Tabellen
 - Eingeben, Ändern und Löschen von Datensätzen
 - Abfragen (= Query) von Daten nach gewünschten Kriterien
@@ -49,7 +49,7 @@ Will man nun in der Praxis eine Datenbank umsetzen, geht man nach folenden Schri
     - Microsoft Access (bzw. LibreOffice Base)
     - MySQL / PostgreSQL
     - SQLite etc. 
-2. Entwickeln eines Datenmodells (z.B. mithilfe von ERM)
+2. Entwickeln eines Datenmodells (z. B. mithilfe von ERM)
 3. Anlegen der Tabellen
 4. Einpflegen der Daten
 5. Abfragen und Auswertungen

@@ -32,7 +32,7 @@ Aufgrund dieser Heterogenitäten ist Normalisierung bei historischen Texten beso
 Die Morphologie, ein Teilgebiet der Grammatik, beschäftigt sich mit der inneren Struktur von Wörtern. 
 
 ### Lemmatisierung
-Im Zuge der Lemmatisierung werden verschiedene Wortformen ihren Grundformen (*Lemma*) zugeordnet, wie in {numref}`lemmatization` ersichtlich. Dieser Schritt ist u.a. essentiell für Suchanfragen, Häufigkeitsauswertungen oder Themenmodellierung.
+Im Zuge der Lemmatisierung werden verschiedene Wortformen ihren Grundformen (*Lemma*) zugeordnet, wie in {numref}`lemmatization` ersichtlich. Dieser Schritt ist u. a. essentiell für Suchanfragen, Häufigkeitsauswertungen oder Themenmodellierung.
 
 ```{figure} ../img/lemmatization.drawio.png
 :alt: Beispiel Lemmatisierung
@@ -70,7 +70,7 @@ POS-Tagging am Beispiel des Satzes "The quick fox jumps over the lazy dog."
 Semantische Verfahren stehen syntaktischen, sich auf grammatische Eigenschaften beziehenden, rein formalen Verfahren gegenüber, indem sie sich mit der Bedeutung von Wörtern und ihren Beziehungen zueinander befassen. Sie sind daher zentral auch für quantitative Ansätze in der Geschichtswissenschaft, da sie einen tiefergehendes Verständnis der inhaltlichen Zusammenhänge von Texten ermöglichen. 
 
 ### Kookkurrenzen und Kollokationen
-*Kookkurrenz* bezeichnet das gemeinsame Auftreten zweier Wörter, je nach Untersuchungskontext entweder in direkter Nachbarschaft oder innerhalb eines Satzes. Eine *Kollokation* ist hierbei eine feste oder häufig wiederkehrende Wortverbindung (z.B. *Katze* und *miauen*). Durch die Analyse von Kookkurrenzen  lassen sich Schlüsselbegriffe und thematische Assoziationen herausarbeiten. 
+*Kookkurrenz* bezeichnet das gemeinsame Auftreten zweier Wörter, je nach Untersuchungskontext entweder in direkter Nachbarschaft oder innerhalb eines Satzes. Eine *Kollokation* ist hierbei eine feste oder häufig wiederkehrende Wortverbindung (z. B. *Katze* und *miauen*). Durch die Analyse von Kookkurrenzen  lassen sich Schlüsselbegriffe und thematische Assoziationen herausarbeiten. 
 
 
 
@@ -87,9 +87,9 @@ Visualisierung der Wortvektoren zu den Themenfeldern *Natur*, *Kunst* und *Mensc
 <br/>
 
 ## Korpora
-Korpora sind strukturierte Sammlungen von Texten, die als Grundlage für computerlinguistische Analysen dienen. Dabei sind neben der reinen Textmenge auch die Qualität und Art der Annotationen entscheidend: Morphologische, syntaktische oder semantische Annotationen bereichern die Korpora um linguistische Metainformationen, die auch historische Auswertungen unterstützen können. Die Bereitstellung der Daten in standardisierten Formaten (wie z.B. [XML](../theorie/xml.md) oder JSON), angereichert mit aussagekräftigen Metadaten, ist essentiell, um die Nachvollziehbarkeit und Wiederverwendbarkeit der Daten gemäß den FAIR-Prinzipien (s. [Forschungsdaten](forschungsdaten.md)) zu gewährleisten.
+Korpora sind strukturierte Sammlungen von Texten, die als Grundlage für computerlinguistische Analysen dienen. Dabei sind neben der reinen Textmenge auch die Qualität und Art der Annotationen entscheidend: Morphologische, syntaktische oder semantische Annotationen bereichern die Korpora um linguistische Metainformationen, die auch historische Auswertungen unterstützen können. Die Bereitstellung der Daten in standardisierten Formaten (wie z. B. [XML](../theorie/xml.md) oder JSON), angereichert mit aussagekräftigen Metadaten, ist essentiell, um die Nachvollziehbarkeit und Wiederverwendbarkeit der Daten gemäß den FAIR-Prinzipien (s. [Forschungsdaten](forschungsdaten.md)) zu gewährleisten.
 
-Digitale Ressourcen, die (historische) Korpora zur Verfügung stellen, sind u.a.: 
+Digitale Ressourcen, die (historische) Korpora zur Verfügung stellen, sind u. a.: 
 - [Deutsches Textarchiv](https://www.deutschestextarchiv.de/)
 - [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de/)
 - [Corpus of Historical American English](https://www.english-corpora.org/coha/)
