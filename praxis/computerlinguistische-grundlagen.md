@@ -55,7 +55,7 @@ POS-Tagging am Beispiel des Satzes "The quick brown fox jumps over the lazy dog.
 <br/>
 
 ## Syntax-Parsing
-Beim Syntax-Parsing wird die grammatische Struktur eines Satzes ermittelt und die Beziehungen zwischen den einzelnen Satzteilen und Wörtern analysiert, wie in {numref}`syntax-parsing` illustriert.
+Beim Syntax-Parsing wird die grammatische Struktur eines Satzes ermittelt und die Beziehungen zwischen den einzelnen Satzteilen und Wörtern werden analysiert, wie in {numref}`syntax-parsing` illustriert.
 ```{figure} ../img/syntax-parsing.png
 :alt: Beispiel Syntax-Parsing
 :name: syntax-parsing

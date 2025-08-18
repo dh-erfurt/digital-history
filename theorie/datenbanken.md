@@ -11,7 +11,7 @@ Dieses Kapitel wird sich einführend zentralen Konzepten im Bereich *Datenbanken
 *"Eine Datenbank hat die Aufgabe, große Datenmengen in einer strukturierten Form widerspruchsfrei zu speichern und vor Verlust und unbefugtem Zugriff zu schützen."* {cite}`buhler_webtechnologien_2018`
 
 
-**Relationale Datenbanken**, die Daten in Tabellen mit verschiedenen Beziehungen untereinander speichern, stehen hierbei anderen Datenbankkonzepten gegenüber (z. B. Graphdatenbanken). Relationale Datenbanken bestehen aus folgenden Elementen:
+**Relationale Datenbanken**, die Daten in Tabellen mit verschiedenen Beziehungen zwischeneinander speichern, stehen hierbei anderen Datenbankkonzepten gegenüber (z. B. Graphdatenbanken). Relationale Datenbanken sind jedoch seit Jahrzehnten Standard und bestehen aus folgenden Elementen:
 - **Tabelle**: strukturierte Darstellung großer Datenmengen, lassen sich sortieren, filtern und miteinander in Verbindung setzen
 - **Datensatz / Tupel**: zusammengehörende Daten (= Reihe in Tabelle), besteht aus mehreren **Datenfelder** und muss über einen **Schlüssel** eindeutig identifizierbar sein
 - **Attribute**: gleichartige Datenfelder (= Spalten)
@@ -23,7 +23,7 @@ Diese Grundbegriffe werden in {numref}`grundbegriffe-rel-db` veranschaulicht.
 :name: grundbegriffe-rel-db
 :align: left
 
-Veranschaulichung der Bestandteile einer relationalen Datenbank
+Veranschaulichung der Bestandteile einer relationalen Datenbank, nach {cite}`buhler_datenmanagement_2019`
 ```
 <br/>
 
@@ -80,7 +80,8 @@ Bereich                               | Beispielhafte Anwendung                 
 ---
 # Literatur und weiterführende Informationen
 - Andreas Heuer, Gunter Saake, Kai-Uwe Satler, Holger Meyer, Hannes Grunert. Datenbanken. Kompaktkurs. mitp 2020.
-- Wolfgang Gerken: Datenbanksysteme für dummies. Wiley Weinheim, 2018.
+- Wolfgang Gerken. Datenbanksysteme für dummies. Wiley Weinheim. 2018.
+- Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.
 - [SQL Tutorial](https://www.w3schools.com/sql/)
 
 ```{bibliography}

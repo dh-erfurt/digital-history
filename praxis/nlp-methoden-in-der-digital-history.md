@@ -2,7 +2,7 @@
 *Natural Language Processing (NLP)* befasst sich damit, wie Computer natürliche Sprache interpretieren, analysieren und generieren können. Für die Geschichtswissenschaft ermöglicht NLP neue Möglichkeiten der Erschließung großer Textmengen. Dabei reicht das Spektrum der Anwendungen von der Erkennung und Klassifizierung historischer Personen und Orte zur Analyse von Stimmungen, Schreibstilen oder sozialen Netzwerken.
 
 ## Optical Character Recognition (OCR)
-Um NLP-Methoden auf historische Texte anwenden zu können, müssen sie in maschinenlesbarer Form vorliegen. Da viele Quellen nur als Scans vorliegen, ist *Optical Character Recognition (OCR)* als Zwischenschritt notwendig. Dabei werden Zeichenfolgen und Texten automatisch aus gescannten Bildern extrahiert. Gerade historische Texte bringen hier besondere Herausforderungen mit sich: Alte Druckschriften wie Fraktur, verblasste Tinte, beschädigte Seiten und wenig normierte Sprache erschweren den Prozess. Spezialisierte OCR-Engines wie *Tesseract*, *eSriptorium*, *Kraken* und *Transkribus* bieten Modelle, die auf historischen Schriften optimiert wurden. Trotzdem ist häufig Finetuning dieser Modelle nötig und eine Post-OCR-Korrektur bleibt unverzichtbar. Mit dem Aufkommen von leistungsstarken LLMs (s. [Künstliche Intelligenz](kuenstliche-intelligenz.md)) ergeben sich hier neue Potentiale, den OCR-Prozess zu optimieren.
+Um NLP-Methoden auf historische Texte anwenden zu können, müssen sie in maschinenlesbarer Form vorliegen. Da viele Quellen nur als Scans zur Verfügung stehen, ist *Optical Character Recognition (OCR)* als Zwischenschritt notwendig. Dabei werden Zeichenfolgen und Texten automatisch aus gescannten Bildern extrahiert. Gerade historische Texte bringen hier besondere Herausforderungen mit sich: Alte Druckschriften wie Fraktur, verblasste Tinte, beschädigte Seiten und wenig normierte Sprache erschweren den Prozess. Spezialisierte OCR-Engines wie *Tesseract*, *eSriptorium*, *Kraken* und *Transkribus* bieten Modelle, die auf historischen Schriften optimiert wurden. Trotzdem ist häufig Finetuning dieser Modelle nötig und eine Post-OCR-Korrektur bleibt unverzichtbar. Mit dem Aufkommen von leistungsstarken LLMs (s. [Künstliche Intelligenz](kuenstliche-intelligenz.md)) ergeben sich hier neue Potentiale, den OCR-Prozess zu optimieren.
 
 
 ## Named Entity Recognition
@@ -74,7 +74,7 @@ Eine *Sentiment-* bzw. *Emotionsanalyse* des obigen Zeitungsartikels mittels *Ch
 
 ## Textklassifikation
 Textklassifikation umfasst eine Vielzahl von Methoden, die Texte nach Merkmalen wie Genre, Thema, Stil oder Autorenschaft systematisch einordnen und analysieren. So lassen sich große Textkorpora strukturieren, Muster erkennen und historische Zusammenhänge besser verstehen.
-Ein Beispiel dafür ist Stilometrie – die Analyse individueller Schreibstile anhand sprachlicher Merkmale (z. B. Wortwahl, Satzstruktur) – ist ein Anwendungsfeld von NLP. Ein Ziel kann hier beispielsweise sein, Autorenschaft zu erkennen oder mehrere Autoren in einem Text abzugrenzen.
+Ein Beispiel dafür ist Stilometrie – die Analyse individueller Schreibstile anhand sprachlicher Merkmale (z. B. Wortwahl, Satzstruktur). Ein Ziel kann hier beispielsweise sein, Autorenschaft zu erkennen oder mehrere Autoren in einem Text abzugrenzen.
 
 Für den kurzen Abschnitt aus obigem Beispiel trifft *ChatGPT* folgende Stilometrie-Analyse.
 

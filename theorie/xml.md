@@ -53,6 +53,8 @@ Ziele sind hierbei:
 - Langzeitarchivierung und Wiederverwendbarkeit
 - erleicherte Zusammenarbeit zwischen Projekten durch Standardisierung
 
+TEI ist so konzipiert, dass vielfältige geisteswissenschaftliche Textsorten adäquat modelliert werden können. Gerade für die Arbeit an [digitalen Editionen](../praxis/digitale-editionen.md) ist es zentral. Sichtbar gemacht werden mit TEI sowohl Struktur (Absätze, Gedichtzeilen, Marginalien...) als auch Semantik (z. B. durch [NER-Auszeichnung](../praxis/nlp-methoden-in-der-digital-history.md)).
+
 ### Grundlagen
 
 TEI bietet ein umfangreiches Schema mit über 500 Elementen, u. a. 
@@ -101,8 +103,10 @@ Dieses Sonnett kann folgendermaßen in TEI codiert werden:
 [Quelle Beispiel](https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html)
 
 ## XSLT
-*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zum Transformieren von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML). Sie wurde entwickelt im Zusammenhang mit dem World Wide Web Consortium und 1999 veröffentlicht. 
-Grundlegende Funktionsweise: 
+*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zum Transformieren von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML). Sie wurde im Zusammenhang mit dem World Wide Web Consortium entwickelt und 1999 veröffentlicht. 
+
+Grundlegende Funktionsweise:
+
 Definition eines XSLT-Stylesheets und eines Input-XMLs → XSLT Processor → Ausgabe eines HTML-Dokuments
 
 ### Einführungsbeispiel
@@ -209,14 +213,17 @@ z. B.
 ```xml
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:template match="/">
-      ... (wie zuvor)
+      <html>
+         <body>
+            <xsl:apply-templates/>
+         </body>
+      </html>
    </xsl:template>
    <xsl:template match="book">
       <h2><xsl:value-of select="title"/></h2>
       <p>Autor: <xsl:value-of select="author"/></p>
       <p>Erscheinungsjahr: <xsl:value-of select="year"/></p>
   </xsl:template>
-   
 </xsl:stylesheet>
 ```
 
@@ -225,27 +232,37 @@ Mit \<xsl:if\> wird eine Bedingung anhand des XML-Inhaltes überprüft.
 
 z. B.
 ```xml
-<xsl:if test="year &lt; 1900">
-    <p><span style="color: darkred;">Klassiker</span></p>
-</xsl:if>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:template match="/">
+        <html>
+            <body>
+                <xsl:apply-templates select="books/book">
+                <xsl:sort select="year" data-type="number" order="ascending"/>
+                </xsl:apply-templates>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
 ```
 
-IN XML-Code müssen spitze Klammern (<,>) *escapet* werden, wie z. B. hier in der Bedingung, dass Bücher mit Erscheinungsjahr vor 1900 als Klassiker ausgezeichnet werden.
+IN XML-Code müssen spitze Klammern (<, >) *escapet* werden, wie z. B. hier in der Bedingung, dass Bücher mit Erscheinungsjahr vor 1900 als Klassiker ausgezeichnet werden.
 
 #### \<xsl:sort\>-Element
 Mit \<xsl:sort\> kann man die Inhalte sortieren.
 
 z. B. 
 ```xml
-<xsl:template match="/">
-    <html>
-        <body>
-            <xsl:apply-templates select="books/book">
-               <xsl:sort select="year" data-type="number" order="ascending"/>
-            </xsl:apply-templates>
-        </body>
-    </html>
-</xsl:template>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:template match="/">
+        <html>
+            <body>
+                <xsl:apply-templates select="books/book">
+                <xsl:sort select="year" data-type="number" order="ascending"/>
+                </xsl:apply-templates>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
 ```
 
 Weitere Elemente und Möglichkeiten eines XSL-Stylesheets finden Sie u. a. hier:
@@ -256,3 +273,4 @@ Weitere Elemente und Möglichkeiten eines XSL-Stylesheets finden Sie u. a. hier:
 - TEI Dokumentation: https://tei-c.org/release/doc/tei-p5-doc/de/html/
 - Crashkurs TEI: https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html
 - Elsner, Frank: Einführung in XML. https://www.home.uni-osnabrueck.de/elsner/Skripte/xml.pdf
+- Thilo Rottach, Sascha Groß. XML kompakt: die wichtigsten Standards. Spektrum 2002. 

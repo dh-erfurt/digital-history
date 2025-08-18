@@ -11,7 +11,7 @@ Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der 
 Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis_digital_2017`. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.
 
 ## Einführung
-Datenmodellierung bezeichnet einen Prozess, bei dem eine visuelle Darstellung der Daten und ihrer Beziehungen erstellt wird. Das Ergebnis ist ein formales Modell, das ein oder mehrere Objekte repräsentiert (= **Datenmodell**). Das Datenmodell wiederum ist eine Blaupause dafür, wie Daten strukturiert, gespeichert und abgerufen werden, um Konsistenz und Klarheit im Datenmanagement zu gewährleisten. Durch die Datenmodellierung wird ihre Speicherung in beispielsweise einer Datenbank vorbereitet.
+Datenmodellierung bezeichnet einen Prozess, bei dem eine visuelle Darstellung der Daten und ihrer Beziehungen erstellt wird. Das Ergebnis ist ein formales Modell, das ein oder mehrere Objekte repräsentiert (= **Datenmodell**). Das Datenmodell wiederum ist eine Blaupause dafür, wie Daten strukturiert, gespeichert und abgerufen werden, um Konsistenz und Klarheit im Datenmanagement zu gewährleisten. Durch die Datenmodellierung wird ihre Speicherung, beispielsweise in einer Datenbank, vorbereitet.
 
 ## Entity-Relationship-Modell (ERM)
 Das *Entity-Relationship-Modell* ist eine Art des Datenmodells. Es stellt dar, wie Daten miteinander in Beziehung stehen, und besteht aus folgenden Elementen:
@@ -28,7 +28,7 @@ Simples ERM, das den Prozess der Briefkorrespondenz modelliert
 ```
 <br/>
 
-{numref}`simples-erm` zeigt ein simples ERM, in dem der Prozess des Verschicken und Empfangen von Briefkorrespondenz modelliert ist. Jede Entität hat genau einen **Primärschlüssel**, der sie eindeutig identifiziert (PersonID, BriefID).
+{numref}`simples-erm` zeigt ein simples ERM, in dem der Prozess des Verschickens und Empfangens von Briefkorrespondenz modelliert ist. Jede Entität hat genau einen **Primärschlüssel**, der sie eindeutig identifiziert (`PersonID`, `BriefID`).
 
 In einem komplexeren Szenario kann es auch **Fremdschlüssel** geben, welche auf den Primärschlüssel einer anderen Entität verweisen. **Kardinalitäten** beschreiben, wie viele Entitäten eines Typs an einer Beziehung beteiligt seinen können: *z. B.: Jeder Brief wird von 1 Person gesendet, eine Person kann n Briefe senden.*
 
@@ -51,7 +51,8 @@ ERMs bieten darüber hinaus auch weitere komplexere Möglichkeiten, Daten und In
 ---
 # Literatur und weiterführende Informationen
 - Andreas Heuer, Gunter Saake, Kai-Uwe Satler, Holger Meyer, Hannes Grunert. Datenbanken. Kompaktkurs. mitp 2020.
-- Wolfgang Gerken: Datenbanksysteme für dummies. Wiley Weinheim, 2018.
+- Wolfgang Gerken. Datenbanksysteme für dummies. Wiley Weinheim 2018.
+- Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.
 - [Erklärvideo zu ERM](https://studyflix.de/informatik/er-modell-7476?topic_id=16) 
 
 ## Zitierte Literatur
