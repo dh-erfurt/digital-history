@@ -1,5 +1,5 @@
 # Von der Quelle zur webbasierten Präsentation
-Im Rahmen des Seminars "Von der historischen Quelle zur digitalen Präsentation – datengestützte Forschung, Analyse und Methodik" werden im Wintersemester 2025/2026 von Studierenden digitale Repräsentationen diverser Briefe erarbeitet. 
+Im Rahmen des Seminars „Von der historischen Quelle zur digitalen Präsentation – datengestützte Forschung, Analyse und Methodik“ werden im Wintersemester 2025/2026 von Studierenden digitale Repräsentationen diverser Briefe erarbeitet. 
 
 Datengrundlage hierfür bilden Erfurt betreffende Briefe der Bände 6 bis 14 der [Nürnberger Briefbücher](http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/uebersicht.html), die als Scan und automatisiert transkribiert zur Verfügung stehen. Jede\*r Studierende übernimmt die Verantwortung für einen Brief. 
 
@@ -31,7 +31,7 @@ Sie orientieren sich bei der Normalisierung an den [Transkriptionsrichtlinien](h
 ## Named Entity Recognition
 
 Um das Konzept kennenzulernen, üben die Studierenden zunächst mit Wikipedia-Artikeln, für die aufgrund ihrer Verwendung von Standardsprache viele NER-Technologien gut funktionieren.
-Die Studierenden versuchen zunächst, [Named Entity Recognition](../praxis/nlp-methoden-in-der-digital-history.md) mithilfe von ChatGPT o. ä. durchzuführen. Darüber hinaus testen sie die NER-Funktionalität von `spaCy`.
+Die Studierenden versuchen zunächst, [Named Entity Recognition](../praxis/nlp-methoden-in-der-digital-history.md) mithilfe von ChatGPT o. Ä. durchzuführen. Darüber hinaus testen sie die NER-Funktionalität von `spaCy`.
 
 ```python
 import spacy
@@ -45,7 +45,7 @@ for ent in doc.ents:
     print(ent.text, ent.start_char, ent.end_char, ent.label_)
 ```
 
-Im Anschluss versuchen sie, NER für die historischen Briefe durchzuführen und reflektieren, was hierbei Hürden sein könnten. 
+Im Anschluss versuchen sie, NER für die historischen Briefe durchzuführen, und reflektieren mögliche Hürden sein könnten. 
 
 Es werden Möglichkeiten aufgezeigt, die Performance zu verbessern: 
 - weitere Normalisierung des Textes
@@ -74,4 +74,4 @@ Abschließend erstellen sie, aufbauend auf einem simplen XSL-Stylesheet für die
 
 ## Ergebnisse
 Nach Abschluss des Seminars werden hier die Ergebnisse veröffentlicht, die die Studierenden erarbeitet haben.
-<!-- hier link zu ergebnissen>##
+<!-- hier Link zu Ergebnissen>##
