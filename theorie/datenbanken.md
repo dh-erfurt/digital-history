@@ -4,7 +4,7 @@ Datenbanken sind strukturierte Sammlungen von Informationen, deren Organisation 
 
 Für geisteswissenschaftliche Forschung und speziell im Kontext der Digital Humanities sind Datenbanken zentral, da hier oft mit großen Mengen strukturierter Informationen gearbeitet wird (z. B. Texte, Metadaten, Netzwerke). Sie sind ein elementares Werkzeug, das Forschung unterstützt und weitere Zugänge schafft.
 
-Dieses Kapitel wird sich einführend zentralen Konzepten im Bereich *Datenbanken* widmen.
+Dieses Kapitel widmet sich einführend zentralen Konzepten im Bereich *Datenbanken*.
 
 ## Einführung
 

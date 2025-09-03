@@ -1,15 +1,15 @@
 # XML
  
-XML (Extensible Markup Language) ist ein standardisiertes Format für hierarchisch strukturierte Daten, welches sowohl von Menschen als auch von Maschinen lesbar ist und plattformunabhängig ist.
+XML (Extensible Markup Language) ist ein standardisiertes Format für hierarchisch strukturierte Daten. XML ist sowohl von Menschen als auch von Maschinen lesbar und es ist plattformunabhängig.
 
-In den Digital Humanities ist XML ein zentrales Werkzeug, da es erlaubt, geisteswissenschaftliche Daten (Texte, Metadaten, Editionsprojekte, ...) strukturiert und langfristig zugänglich aufzubereiten.
+In den Digital Humanities ist XML ein zentrales Format und auch Werkzeug, da es erlaubt, geisteswissenschaftliche Daten (Texte, Metadaten, Editionsprojekte, ...) strukturiert und langfristig zugänglich aufzubereiten.
 
-Dieses Kapitel führt in die grundlegenden Prinzipien von XML ein und widmet sich darauf aufbauend den Grundlagen von TEI (Text Encoding Initiative), XSLT  (eXtensible Stylesheet Language Transformations) und anderen XML-basierten Technologien. 
+Dieses Kapitel führt in die grundlegenden Prinzipien von XML ein und widmet sich darauf aufbauend den Grundlagen des auf XML basierenden Dokumentenformats zur Kodierung und zum Austausch von Texten **TEI (Text Encoding Initiative)**, der Programmiersprache zur Transformation von XML-Dokumenten **XSLT (eXtensible Stylesheet Language Transformations)** und anderen XML-basierten Technologien. 
 
 ## Einführung XML
 XML wurde 1998 vom *W3C (World Wide Web Consortium)* als Auszeichnungssprache und einheitliches, plattformunabhängiges und menschen- sowie maschinenlesbares Format für den Austausch strukturierter Daten entwickelt. XML ist eine Metasprache, d. h. eine Sprache, mit der man andere Sprachen definieren kann.
 
-Im Gegensatz zu HTML beschreibt XML die Bedeutung seiner Inhalte, nicht ihre Formatierung. 
+Im Gegensatz zu HTML, der Auszeichnungssprache für Webseiten, beschreibt XML die Bedeutung seiner Inhalte, nicht ihre Formatierung. 
 
 ### Beispiel
 ```xml
@@ -20,7 +20,7 @@ Im Gegensatz zu HTML beschreibt XML die Bedeutung seiner Inhalte, nicht ihre For
 </buch>
 ```
 
-XML verwendet eine hierarchische Struktur bzw. eine Baumform zur Strukturierung der Daten. Es ist möglich, eigene Tags (`buch`) zu definieren, XML legt lediglich die Syntax fest. Wichtig ist vor allem, dass jeder öffnende Tag einen schließenden Tag hat und die Verschachtelung korrekt ist, d. h. Tags nicht überlappen dürfen. 
+XML verwendet eine hierarchische Struktur bzw. eine Baumform zur Strukturierung der Daten. Es ist möglich, eigene *Tags* (`buch`) zu definieren, XML legt lediglich die Syntax fest. Wichtig ist vor allem, dass jeder öffnende Tag einen schließenden Tag hat und die Verschachtelung korrekt ist, d. h. Tags nicht überlappen dürfen. 
 
 ### Weitere zentrale XML-Konzepte
 Zentral für XML sind darüber hinaus:
@@ -31,7 +31,7 @@ Zentral für XML sind darüber hinaus:
 | Kommentare       | `<!-- Das ist ein Kommentar -->`         | Wie in HTML, werden vom Parser ignoriert |
 
 ### Wohlgeformtheit
-Ein XML-Dokument ist **wohlgeformt**, wenn sich korrekt an die Syntaxregeln von XML hält
+Ein XML-Dokument ist **wohlgeformt**, wenn es sich korrekt an die Syntaxregeln von XML hält
 - genau ein Wurzelelement
 - ein schließender Tag für jeden öffnenden Tag
 - keine Überlappung zwischen Elementen
@@ -51,7 +51,7 @@ Ziele sind hierbei:
 - Strukturierung, Durchsuchbarkeit und Interoperabilität von Texten
 - präzise Repräsentation komplexer textueller Strukturen (z. B. Varianten, Kommentare)
 - Langzeitarchivierung und Wiederverwendbarkeit
-- erleicherte Zusammenarbeit zwischen Projekten durch Standardisierung
+- erleichterte Zusammenarbeit zwischen Projekten durch Standardisierung
 
 TEI ist so konzipiert, dass vielfältige geisteswissenschaftliche Textsorten adäquat modelliert werden können. Gerade für die Arbeit an [digitalen Editionen](../praxis/digitale-editionen.md) ist es zentral. Sichtbar gemacht werden mit TEI sowohl Struktur (Absätze, Gedichtzeilen, Marginalien...) als auch Semantik (z. B. durch [NER-Auszeichnung](../praxis/nlp-methoden-in-der-digital-history.md)).
 
@@ -103,7 +103,7 @@ Dieses Sonnett kann folgendermaßen in TEI codiert werden:
 [Quelle Beispiel](https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html)
 
 ## XSLT
-*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zum Transformieren von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML). Sie wurde im Zusammenhang mit dem World Wide Web Consortium entwickelt und 1999 veröffentlicht. 
+*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zum Transformieren von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML für die Publikation im Web). Sie wurde im Kontext des World Wide Web Consortium entwickelt und 1999 veröffentlicht. 
 
 Grundlegende Funktionsweise:
 
@@ -141,7 +141,7 @@ Es gibt online XSLT-Prozessoren, mit denen man sein Stylesheet testen kann, z. B
     - `match="\\"` spricht das Root-Element des XML-Dokuments an, d. h. das ganze Dokument
 - `<xsl:apply-templates\>` wendet das Template auf das aktuelle Element an 
 
-Die Funktionsweise wird klarer anhand eines zweiten Beispiels:
+Die Funktionsweise wird anhand eines zweiten Beispiels klarer:
 
 ```xml
 <xsl:template match="title">
@@ -245,7 +245,7 @@ z. B.
 </xsl:stylesheet>
 ```
 
-IN XML-Code müssen spitze Klammern (<, >) *escapet* werden, wie z. B. hier in der Bedingung, dass Bücher mit Erscheinungsjahr vor 1900 als Klassiker ausgezeichnet werden.
+In XML-Code müssen spitze Klammern (<, >) *escapet* werden, wie z. B. hier in der Bedingung, dass Bücher mit Erscheinungsjahr vor 1900 als Klassiker ausgezeichnet werden.
 
 #### \<xsl:sort\>-Element
 Mit \<xsl:sort\> kann man die Inhalte sortieren.

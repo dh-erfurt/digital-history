@@ -1,6 +1,6 @@
 # Modellierung
  
-Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der Annotation eines Textes, beim Aufbau einer Datenbank zu historischen Personen oder bei der Visualisierung politischer Netzwerke -  am Anfang steht die Frage nach der *Datenmodellierung*. Welche Form und Struktur sollten die Daten haben?
+Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der Annotation eines Textes, beim Aufbau einer Datenbank zu historischen Personen oder bei der Visualisierung politischer Netzwerke – am Anfang steht die Frage nach der *Datenmodellierung*. Welche Form und Struktur sollten die Daten haben?
 
 *Datenmodelle* bezeichnen formale Modelle, die zur Repräsentation von Objekten dienen. Sie
 - ermöglichen komplexe maschinelle Operationen auf den Daten
@@ -30,7 +30,7 @@ Simples ERM, das den Prozess der Briefkorrespondenz modelliert
 
 {numref}`simples-erm` zeigt ein simples ERM, in dem der Prozess des Verschickens und Empfangens von Briefkorrespondenz modelliert ist. Jede Entität hat genau einen **Primärschlüssel**, der sie eindeutig identifiziert (`PersonID`, `BriefID`).
 
-In einem komplexeren Szenario kann es auch **Fremdschlüssel** geben, welche auf den Primärschlüssel einer anderen Entität verweisen. **Kardinalitäten** beschreiben, wie viele Entitäten eines Typs an einer Beziehung beteiligt seinen können: *z. B.: Jeder Brief wird von 1 Person gesendet, eine Person kann n Briefe senden.*
+In einem komplexeren Szenario kann es auch **Fremdschlüssel** geben, welche auf den Primärschlüssel einer anderen Entität verweisen. **Kardinalitäten** beschreiben, wie viele Entitäten eines Typs an einer Beziehung beteiligt sein können: *z. B.: Jeder Brief wird von einer Person gesendet, eine Person kann n Briefe senden.*
 
 Für ein Szenario, angelehnt an die [Nürnberger Briefbücher](http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/index.html), in dem Briefe von Personen und Städten versendet und empfangen werden können, sie aber von einem Stadtschreiber verfasst werden, reicht obiges ERM nicht mehr aus. 
 
@@ -51,7 +51,7 @@ ERMs bieten darüber hinaus auch weitere komplexere Möglichkeiten, Daten und In
 ---
 # Literatur und weiterführende Informationen
 - Andreas Heuer, Gunter Saake, Kai-Uwe Satler, Holger Meyer, Hannes Grunert. Datenbanken. Kompaktkurs. mitp 2020.
-- Wolfgang Gerken. Datenbanksysteme für dummies. Wiley Weinheim 2018.
+- Wolfgang Gerken. Datenbanksysteme für Dummies. Wiley Weinheim 2018.
 - Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.
 - [Erklärvideo zu ERM](https://studyflix.de/informatik/er-modell-7476?topic_id=16) 
 
@@ -60,3 +60,4 @@ ERMs bieten darüber hinaus auch weitere komplexere Möglichkeiten, Daten und In
 ```{bibliography}
 :filter: docname in docnames
 ```
+

@@ -161,7 +161,7 @@ Wie oben beschrieben sind LLMs *Large Language Models*, also sehr große neurona
 Das LLM generiert die Ausgabe Textbaustein für Textbaustein, d. h. für jedes Wort wird vorhergesagt, welches darauffolgende Wort am wahrscheinlichsten ist.
 
 
-# Fazit
+## Fazit
 
 ML ist abhängig von seiner Datenbasis und kann Biases seiner Trainingsdaten reproduzieren und verstärken.
 
@@ -170,7 +170,7 @@ ML-Modelle sind statistische Systeme → Die *wahrscheinlichste* Antwort wird zu
 ML basiert oft auf sehr großen Modellen und benötigt entsprechende Ressourcen (Rechenleistung, Energie, Datenmengen).
 
 
-# Quellen und weiterführende Links
+## Quellen und weiterführende Links
 
 Es gibt viele gute Online-Resourcen, die KI definieren und seine Funktionsweise anschaulich erläutern, z. B. kurze Artikel (z. B. [hier](https://youtu.be/LPZh9BOjkQs?si=3tipF644tRCWeLJc)), Erklärvideos (z. B. [hier](https://youtu.be/LPZh9BOjkQs?si=3tipF644tRCWeLJc)) oder Online-Kurse (z. B. [KI-Campus](https://ki-campus.org/courses/kifueralle-hhu)).
 

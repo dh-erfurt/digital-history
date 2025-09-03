@@ -2,13 +2,13 @@
 *Natural Language Processing (NLP)* befasst sich damit, wie Computer natürliche Sprache interpretieren, analysieren und generieren können. Für die Geschichtswissenschaft ermöglicht NLP neue Möglichkeiten der Erschließung großer Textmengen. Dabei reicht das Spektrum der Anwendungen von der Erkennung und Klassifizierung historischer Personen und Orte zur Analyse von Stimmungen, Schreibstilen oder sozialen Netzwerken.
 
 ## Optical Character Recognition (OCR)
-Um NLP-Methoden auf historische Texte anwenden zu können, müssen sie in maschinenlesbarer Form vorliegen. Da viele Quellen nur als Scans zur Verfügung stehen, ist *Optical Character Recognition (OCR)* als Zwischenschritt notwendig. Dabei werden Zeichenfolgen und Texten automatisch aus gescannten Bildern extrahiert. Gerade historische Texte bringen hier besondere Herausforderungen mit sich: Alte Druckschriften wie Fraktur, verblasste Tinte, beschädigte Seiten und wenig normierte Sprache erschweren den Prozess. Spezialisierte OCR-Engines wie *Tesseract*, *eSriptorium*, *Kraken* und *Transkribus* bieten Modelle, die auf historischen Schriften optimiert wurden. Trotzdem ist häufig Finetuning dieser Modelle nötig und eine Post-OCR-Korrektur bleibt unverzichtbar. Mit dem Aufkommen von leistungsstarken LLMs (s. [Künstliche Intelligenz](kuenstliche-intelligenz.md)) ergeben sich hier neue Potentiale, den OCR-Prozess zu optimieren.
+Um NLP-Methoden auf historische Texte anwenden zu können, müssen sie in maschinenlesbarer Form vorliegen. Da viele Quellen nur als Scans zur Verfügung stehen, ist *Optical Character Recognition (OCR)* als Zwischenschritt notwendig. Dabei werden Zeichenfolgen und Texte automatisch aus gescannten Bildern extrahiert. Gerade historische Texte bringen hier besondere Herausforderungen mit sich: Alte Druckschriften wie Fraktur, verblasste Tinte, beschädigte Seiten und wenig normierte Sprache erschweren den Prozess. Spezialisierte OCR-Engines wie *Tesseract*, *eSriptorium*, *Kraken* und *Transkribus* bieten Modelle, die auf historische Schriften optimiert wurden. Trotzdem ist häufig Finetuning dieser Modelle nötig und eine Post-OCR-Korrektur bleibt unverzichtbar. Mit dem Aufkommen von leistungsstarken LLMs (s. [Künstliche Intelligenz](kuenstliche-intelligenz.md)) ergeben sich hier neue Potenziale, den OCR-Prozess zu optimieren.
 
 
 ## Named Entity Recognition
-*Named Entity Recognition (NER)* bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z. B. Personen, Orte, Organisationen, Zeitangaben etc.) {cite:p}`li_survey_2022`. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und Institutionen dabei eine Rolle spielen. *NER* ist also eine wichtige Basis für weitergehende Analysen, z. B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.
+*Named Entity Recognition (NER)* bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z. B. Personen, Orte, Organisationen, Zeitangaben etc.) {cite:p}`li_survey_2022`. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich, zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und Institutionen dabei eine Rolle spielen. *NER* ist also eine wichtige Basis für weitergehende Analysen, z. B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.
 
-Gängige Bibliotheken wie *spaCy*, *NLTK* oder *Stanford NER* bieten derartige Funktionalität einsatzfertig an und lassen sich darüber hinaus für spezifische Korpora trainieren, was bei historischen Texten aufgrund abweichender Orthografie, Ausdrucksweise und Zeichensetzung häufig nötig ist. 
+Gängige Python-Bibliotheken wie *spaCy*, *NLTK* oder *Stanford NER* bieten derartige Funktionalität einsatzfertig an und lassen sich darüber hinaus für spezifische Korpora trainieren, was bei historischen Texten aufgrund abweichender Orthografie, Ausdrucksweise und Zeichensetzung häufig nötig ist. 
 Auch LLMs, deren Hauptaufgabe es ist, Sprache zu verstehen, haben sich als sehr hilfreich für *NER* erwiesen.
 
 ```{figure} ../img/ner.png
@@ -54,7 +54,7 @@ Identifizierte Themen (Topics):
     - Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“
     - Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.
 
-[Hier](https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/) werden beispielsweise 1.8 Millionen Artikel der *New York Times* auf ihre Themen hin untersucht und die Potenziale, die *Topic Modelling* bietet, beleuchtet.
+[Hier](https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/) werden beispielsweise 1,8 Millionen Artikel der *New York Times* auf ihre Themen hin untersucht und die Potenziale, die *Topic Modelling* bietet, beleuchtet.
 
 
 ## Sentiment Analysis / Emotion Analysis
@@ -89,7 +89,7 @@ Für den kurzen Abschnitt aus obigem Beispiel trifft *ChatGPT* folgende Stilomet
 Auch bei der Stilometrie ist die Methode besonders sinnvoll im Kontext von großen Textsammlungen – hier lassen sich die Ähnlichkeiten zwischen verschiedenen Texten messen und Stile quantisieren.
 
 
-# Quellen und weiterführende Ressourcen
+## Quellen und weiterführende Ressourcen
 Es gibt viele hilfreiche Online-Ressourcen zum Thema NLP, z. B. 
 - [Überblick/Tutorial zu Named Entity Recognition mit Python](https://www.geeksforgeeks.org/named-entity-recognition/)
 - [Einführung/Tutorial zu Topic Modelling mit Python](https://python-textbook.pythonhumanities.com/04_topic_modeling/04_01_01_intro.html)
