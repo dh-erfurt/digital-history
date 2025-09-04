@@ -1,4 +1,5 @@
-# Über diese Open Educational Resource (OER)
+# Grundlagen, Methoden und Anwendungen der Digital History
+## Über diese Open Educational Resource (OER)
 
 Diese Ressource wurde für die Lehrveranstaltungen der Professur für Digital Humanities – Hybride Bildungs- und Kommunikationsräume in Erfurt als Open Educational Resource (OER) erstellt.
 Es geht hier um einen Überblick über Theorien, Methoden und Anwendungen der Digital Humanities, insbesondere der Digital History.
