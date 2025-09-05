@@ -14,8 +14,7 @@ Zu Beginn des Praxisteils wird den Studierenden der Scan eines Briefes bereitges
 
 
 ## Normalisierung
-Den Studierenden wird eine automatisiert erstellte Transkription ihres Briefes zur Verfügung gestellt. 
-<!-- hier noch INfos dazu, wie die erstellt wurde -->
+Den Studierenden wird eine automatisiert erstellte Transkription ihres Briefes zur Verfügung gestellt (s. {cite:t}`mayr_data-efficient_2025`).
 Sie überprüfen manuell die Transkription anhand der Scans und normalisieren im Anschluss den transkribierten Text, z. B. durch Ersetzen des Schaft-S. 
 
 ```python

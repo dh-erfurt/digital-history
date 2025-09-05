@@ -23,18 +23,20 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 - erweiterte Kontextualisierungsmöglichkeiten (durch ergänzende Informationen)
 - (nachträgliche) Erweiterbarkeit und Aktualisierbarkeit der Edition
 
-Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
-- Zugänglichkeit
-- Durchsuchbarkeit 
-- Benutzerfreundlichkeit
-- Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)
+Digitale Editionen folgen einem *digitalen Paradigma*, da diese Eigenschaften und Möglichkeiten ihre Beschaffenheit bedingen – in ähnlicher Weise, wie gedruckte Editionen durch die technischen Rahmenbedingungen und kulturellen Praktiken des Buchdrucks geprägt sind {cite:p}`sahle_what_2016`.
 
-Digitale Editionen sind insbesondere **keine**
+Somit sind sie insbesondere **keine**
 - digitialisierten Printeditionen
 - digitalen Faksimiles ohne editorischen Apparat
 - Datenpublikationen, 
   
 sondern eine eigene Form innerhalb der wissenschaftlichen Editionspraxis im digitalen Raum.
+
+Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
+- Zugänglichkeit
+- Durchsuchbarkeit 
+- Benutzerfreundlichkeit
+- Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)
 
 # Akteur*innen
 

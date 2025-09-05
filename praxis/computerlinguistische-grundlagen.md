@@ -82,7 +82,7 @@ Wortvektoren und Embeddings gehören zur semantischen Modellierung. Sie ordnen j
 :name: word2vec
 :align: left
 
-Visualisierung der Wortvektoren zu den Themenfeldern *Natur*, *Kunst* und *Mensch* innerhalb eines Romankorpus, Graphik aus {cite}`schumacher_word2vec_2023`
+Visualisierung der Wortvektoren zu den Themenfeldern *Natur*, *Kunst* und *Mensch* innerhalb eines Romankorpus, Graphik erstellt von Mareike Schumacher {cite}`schumacher_word2vec_2023`, Lizenz CC BY-SA 3.0.
 ```
 <br/>
 
@@ -94,7 +94,11 @@ Digitale Ressourcen, die (historische) Korpora zur Verfügung stellen, sind u. a
 - [Digitales Wörterbuch der deutschen Sprache](https://www.dwds.de/)
 - [Corpus of Historical American English](https://www.english-corpora.org/coha/)
 
-## Zitierte Literatur
+## Literatur und weiterführende Informationen
+- Melanie Andresen. Computerlinguistische Methoden für die Digital Humanities: eine Einführung für Geisteswissenschaftler:innen. Narr Francke Attempto 2024.
+- Word Embeddings in NLP: https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/
+
+### Zitierte Literatur
 ```{bibliography}
 :filter: docname in docnames
 ```

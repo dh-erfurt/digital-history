@@ -8,13 +8,13 @@ Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der 
 - sichern eine höhere Qualität der Daten, indem sie Bedingungen formulieren, denen Daten bei der Eingabe entsprechen müssen
 - ermöglichen den Austausch oder das Zusammenführen von Daten (→ Nachhaltigkeit)
 
-Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis_digital_2017`. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.
+Diese Definition und eine tiefergehende Einführung finden sich bei {cite:p}`jannidis_digital_2017`. Dieses Kapitel erläutert grundlegende Begriffe und Konzepte.
 
 ## Einführung
 Datenmodellierung bezeichnet einen Prozess, bei dem eine visuelle Darstellung der Daten und ihrer Beziehungen erstellt wird. Das Ergebnis ist ein formales Modell, das ein oder mehrere Objekte repräsentiert (= **Datenmodell**). Das Datenmodell wiederum ist eine Blaupause dafür, wie Daten strukturiert, gespeichert und abgerufen werden, um Konsistenz und Klarheit im Datenmanagement zu gewährleisten. Durch die Datenmodellierung wird ihre Speicherung, beispielsweise in einer Datenbank, vorbereitet.
 
 ## Entity-Relationship-Modell (ERM)
-Das *Entity-Relationship-Modell* ist eine Art des Datenmodells. Es stellt dar, wie Daten miteinander in Beziehung stehen, und besteht aus folgenden Elementen:
+Das *Entity-Relationship-Modell* ist eine Art des Datenmodells, das von Peter Chen entwickelt wurde {p:cite}`chen_entity-relationship_1976`. Es stellt dar, wie Daten miteinander in Beziehung stehen, und besteht aus folgenden Elementen:
 - *Entity (Entität)*: beschreibt Objekt der realen Welt (z. B. "Person", "Brief"), nicht einzelne Instanzen (z. B. "Max Müller", "Brief vom 4. Mai")
 - *Attribut*: beschreibt Entität näher
 - *Relation (Beziehung)*: beschreibt, wie Entitäten zueinander in Verbindung stehen
@@ -54,6 +54,9 @@ ERMs bieten darüber hinaus auch weitere komplexere Möglichkeiten, Daten und In
 - Wolfgang Gerken. Datenbanksysteme für Dummies. Wiley Weinheim 2018.
 - Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.
 - [Erklärvideo zu ERM](https://studyflix.de/informatik/er-modell-7476?topic_id=16) 
+- Ciula A, Eide Ø, Marras C, Sahle P. Modelling between digital and humanities: thinking in practice. Open Book Publishers 2023. https://www.openbookpublishers.com/books/10.11647/OBP.0369
+- Ciula A, Eide Ø, Marras C, Sahle P. Models and modelling between digital and humanities. remarks from a multidisciplinary perspective. Historical Social Research/Historische Sozialforschung. 2018 Jan 1;43(4):343-61. https://www.gesis.org/hsr/volltext-archiv/2018/suppl-31-models-and-modelling-between-digital-humanities 
+
 
 ## Zitierte Literatur
 

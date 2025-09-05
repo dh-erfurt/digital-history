@@ -20,7 +20,9 @@ Im Gegensatz zu HTML, der Auszeichnungssprache für Webseiten, beschreibt XML di
 </buch>
 ```
 
-XML verwendet eine hierarchische Struktur bzw. eine Baumform zur Strukturierung der Daten. Es ist möglich, eigene *Tags* (`buch`) zu definieren, XML legt lediglich die Syntax fest. Wichtig ist vor allem, dass jeder öffnende Tag einen schließenden Tag hat und die Verschachtelung korrekt ist, d. h. Tags nicht überlappen dürfen. 
+XML verwendet eine hierarchische Struktur bzw. eine Baumform zur Strukturierung der Daten. Es ist möglich, eigene *Tags* (z. B. `buch`, `autor`) zu definieren, XML legt lediglich die Syntax fest. Wichtig ist vor allem, dass jeder öffnende Tag einen schließenden Tag hat und die Verschachtelung korrekt ist, d. h. Tags nicht überlappen dürfen. 
+
+Zwar ist die Benennung der Tags grundsätzlich frei, sie sollte aber aussagekräftig, konsistent und fachlich sinnvoll sein. So ist <titel> besser verständlich als ein unspezifisches <t1>. Oft orientiert man sich an den Inhalten oder am Anwendungsgebiet (z. B. <gedicht>, <vers> in einer Edition von Gedichten). Einheitliche Benennungen erleichtern sowohl das Lesen durch Menschen als auch die Verarbeitung durch Maschinen.
 
 ### Weitere zentrale XML-Konzepte
 Zentral für XML sind darüber hinaus:
@@ -31,12 +33,9 @@ Zentral für XML sind darüber hinaus:
 | Kommentare       | `<!-- Das ist ein Kommentar -->`         | Wie in HTML, werden vom Parser ignoriert |
 
 ### Wohlgeformtheit
-Ein XML-Dokument ist **wohlgeformt**, wenn es sich korrekt an die Syntaxregeln von XML hält
-- genau ein Wurzelelement
-- ein schließender Tag für jeden öffnenden Tag
-- keine Überlappung zwischen Elementen
-- Attribute in Anführungszeichen 
-- ... 
+Ein XML-Dokument ist **wohlgeformt**, wenn es sich korrekt an die Syntaxregeln von XML hält. Dazu gehört, dass das Dokument genau ein Wurzelelement hat, dass jeder öffnende Tag einen entsprechenden schließenden Tag hat und dass Elemente korrekt ineinander verschachtelt sind. 
+
+Die offizielle Definition von XML-Wohlgeformtheit findet sich [hier](https://www.w3.org/TR/xml/#dt-wellformed).
 
 ### Vokabulare 
 Ein Vokabular ist eine Sammlung von Elementnamen und Attributen. Es legt fest, welche Tags (und Attribute) erlaubt sind, was sie bedeuten und wie sie verschachtelt werden dürfen. 
@@ -102,8 +101,13 @@ Dieses Sonnett kann folgendermaßen in TEI codiert werden:
 ```
 [Quelle Beispiel](https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html)
 
+### Weitere Beispiele
+- [Editionsrichtlinien "Der Sturm" (digitale Quellenedition zur Geschichte der internationalen Avantgarde)](https://sturm-edition.de/edition.html)
+- [TEI-XML-Datenset der Tagebücher, Briefe, Dokumente, Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt digital](https://zenodo.org/records/16541945)
+- [Nuremberg Letterbooks: A Multi-Transcriptional Dataset of Early 15th Century Manuscripts for Document Analysis](https://zenodo.org/records/13881575)
+
 ## XSLT
-*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zum Transformieren von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML für die Publikation im Web). Sie wurde im Kontext des World Wide Web Consortium entwickelt und 1999 veröffentlicht. 
+*XSLT (Extensible Stylesheet Language Transformations)* ist eine Programmiersprache zur Transformation von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML für die Publikation im Web). Sie wurde im Kontext des World Wide Web Consortium entwickelt und 1999 veröffentlicht. 
 
 Grundlegende Funktionsweise:
 
@@ -265,7 +269,7 @@ z. B.
 </xsl:stylesheet>
 ```
 
-Weitere Elemente und Möglichkeiten eines XSL-Stylesheets finden Sie u. a. hier:
+Weitere Elemente und Möglichkeiten eines XSL-Stylesheets finden sich u. a. hier:
 - https://www.w3schools.com/xml/xsl_intro.asp
 - https://en.wikipedia.org/wiki/XSLT_elements
 
