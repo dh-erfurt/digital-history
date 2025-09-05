@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -477,8 +485,8 @@ document.write(`
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="begriffsklarung">
 <h1>Begriffsklärung<a class="headerlink" href="#begriffsklarung" title="Link to this heading">#</a></h1>
-<p>Digitale Editionen werden oft auch als <em>Scholarly Digital Editions</em> oder <em>Digital Scholarly Editions</em> bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um <em>wissenschaftliche</em> digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, sodass in Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht <span id="id1">[<a class="reference internal" href="#id21" title="Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. Bibliothek Forschung und Praxis, 43(3):432–440, December 2019. URL: https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html (visited on 2025-05-26), doi:10.1515/bfp-2019-2068.">Fri19</a>]</span>.</p>
-<p>Patrick Sahle definiert den Begriff wie folgt: „A scholarly edition is the critical representation of historic documents“ <span id="id2">[<a class="reference internal" href="#id17" title="Patrick Sahle. What is a Scholarly Digital Edition? In Matthew James Driscoll and Elena Pierazzo, editors, Digital Scholarly Editing : Theories and Practices, Digital Humanities Series, pages 19–39. Open Book Publishers, Cambridge, 2016. URL: https://books.openedition.org/obp/3397 (visited on 2025-05-23).">Sah16</a>]</span>. Zum Verständnis dieser Definition ist es nötig, ihre zentralen Konzepte zu klären:</p>
+<p>Digitale Editionen werden oft auch als <em>Scholarly Digital Editions</em> oder <em>Digital Scholarly Editions</em> bezeichnet, was bereits ihren Anspruch deutlich macht: Es handelt sich um <em>wissenschaftliche</em> digitale Editionen von Kulturgütern. Die Verlagerung der kritischen Edition ins Digitale bewirkte eine reiche Definitions- und Methodendiskussion, sodass in Bezug auf eine einheitliche, allgemeingültige Definition Uneinigkeit herrscht <span id="id1">[<a class="reference internal" href="#id26" title="Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. Bibliothek Forschung und Praxis, 43(3):432–440, December 2019. URL: https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html (visited on 2025-05-26), doi:10.1515/bfp-2019-2068.">Fri19</a>]</span>.</p>
+<p>Patrick Sahle definiert den Begriff wie folgt: „A scholarly edition is the critical representation of historic documents“ <span id="id2">[<a class="reference internal" href="#id22" title="Patrick Sahle. What is a Scholarly Digital Edition? In Matthew James Driscoll and Elena Pierazzo, editors, Digital Scholarly Editing : Theories and Practices, Digital Humanities Series, pages 19–39. Open Book Publishers, Cambridge, 2016. URL: https://books.openedition.org/obp/3397 (visited on 2025-05-23).">Sah16</a>]</span>. Zum Verständnis dieser Definition ist es nötig, ihre zentralen Konzepte zu klären:</p>
 <ul class="simple">
 <li><p><em>Repräsentation</em>: Übertragung/Umcodierung eines Dokuments in ein anderes (oder das gleiche) Medium, z. B. Faksimile, Transkription</p></li>
 <li><p><em>kritisch</em>: wissenschaftliche Auseinandersetzung mit dem Material (u. a. textuelle, bibliographische, materielle, visuelle Kritik), die reflektiert und regelgeleitet erfolgen soll (z. B. Festlegen von Transkriptionsrichtlinien, Annotation von Entitäten, Bewerten von Varianten)</p></li>
@@ -496,20 +504,21 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 <li><p>erweiterte Kontextualisierungsmöglichkeiten (durch ergänzende Informationen)</p></li>
 <li><p>(nachträgliche) Erweiterbarkeit und Aktualisierbarkeit der Edition</p></li>
 </ul>
-<p>Bei ihrer Umsetzung gibt es einige Leitziele <span id="id3">[<a class="reference internal" href="#id21" title="Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. Bibliothek Forschung und Praxis, 43(3):432–440, December 2019. URL: https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html (visited on 2025-05-26), doi:10.1515/bfp-2019-2068.">Fri19</a>]</span>:</p>
-<ul class="simple">
-<li><p>Zugänglichkeit</p></li>
-<li><p>Durchsuchbarkeit</p></li>
-<li><p>Benutzerfreundlichkeit</p></li>
-<li><p>Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)</p></li>
-</ul>
-<p>Digitale Editionen sind insbesondere <strong>keine</strong></p>
+<p>Digitale Editionen folgen einem <em>digitalen Paradigma</em>, da diese Eigenschaften und Möglichkeiten ihre Beschaffenheit bedingen – in ähnlicher Weise, wie gedruckte Editionen durch die technischen Rahmenbedingungen und kulturellen Praktiken des Buchdrucks geprägt sind <span id="id3">[<a class="reference internal" href="#id22" title="Patrick Sahle. What is a Scholarly Digital Edition? In Matthew James Driscoll and Elena Pierazzo, editors, Digital Scholarly Editing : Theories and Practices, Digital Humanities Series, pages 19–39. Open Book Publishers, Cambridge, 2016. URL: https://books.openedition.org/obp/3397 (visited on 2025-05-23).">Sah16</a>]</span>.</p>
+<p>Somit sind sie insbesondere <strong>keine</strong></p>
 <ul class="simple">
 <li><p>digitialisierten Printeditionen</p></li>
 <li><p>digitalen Faksimiles ohne editorischen Apparat</p></li>
 <li><p>Datenpublikationen,</p></li>
 </ul>
 <p>sondern eine eigene Form innerhalb der wissenschaftlichen Editionspraxis im digitalen Raum.</p>
+<p>Bei ihrer Umsetzung gibt es einige Leitziele <span id="id4">[<a class="reference internal" href="#id26" title="Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. Bibliothek Forschung und Praxis, 43(3):432–440, December 2019. URL: https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html (visited on 2025-05-26), doi:10.1515/bfp-2019-2068.">Fri19</a>]</span>:</p>
+<ul class="simple">
+<li><p>Zugänglichkeit</p></li>
+<li><p>Durchsuchbarkeit</p></li>
+<li><p>Benutzerfreundlichkeit</p></li>
+<li><p>Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)</p></li>
+</ul>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="akteur-innen">
 <h1>Akteur*innen<a class="headerlink" href="#akteur-innen" title="Link to this heading">#</a></h1>
@@ -519,12 +528,12 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 <h1>Editionsformen und Typen<a class="headerlink" href="#editionsformen-und-typen" title="Link to this heading">#</a></h1>
 <section id="editionsformen">
 <h2>Editionsformen<a class="headerlink" href="#editionsformen" title="Link to this heading">#</a></h2>
-<p>Wie eingangs erläutert, stehen digitale Editionen den traditionellen gedruckten Editionen gegenüber. Von einer <em>Hybridedition</em> spricht man, wenn eine Edition sowohl in digitalen als auch in analogen Medien publiziert wird <span id="id4">[<a class="reference internal" href="#id16" title="Patrick Sahle. Digitale Editionen. In Fotis Jannidis, Hubertus Kohle, and Malte Rehbein, editors, Digital Humanities. Eine Einführung. J.B. Metzler Stuttgart, 2017. URL: https://doi.org/10.1007/978-3-476-05446-3, doi:10.1007/978-3-476-05446-3.">Sah17</a>]</span>.</p>
+<p>Wie eingangs erläutert, stehen digitale Editionen den traditionellen gedruckten Editionen gegenüber. Von einer <em>Hybridedition</em> spricht man, wenn eine Edition sowohl in digitalen als auch in analogen Medien publiziert wird <span id="id5">[<a class="reference internal" href="#id21" title="Patrick Sahle. Digitale Editionen. In Fotis Jannidis, Hubertus Kohle, and Malte Rehbein, editors, Digital Humanities. Eine Einführung. J.B. Metzler Stuttgart, 2017. URL: https://doi.org/10.1007/978-3-476-05446-3, doi:10.1007/978-3-476-05446-3.">Sah17</a>]</span>.</p>
 </section>
 <section id="transkriptionstypen">
 <h2>Transkriptionstypen<a class="headerlink" href="#transkriptionstypen" title="Link to this heading">#</a></h2>
-<p><em>Transkription</em> bezeichnet in der Editionswissenschaft die „Übertragung eines historischen Quellentexts in ein modernes Medium, heutzutage i. d. R. maschinenlesbarer Text“ <span id="id5">[<a class="reference internal" href="#id19" title="Helmut W. Klug. Transkription. In KONDE Weißbuch. 2021. URL: https://www.digitale-edition.at/o:konde.197 (visited on 2025-05-26).">Klu21</a>]</span>. Es gibt mehrere Transkriptionsansätze, die für digitale Editionen sinnvoll sein können.</p>
-<p>Das Ziel einer <em>diplomatischen</em> Transkription ist es, die „historische Quelle so layout- und zeichengetreu wie möglich abzubilden“, wobei folgende Aspekte von Relevanz sind <span id="id6">[<a class="reference internal" href="#id20" title="Elisa Cugliana and Tessa Gengnagel. Diplomatische Transkription. In KONDE Weißbuch. 2024. URL: https://www.digitale-edition.at/o:konde.65 (visited on 2025-05-26).">CG24</a>]</span>:</p>
+<p><em>Transkription</em> bezeichnet in der Editionswissenschaft die „Übertragung eines historischen Quellentexts in ein modernes Medium, heutzutage i. d. R. maschinenlesbarer Text“ <span id="id6">[<a class="reference internal" href="#id24" title="Helmut W. Klug. Transkription. In KONDE Weißbuch. 2021. URL: https://www.digitale-edition.at/o:konde.197 (visited on 2025-05-26).">Klu21</a>]</span>. Es gibt mehrere Transkriptionsansätze, die für digitale Editionen sinnvoll sein können.</p>
+<p>Das Ziel einer <em>diplomatischen</em> Transkription ist es, die „historische Quelle so layout- und zeichengetreu wie möglich abzubilden“, wobei folgende Aspekte von Relevanz sind <span id="id7">[<a class="reference internal" href="#id25" title="Elisa Cugliana and Tessa Gengnagel. Diplomatische Transkription. In KONDE Weißbuch. 2024. URL: https://www.digitale-edition.at/o:konde.65 (visited on 2025-05-26).">CG24</a>]</span>:</p>
 <ul class="simple">
 <li><p>Dokumenteigenschaften: Abmessungen, Tinte, Schäden, Änderungen an der Integrität des physischen Objekts.</p></li>
 <li><p>Topologie: Struktur und Layout des Dokuments, Kollokation von Schriften und anderen Merkmalen auf der Schreibfläche.</p></li>
@@ -543,18 +552,10 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 <li><p>Textdekoration und andere grafische Komponenten: Miniaturen, Zeichnungen, Kritzeleien.</p></li>
 </ul>
 <p>Diese Art der Transkription ist vor allem für sprachhistorische Forschung von Relevanz.</p>
-<p>Der diplomatischen Transkription steht die <em>normalisierte</em> Transkription gegenüber: Hier werden historische oder individuelle Schreibweisen an eine standardisierte Norm angepasst. Das kann unter anderem Klein- und Großschreibung, Interpunktion, Konsonantenverdoppelung oder Getrennt- und Zusammenbeschreibung betreffen <span id="id7">[<a class="reference internal" href="#id18" title="Selina Galka. Normalisierung. In KONDE Weißbuch. 2021. URL: https://www.digitale-edition.at/o:konde.146 (visited on 2025-05-26).">Gal21</a>]</span>. Dieses Vorgehen verbessert u. a. die Verständlichkeit und die computergestützte Auswertbarkeit des Textes.</p>
-<p>Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvarianten zur Verfügung zu stellen, welche das Editionsprojekt interdisziplinär nutzbar machen. Geschehen ist das z. B. bei der Edition der <a class="reference external" href="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/index.html">Nürnberger Briefbücher</a>, wie in <a class="reference internal" href="#nbb"><span class="std std-numref">Fig. 1</span></a> dargestellt.</p>
+<p>Der diplomatischen Transkription steht die <em>normalisierte</em> Transkription gegenüber: Hier werden historische oder individuelle Schreibweisen an eine standardisierte Norm angepasst. Das kann unter anderem Klein- und Großschreibung, Interpunktion, Konsonantenverdoppelung oder Getrennt- und Zusammenbeschreibung betreffen <span id="id8">[<a class="reference internal" href="#id23" title="Selina Galka. Normalisierung. In KONDE Weißbuch. 2021. URL: https://www.digitale-edition.at/o:konde.146 (visited on 2025-05-26).">Gal21</a>]</span>. Dieses Vorgehen verbessert u. a. die Verständlichkeit und die computergestützte Auswertbarkeit des Textes.</p>
+<p>Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvarianten zur Verfügung zu stellen, welche das Editionsprojekt interdisziplinär nutzbar machen.</p>
+<p>In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, in den <em>Transkriptionsrichtlinien</em> genau dokumentiert werden.</p>
 <!-- evtl. Beispiel für normalisiert vs diplomatisch? -->
-<figure class="align-left" id="nbb">
-<a class="reference internal image-reference" href="../_images/briefbuecher-ansicht.png"><img alt="Ansicht der Edition der Nürnberger Briefbücher: diplomatisch - Facsimile - normalisiert" src="../_images/briefbuecher-ansicht.png" style="width: 800px;" />
-</a>
-<figcaption>
-<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Die Edition der Nürnberger Briefbücher kombiniert drei Ansichten: diplomatische Transkription, Facsimile und normalisierte Transkription.</span><a class="headerlink" href="#nbb" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<br/>
-<p>In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, in den <em>Transkriptionsrichtlinien</em> genau dokumentiert werden. <a class="reference external" href="https://www.archivschule.de/DE/ausbildung/transkriptionsrichtlinie/">Hier</a> findet sich ein Beispiel für die Transkriptionsrichtlinien der Archivschule Marburg.</p>
 </section>
 <section id="textsorten">
 <h2>Textsorten<a class="headerlink" href="#textsorten" title="Link to this heading">#</a></h2>
@@ -569,17 +570,17 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="nutzung">
 <h1>Nutzung<a class="headerlink" href="#nutzung" title="Link to this heading">#</a></h1>
-<p>Digitale Editionen eröffnen vielfältige Forschungszugänge: Historiker*innen können, neben der hermeneutischen Auseinandersetzung mit dem Material, historische Kontexte durch Zeitachsen, Georeferenzierung oder Netzwerkanalysen erschließen.  Sprachwissenschaftler*innen nutzen digitale Editionen als Korpora (s. <a class="reference internal" href="natural-language-processing.html"><span class="std std-doc"><strong>NLP</strong></span></a>) und können so etwa Varianten, Wortgebrauch oder stilistische Merkmale systematisch auswerten. Auch andere Disziplinen, wie die Literatur- und Religionswissenschaften oder die Kunstgeschichte, profitieren von den vielfältigen Möglichkeiten, die digitale Editionen bieten. Durch die digitale Aufbereitung und Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären. Nicht zuletzt sind digitale Editionen für die Informatik von Interesse, etwa bei der Entwicklung von Algorithmen für Handschriftenerkennung (z. B. <span id="id8">Mayr <em>et al.</em> [<a class="reference internal" href="#id14" title="Martin Mayr, Katharina Neumeier, Julian Krenz, Simon Bürcky, Florian Kordon, Mathias Seuret, Jochen Zöllner, Fei Wu, Andreas Maier, and Vincent Christlein. Data-efficient handwritten text recognition of diplomatic historical text. Multimedia Tools and Applications, January 2025. URL: https://doi.org/10.1007/s11042-024-20545-9 (visited on 2025-06-06), doi:10.1007/s11042-024-20545-9.">MNK+25</a>]</span>) oder für semantische Annotation oder in der Forschung bei Fragen zu Usability, Datenmodellierung und Wissensrepräsentation.
+<p>Digitale Editionen eröffnen vielfältige Forschungszugänge: Historiker*innen können, neben der hermeneutischen Auseinandersetzung mit dem Material, historische Kontexte durch Zeitachsen, Georeferenzierung oder Netzwerkanalysen erschließen.  Sprachwissenschaftler*innen nutzen digitale Editionen als Korpora (s. <a class="reference internal" href="natural-language-processing.html"><span class="std std-doc"><strong>NLP</strong></span></a>) und können so etwa Varianten, Wortgebrauch oder stilistische Merkmale systematisch auswerten. Auch andere Disziplinen, wie die Literatur- und Religionswissenschaften oder die Kunstgeschichte, profitieren von den vielfältigen Möglichkeiten, die digitale Editionen bieten. Durch die digitale Aufbereitung und Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären. Nicht zuletzt sind digitale Editionen für die Informatik von Interesse, etwa bei der Entwicklung von Algorithmen für Handschriftenerkennung (z. B. <span id="id9">Mayr <em>et al.</em> [<a class="reference internal" href="#id19" title="Martin Mayr, Katharina Neumeier, Julian Krenz, Simon Bürcky, Florian Kordon, Mathias Seuret, Jochen Zöllner, Fei Wu, Andreas Maier, and Vincent Christlein. Data-efficient handwritten text recognition of diplomatic historical text. Multimedia Tools and Applications, January 2025. URL: https://doi.org/10.1007/s11042-024-20545-9 (visited on 2025-06-06), doi:10.1007/s11042-024-20545-9.">MNK+25</a>]</span>) oder für semantische Annotation oder in der Forschung bei Fragen zu Usability, Datenmodellierung und Wissensrepräsentation.
 Durch die digitale Aufbereitung und semantische Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären.</p>
-<p>Über <a class="reference internal" href="apis.html"><span class="std std-doc">APIs</span></a> und Downloadfunktionen lassen sich strukturierte Daten exportieren, was wissenschaftliche Nachnutzbarkeit und Weiterverwendung gewährleistet. Jedoch veröffentlichen nicht alle Editionen ihren Quellcode oder bieten vollständige Datensätze an. Teilweise fehlen auch wichtige Informationen zur technischen Infrastruktur und zu den Daten, was nicht den FAIR-Prinzipien (<em>Findability, Accessability, Interoperability</em> und <em>Reusability</em>, s. <a class="reference external" href="https://www.go-fair.org/">GO FAIR</a>) entspricht und Möglichkeiten der tieferen Analyse und Reproduzierbarkeit einschränkt.</p>
+<p>Über <a class="reference internal" href="apis.html"><span class="std std-doc">APIs</span></a> und Downloadfunktionen lassen sich strukturierte Daten exportieren, was wissenschaftliche Nachnutzbarkeit und Weiterverwendung gewährleistet. Jedoch veröffentlichen nicht alle Editionen ihren Quellcode oder bieten vollständige Datensätze an. Teilweise fehlen auch wichtige Informationen zur technischen Infrastruktur und zu den Daten, was nicht den FAIR-Prinzipien entspricht und Möglichkeiten der tieferen Analyse und Reproduzierbarkeit einschränkt.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="herausforderungen-und-chancen">
 <h1>Herausforderungen und Chancen<a class="headerlink" href="#herausforderungen-und-chancen" title="Link to this heading">#</a></h1>
-<p>Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Editionsrichtlinien (z. B. <a class="reference external" href="https://edition-humboldt.de/richtlinien/index.html">edition humboldt digital</a>, <a class="reference external" href="https://schluesseldokumente.net/ueber/editionsrichtlinien">Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte</a>) betreffen die Präsentation und Bearbeitung des transkribierten Textes, während Transkriptionsrichtlinien die Übertragung eines Textes aus einer Vorlage regeln. Sie konsistent zu halten und umzusetzen, ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind.</p>
+<p>Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Diese konsistent zu halten und umzusetzen, ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind.</p>
 <p>Im Allgemeinen umfasst der Editionsprozess viele Schritte (Digitalisierung, Transkription, Annotation, Kommentierung, technische Umsetzung, Publikation, …), die im Team sinnvoll aufeinander abgestimmt und dokumentiert werden müssen.</p>
-<p>Automatisierte Verfahren, unterstützt von KI-Technologien, wie OCR, automatische Annotation oder Named Entity Recognition, können Editionsworkflows sinnvoll unterstützen. Die Einsatzmöglichkeiten von LLMs bei digitalen Editionen werden unter anderem bei <span id="id9">Czmiel <em>et al.</em> [<a class="reference internal" href="#id13" title="Alexander Czmiel, Stefan Dumont, Franz Fischer, Christopher Pollin, Patrick Sahle, Torsten Schaßan, Martina Scholger, Georg Vogeler, Torsten Roeder, Christiane Fritze, and Ulrike Henny-Krahmer. Generative KI, LLMs und GPT bei digitalen Editionen. February 2024. URL: https://doi.org/10.5281/zenodo.10698210, doi:10.5281/zenodo.10698210.">CDF+24</a>]</span> diskutiert.</p>
+<p>Automatisierte Verfahren, unterstützt von KI-Technologien, wie OCR, automatische Annotation oder Named Entity Recognition, können Editionsworkflows sinnvoll unterstützen. Die Einsatzmöglichkeiten von LLMs bei digitalen Editionen werden unter anderem bei <span id="id10">Czmiel <em>et al.</em> [<a class="reference internal" href="#id18" title="Alexander Czmiel, Stefan Dumont, Franz Fischer, Christopher Pollin, Patrick Sahle, Torsten Schaßan, Martina Scholger, Georg Vogeler, Torsten Roeder, Christiane Fritze, and Ulrike Henny-Krahmer. Generative KI, LLMs und GPT bei digitalen Editionen. February 2024. URL: https://doi.org/10.5281/zenodo.10698210, doi:10.5281/zenodo.10698210.">CDF+24</a>]</span> diskutiert.</p>
 <p>Gleichermaßen wirft ihr Einsatz aber auch Fragen der Qualitätssicherung und Transparenz auf. KI-gestützte Tools erfordern nicht nur ein technisches Verständnis durch die Editor*innen, die oft nicht aus technischen Disziplinen kommen, sondern auch eine kritische Reflexion ihrer Resultate.</p>
-<p>Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zeitlich befristeten Projekten <span id="id10">[<a class="reference internal" href="#id15" title="Christiane Birr and Thomas Duve. Das digitale Nadelöhr: Die Arbeit an einer digitalen Edition im Projekt „Die Schule von Salamanca “. Legal History Insights, 2024.">BD24</a>]</span>, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte.
+<p>Eine der größten Herausforderungen, vor denen digitale Editionsprojekte stehen, ist die Frage nach ihrer Nachhaltigkeit, Nachnutzbarkeit und Langzeitarchivierung. Im Gegensatz zu gedruckten Editionen, die, einmal produziert und entsprechend gelagert, leicht Jahrhunderte überstehen, haben digitale Editionen mit ihrem technologischen Unterbau weitaus größere Wartungsanforderungen, entstehen aber oft in zeitlich befristeten Projekten <span id="id11">[<a class="reference internal" href="#id20" title="Christiane Birr and Thomas Duve. Das digitale Nadelöhr: Die Arbeit an einer digitalen Edition im Projekt „Die Schule von Salamanca “. Legal History Insights, 2024.">BD24</a>]</span>, so dass über langfristige institutionelle Unterstützung und Hostingoptionen bereits bei Konzeption des Projektes nachgedacht werden sollte.
 Zur langfristigen Nutzbarkeit digitaler Editionen trägt außerdem bei, wenn offene Standards (wie TEI/XML) verwendet werden, Wert auf klare Dokumentation gelegt wird und Maßnahmen zur Langzeitarchivierung (etwa durch das Verwenden von Repositorien wie Zenodo) getroffen werden.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="beispiele">
@@ -610,43 +611,44 @@ Zur langfristigen Nutzbarkeit digitaler Editionen trägt außerdem bei, wenn off
 <p>Das <a class="reference external" href="https://www.digitale-edition.at/context:konde">KONDE Weißbuch zum Thema <em>Digitale Edition</em></a> ist eine Open Educational Resource, die sich spezifisch mit <em>Digitalen Editionen</em> befasst, zentrale Begrifflichkeiten klärt, Möglichkeiten aufzeigt und Beispiele nennt.</p>
 <section id="zitierte-literatur">
 <h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Link to this heading">#</a></h2>
-<div class="docutils container" id="id11">
+<div class="docutils container" id="id12">
 <div role="list" class="citation-list">
-<div class="citation" id="id15" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id10">BD24</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id20" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">BD24</a><span class="fn-bracket">]</span></span>
 <p>Christiane Birr and Thomas Duve. Das digitale Nadelöhr: Die Arbeit an einer digitalen Edition im Projekt „Die Schule von Salamanca “. <em>Legal History Insights</em>, 2024.</p>
 </div>
-<div class="citation" id="id20" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">CG24</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id25" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">CG24</a><span class="fn-bracket">]</span></span>
 <p>Elisa Cugliana and Tessa Gengnagel. Diplomatische Transkription. In <em>KONDE Weißbuch</em>. 2024. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.65">https://www.digitale-edition.at/o:konde.65</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id13" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">CDF+24</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id18" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id10">CDF+24</a><span class="fn-bracket">]</span></span>
 <p>Alexander Czmiel, Stefan Dumont, Franz Fischer, Christopher Pollin, Patrick Sahle, Torsten Schaßan, Martina Scholger, Georg Vogeler, Torsten Roeder, Christiane Fritze, and Ulrike Henny-Krahmer. Generative KI, LLMs und GPT bei digitalen Editionen. February 2024. URL: <a class="reference external" href="https://doi.org/10.5281/zenodo.10698210">https://doi.org/10.5281/zenodo.10698210</a>, <a class="reference external" href="https://doi.org/10.5281/zenodo.10698210">doi:10.5281/zenodo.10698210</a>.</p>
 </div>
-<div class="citation" id="id21" role="doc-biblioentry">
+<div class="citation" id="id26" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Fri19<span class="fn-bracket">]</span></span>
-<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id3">2</a>)</span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id4">2</a>)</span>
 <p>Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. <em>Bibliothek Forschung und Praxis</em>, 43(3):432–440, December 2019. URL: <a class="reference external" href="https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html">https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html</a> (visited on 2025-05-26), <a class="reference external" href="https://doi.org/10.1515/bfp-2019-2068">doi:10.1515/bfp-2019-2068</a>.</p>
 </div>
-<div class="citation" id="id18" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">Gal21</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id23" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">Gal21</a><span class="fn-bracket">]</span></span>
 <p>Selina Galka. Normalisierung. In <em>KONDE Weißbuch</em>. 2021. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.146">https://www.digitale-edition.at/o:konde.146</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id19" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">Klu21</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id24" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">Klu21</a><span class="fn-bracket">]</span></span>
 <p>Helmut W. Klug. Transkription. In <em>KONDE Weißbuch</em>. 2021. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.197">https://www.digitale-edition.at/o:konde.197</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id14" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">MNK+25</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id19" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">MNK+25</a><span class="fn-bracket">]</span></span>
 <p>Martin Mayr, Katharina Neumeier, Julian Krenz, Simon Bürcky, Florian Kordon, Mathias Seuret, Jochen Zöllner, Fei Wu, Andreas Maier, and Vincent Christlein. Data-efficient handwritten text recognition of diplomatic historical text. <em>Multimedia Tools and Applications</em>, January 2025. URL: <a class="reference external" href="https://doi.org/10.1007/s11042-024-20545-9">https://doi.org/10.1007/s11042-024-20545-9</a> (visited on 2025-06-06), <a class="reference external" href="https://doi.org/10.1007/s11042-024-20545-9">doi:10.1007/s11042-024-20545-9</a>.</p>
 </div>
-<div class="citation" id="id17" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">Sah16</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id22" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>Sah16<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id3">2</a>)</span>
 <p>Patrick Sahle. What is a Scholarly Digital Edition? In Matthew James Driscoll and Elena Pierazzo, editors, <em>Digital Scholarly Editing : Theories and Practices</em>, Digital Humanities Series, pages 19–39. Open Book Publishers, Cambridge, 2016. URL: <a class="reference external" href="https://books.openedition.org/obp/3397">https://books.openedition.org/obp/3397</a> (visited on 2025-05-23).</p>
 </div>
-<div class="citation" id="id16" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">Sah17</a><span class="fn-bracket">]</span></span>
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">Sah17</a><span class="fn-bracket">]</span></span>
 <p>Patrick Sahle. Digitale Editionen. In Fotis Jannidis, Hubertus Kohle, and Malte Rehbein, editors, <em>Digital Humanities. Eine Einführung.</em> J.B. Metzler Stuttgart, 2017. URL: <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">https://doi.org/10.1007/978-3-476-05446-3</a>, <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">doi:10.1007/978-3-476-05446-3</a>.</p>
 </div>
 </div>

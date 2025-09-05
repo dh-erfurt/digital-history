@@ -23,18 +23,20 @@ Gegenüber klassischen Printeditionen bieten sie jedoch einige Vorteile, die sic
 - erweiterte Kontextualisierungsmöglichkeiten (durch ergänzende Informationen)
 - (nachträgliche) Erweiterbarkeit und Aktualisierbarkeit der Edition
 
-Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
-- Zugänglichkeit
-- Durchsuchbarkeit 
-- Benutzerfreundlichkeit
-- Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)
+Digitale Editionen folgen einem *digitalen Paradigma*, da diese Eigenschaften und Möglichkeiten ihre Beschaffenheit bedingen – in ähnlicher Weise, wie gedruckte Editionen durch die technischen Rahmenbedingungen und kulturellen Praktiken des Buchdrucks geprägt sind {cite:p}`sahle_what_2016`.
 
-Digitale Editionen sind insbesondere **keine**
+Somit sind sie insbesondere **keine**
 - digitialisierten Printeditionen
 - digitalen Faksimiles ohne editorischen Apparat
 - Datenpublikationen, 
   
 sondern eine eigene Form innerhalb der wissenschaftlichen Editionspraxis im digitalen Raum.
+
+Bei ihrer Umsetzung gibt es einige Leitziele {cite:p}`fritze_wohin_2019`:
+- Zugänglichkeit
+- Durchsuchbarkeit 
+- Benutzerfreundlichkeit
+- Berechenbarkeit (Inhalte können von Computern analysiert, durchsucht und weiterverarbeitet werden → standardisierte Datenformate, klare Annotationen, APIs etc.)
 
 # Akteur*innen
 
@@ -66,20 +68,10 @@ Diese Art der Transkription ist vor allem für sprachhistorische Forschung von R
 
 Der diplomatischen Transkription steht die *normalisierte* Transkription gegenüber: Hier werden historische oder individuelle Schreibweisen an eine standardisierte Norm angepasst. Das kann unter anderem Klein- und Großschreibung, Interpunktion, Konsonantenverdoppelung oder Getrennt- und Zusammenbeschreibung betreffen {cite:p}`galka_normalisierung_2021`. Dieses Vorgehen verbessert u. a. die Verständlichkeit und die computergestützte Auswertbarkeit des Textes.
 
-Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvarianten zur Verfügung zu stellen, welche das Editionsprojekt interdisziplinär nutzbar machen. Geschehen ist das z. B. bei der Edition der [Nürnberger Briefbücher](http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/index.html), wie in {numref}`nbb` dargestellt. 
+Gerade bei digitalen Editionen bietet es sich an, mehrere Transkriptionsvarianten zur Verfügung zu stellen, welche das Editionsprojekt interdisziplinär nutzbar machen.
 
+In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, in den *Transkriptionsrichtlinien* genau dokumentiert werden.
 <!-- evtl. Beispiel für normalisiert vs diplomatisch? -->
-```{figure} ../img/briefbuecher-ansicht.png
-:alt: Ansicht der Edition der Nürnberger Briefbücher: diplomatisch - Facsimile - normalisiert
-:name: nbb
-:width: 800px
-:align: left
-
-Die Edition der Nürnberger Briefbücher kombiniert drei Ansichten: diplomatische Transkription, Facsimile und normalisierte Transkription.
-```
-<br/>
-
-In jedem Fall sollten editorische Entscheidungen, wie genau transkribiert wird, in den *Transkriptionsrichtlinien* genau dokumentiert werden. [Hier](https://www.archivschule.de/DE/ausbildung/transkriptionsrichtlinie/) findet sich ein Beispiel für die Transkriptionsrichtlinien der Archivschule Marburg.
 
 ## Textsorten
 Textsorten, die sich besonders für digitale Editionen eignen, sind Briefe, Tagebücher, Notizbücher und Manuskripte, prinzipiell sind aber digitale Editionen vielfältiger textueller Dokumente und, darüber hinaus, physischer Kulturobjekte vorstell- und umsetzbar.
@@ -95,11 +87,11 @@ All dies wird getragen von einem technischen Unterbau, der u. a. durch Datenbank
 Digitale Editionen eröffnen vielfältige Forschungszugänge: Historiker\*innen können, neben der hermeneutischen Auseinandersetzung mit dem Material, historische Kontexte durch Zeitachsen, Georeferenzierung oder Netzwerkanalysen erschließen.  Sprachwissenschaftler\*innen nutzen digitale Editionen als Korpora (s. [**NLP**](natural-language-processing.md)) und können so etwa Varianten, Wortgebrauch oder stilistische Merkmale systematisch auswerten. Auch andere Disziplinen, wie die Literatur- und Religionswissenschaften oder die Kunstgeschichte, profitieren von den vielfältigen Möglichkeiten, die digitale Editionen bieten. Durch die digitale Aufbereitung und Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären. Nicht zuletzt sind digitale Editionen für die Informatik von Interesse, etwa bei der Entwicklung von Algorithmen für Handschriftenerkennung (z. B. {cite:t}`mayr_data-efficient_2025`) oder für semantische Annotation oder in der Forschung bei Fragen zu Usability, Datenmodellierung und Wissensrepräsentation.
 Durch die digitale Aufbereitung und semantische Auszeichnung der Texte sind computergestützte Untersuchungen möglich, die mit analogen Mitteln kaum denkbar wären.
 
-Über [APIs](apis.md) und Downloadfunktionen lassen sich strukturierte Daten exportieren, was wissenschaftliche Nachnutzbarkeit und Weiterverwendung gewährleistet. Jedoch veröffentlichen nicht alle Editionen ihren Quellcode oder bieten vollständige Datensätze an. Teilweise fehlen auch wichtige Informationen zur technischen Infrastruktur und zu den Daten, was nicht den FAIR-Prinzipien (*Findability, Accessability, Interoperability* und *Reusability*, s. [GO FAIR](https://www.go-fair.org/)) entspricht und Möglichkeiten der tieferen Analyse und Reproduzierbarkeit einschränkt.
+Über [APIs](apis.md) und Downloadfunktionen lassen sich strukturierte Daten exportieren, was wissenschaftliche Nachnutzbarkeit und Weiterverwendung gewährleistet. Jedoch veröffentlichen nicht alle Editionen ihren Quellcode oder bieten vollständige Datensätze an. Teilweise fehlen auch wichtige Informationen zur technischen Infrastruktur und zu den Daten, was nicht den FAIR-Prinzipien entspricht und Möglichkeiten der tieferen Analyse und Reproduzierbarkeit einschränkt.
 
 
 # Herausforderungen und Chancen
-Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Editionsrichtlinien (z. B. [edition humboldt digital](https://edition-humboldt.de/richtlinien/index.html), [Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte](https://schluesseldokumente.net/ueber/editionsrichtlinien)) betreffen die Präsentation und Bearbeitung des transkribierten Textes, während Transkriptionsrichtlinien die Übertragung eines Textes aus einer Vorlage regeln. Sie konsistent zu halten und umzusetzen, ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind. 
+Klar dokumentierte Editionsrichtlinien, die die Prinzipien der Transkription, Annotation, Normalisierung und editorischen Eingriffe festlegen, machen digitale Editionen transparent und nachvollziehbar. Diese konsistent zu halten und umzusetzen, ist oft eine Herausforderung in Projekten, an denen viele Bearbeitende beteiligt sind.
 
 Im Allgemeinen umfasst der Editionsprozess viele Schritte (Digitalisierung, Transkription, Annotation, Kommentierung, technische Umsetzung, Publikation, ...), die im Team sinnvoll aufeinander abgestimmt und dokumentiert werden müssen.
 

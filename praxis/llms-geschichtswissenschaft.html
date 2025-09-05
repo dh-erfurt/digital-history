@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -441,18 +449,18 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">LLMs in der Geschichtswissenschaft</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arbeit-mit-historischen-quellen">Arbeit mit historischen Quellen</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verstehen-und-analysieren-von-text">Verstehen und Analysieren von Text</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#named-entity-recognition">Named Entity Recognition</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sentiment-analysis">Sentiment Analysis</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-modelling">Topic Modelling</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stilometrie-autorschaftsanalyse">Stilometrie/Autorschaftsanalyse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verstehen-und-analysieren-von-text">Verstehen und Analysieren von Text</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quellen-und-weiterfuhrende-links">Quellen und weiterführende Links</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#quellen-und-weiterfuhrende-ressourcen">Quellen und weiterführende Ressourcen</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
 </ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -473,147 +481,18 @@ document.write(`
 <section id="verstehen-und-analysieren-von-text">
 <h2>Verstehen und Analysieren von Text<a class="headerlink" href="#verstehen-und-analysieren-von-text" title="Link to this heading">#</a></h2>
 <p>Ein zentrales Anwendungsfeld von LLMs ist nicht nur das Verfassen, sondern auch das Verstehen und die Analyse von Texten. Für die Geschichtswissenschaften hilfreich können u. a. <em>Named Entity Recognition</em>, <em>Sentiment Analysis</em>, <em>Topic Modelling</em> und <em>Stilometrie</em>-Analysen sein. Diese Methoden werden vor allem dann eingesetzt, wenn große Textmengen schnell und systematisch analysiert werden sollen.</p>
-<section id="named-entity-recognition">
-<h3>Named Entity Recognition<a class="headerlink" href="#named-entity-recognition" title="Link to this heading">#</a></h3>
-<p><em>Named Entity Recognition (NER)</em> bezeichnet die Aufgabe, Entitäten in Texten zu erkennen und zu klassifizieren (z. B. Personen, Orte, Organisationen, Zeitangaben etc.) <span id="id1">[<a class="reference internal" href="#id16" title="Jing Li, Aixin Sun, Jianglei Han, and Chenliang Li. A Survey on Deep Learning for Named Entity Recognition. IEEE Transactions on Knowledge and Data Engineering, 34(1):50–70, 2022. doi:10.1109/TKDE.2020.2981314.">LSHL22</a>]</span>. Gerade im Kontext der Geschichtswissenschaften ist es hilfreich zu wissen, wer in historischen Quellen erwähnt wird und welche Orte und Institutionen dabei eine Rolle spielen. <em>NER</em> ist also eine wichtige Basis für weitergehende Analysen, z. B. für die Untersuchung historischer Kommunikationsnetze, geografischer Bezüge oder institutioneller Strukturen.</p>
-<figure class="align-left" id="ner">
-<img alt="Beispiel Named Entity Recognition" src="../_images/ner.png" />
-<figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text">In dem Beispieltext sind Entitäten wie Orte, Organisationen und numerische Angaben ausgezeichnet.</span><a class="headerlink" href="#ner" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<br/>
-<p>LLMs, deren Hauptaufgabe es ist, Sprache zu verstehen, haben sich als sehr hilfreich für <em>NER</em> erwiesen.</p>
-<p><a class="reference internal" href="#ner"><span class="std std-numref">Fig. 13</span></a> zeigt einen Beispieltext, in dem Entitäten gekennzeichnet wurden. Anhand dieses kurzen Beispiels wird auch ein zentrales Problem der <em>NER</em> deutlich, nämlich die Ambiguität zwischen Ort und Organisation (z. B. „Universität Erfurt“),</p>
-</section>
-<section id="sentiment-analysis">
-<h3>Sentiment Analysis<a class="headerlink" href="#sentiment-analysis" title="Link to this heading">#</a></h3>
-<p>Im Rahmen von <em>Sentiment Analysis</em> wir die Stimmung und/oder emotionale Haltung eines Texts eingeschätzt, was in geschichtswissenschaftlicher Forschung u. a. bei der Bewertung von politischen Reden, Zeitungsartikeln und Briefen oder im Allgemeinen bei der Auswertung öffentlicher Meinung unterstützen kann. Auch hierbei können LLMs effizient eingesetzt werden.</p>
-<p>Im Folgenden betrachten wir diesen Beispieltext aus der Rhein-Ruhr-Zeitung vom 07.01.1919. [<a class="reference external" href="https://www.deutsche-digitale-bibliothek.de/newspaper/item/ZBJ3S5LCHJIKSQHDTL4URASFOIV4RYXY?issuepage=8">Quelle</a>]</p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Zeitungsartikel</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">Erfurt, der Ort der Nationalversammlung!
-Nach Weimar, Leipzig und Nürnberg ist nunmehr von den Volksbeauftragten als Ort der Nationalversammlung Erfurt in Aussicht genommen.
-Es ist auch Aussicht vorhanden, dass die uralte Metropole Thüringens, das als Binnen- und Industriestadt gleich geschätzte Erfurt, die kommende deutsche Nationalversammlung in ihren Mauern sehen wird.
-Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besondere Erinnerungen an ihre eigene Geschichte.</p>
-</div>
-</details><p>Eine simple <em>Sentimentsanalyse</em> mit <em>ChatGPT</em> ergibt Folgendes:</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Satz</p></th>
-<th class="head"><p>Tonlage / Sentiment</p></th>
-<th class="head"><p>Hinweise</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><em>Erfurt, der Ort der Nationalversammlung!</em></p></td>
-<td><p><strong>Positiv / Feierlich</strong></p></td>
-<td><p>Ausrufezeichen, Betonung auf Bedeutung und Ehre</p></td>
-</tr>
-<tr class="row-odd"><td><p><em>[…] ist nunmehr von den Volksbeauftragten als Ort der Nationalversammlung Erfurt in Aussicht genommen.</em></p></td>
-<td><p><strong>Neutral bis leicht positiv</strong></p></td>
-<td><p>Sachliche Mitteilung, aber durch die Auswahl Erfurts mitschwingende Wertschätzung</p></td>
-</tr>
-<tr class="row-even"><td><p><em>[…] die uralte Metropole Thüringens, das als Binnen- und Industriestadt gleich geschätzte Erfurt […]</em></p></td>
-<td><p><strong>Positiv / wertschätzend</strong></p></td>
-<td><p>Lobende Adjektive: “uralte Metropole”, “geschätzt”</p></td>
-</tr>
-<tr class="row-odd"><td><p><em>[…] die kommende deutsche Nationalversammlung in ihren Mauern sehen wird.</em></p></td>
-<td><p><strong>Positiv / hoffnungsvoll</strong></p></td>
-<td><p>Zukunftsgerichtet, mit stolzem Unterton</p></td>
-</tr>
-<tr class="row-even"><td><p><em>Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besondere Erinnerungen an ihre eigene Geschichte.</em></p></td>
-<td><p><strong>Reflexiv / positiv konnotiert</strong></p></td>
-<td><p>Appell an nationale Erinnerungskultur, identitätsstiftend</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="topic-modelling">
-<h3>Topic Modelling<a class="headerlink" href="#topic-modelling" title="Link to this heading">#</a></h3>
-<p><em>Topic Modelling</em> ist ein weiteres Anwendungsgebiet von LLMs und untersucht, welche Themen in einer großen Textsammlung vorkommen. Im Kontext der Geschichtswissenschaft lässt sich so z. B. aufzeigen, welche Themen in Zeitungen einer Epoche dominieren.</p>
-<p>Sinnvoll ist das vor allem bei großen Textsammlungen, doch auch für kurze Textausschnitte kann <em>Topic Modelling</em> vorgenommen werden, hier anhand obigen Zeitungsartikels mithilfe von <em>ChatGPT</em>.</p>
-<p>Identifizierte Themen (Topics):</p>
-<ul class="simple">
-<li><p>Ort der Nationalversammlung</p>
-<ul>
-<li><p>Begriffe: „Nationalversammlung“, „Volksbeauftragte“, „in Aussicht genommen“, „kommende“</p></li>
-<li><p>Bedeutung: Der Text berichtet, dass Erfurt als möglicher Veranstaltungsort für eine deutsche Nationalversammlung diskutiert wird.</p></li>
-</ul>
-</li>
-<li><p>Symbolische Bedeutung Erfurts für die Parteien</p>
-<ul>
-<li><p>Begriffe: „besondere Erinnerungen“, „eigene Geschichte“, „alle politischen Parteien“</p></li>
-<li><p>Bedeutung: Erfurt wird als Ort mit historischer Bedeutung für verschiedene politische Bewegungen dargestellt.</p></li>
-</ul>
-</li>
-<li><p>Charakteristik der Stadt Erfurt</p>
-<ul>
-<li><p>Begriffe: „uralte Metropole Thüringens“, „Binnenstadt“, „Industriestadt“</p></li>
-<li><p>Bedeutung: Die Stadt wird geographisch und wirtschaftlich eingeordnet und gewürdigt.</p></li>
-</ul>
-</li>
-</ul>
-<p><a class="reference external" href="https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/">Hier</a> werden beispielsweise 1.8 Millionen Artikel der <em>New York Times</em> auf ihre Themen hin untersucht und die Potenziale, die <em>Topic Modelling</em> bietet, beleuchtet.</p>
-</section>
-<section id="stilometrie-autorschaftsanalyse">
-<h3>Stilometrie/Autorschaftsanalyse<a class="headerlink" href="#stilometrie-autorschaftsanalyse" title="Link to this heading">#</a></h3>
-<p>Auch Stilometrie – die Analyse individueller Schreibstile anhand sprachlicher Merkmale (z. B. Wortwahl, Satzstruktur) – ist ein Anwendungsfeld von LLMs. Ein Ziel kann hier beispielsweise sein, Autorenschaft zu erkennen oder mehrere Autoren in einem Text abzugrenzen.</p>
-<p>Für den kurzen Abschnitt aus obigem Beispiel trifft <em>ChatGPT</em> folgende Stilometrie-Analyse.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Merkmal</p></th>
-<th class="head"><p>Beschreibung</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Satzlänge</p></td>
-<td><p>Mittel bis lang, oft komplex</p></td>
-</tr>
-<tr class="row-odd"><td><p>Wortwahl</p></td>
-<td><p>Formal, historisch, politisch konnotiert</p></td>
-</tr>
-<tr class="row-even"><td><p>Stilistik</p></td>
-<td><p>Nominalstil, geringe Emotionalisierung</p></td>
-</tr>
-<tr class="row-odd"><td><p>Tempus</p></td>
-<td><p>Präsens / Futurisch mit prognostischem Ton</p></td>
-</tr>
-<tr class="row-even"><td><p>Funktion</p></td>
-<td><p>Informativ und legitimierend (politisch)</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Auch bei der Stilometrie ist die Methode besonders sinnvoll bei großen Textsammlungen – hier lassen sich die Ähnlichkeiten zwischen verschiedenen Texten messen und Stile quantisieren.</p>
-</section>
 </section>
 <section id="fazit">
 <h2>Fazit<a class="headerlink" href="#fazit" title="Link to this heading">#</a></h2>
 <p>LLMs können auf vielfältige Art und Weise zu einem vertieften Textverständnis beitragen – angefangen von Zusammenfassungen und „Übersetzungen“ in leichte Sprache über Verfeinerung automatischer Transkription bis hin zur computergestützten Textanalyse. Methoden wie  <em>NER</em>, <em>Sentiment Analysis</em> eröffnen neue Herangehensweisen an die Analyse historischer Quellen. Auf ihrer Basis können Daten ausgewertet und visualisiert werden – u. a. können identifizierte Entitäten (Personen, Orte, …) in Beziehungsnetzwerken dargestellt, chronologische Zusammenhänge können erschlossen und Entitäten mit Ortsbezug können auf Karten projiziert werden.</p>
 </section>
-<section id="quellen-und-weiterfuhrende-links">
-<h2>Quellen und weiterführende Links<a class="headerlink" href="#quellen-und-weiterfuhrende-links" title="Link to this heading">#</a></h2>
-<p>Die Chancen und Herausforderungen von LLMs in der Geschichtswissenschaft schlüsselt auch <a class="reference external" href="https://dhdhi.hypotheses.org/9197">dieser</a> Blogbeitrag auf.</p>
-<p>Darüber hinaus gibt es viele hilfreiche Online-Ressourcen, z. B.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.geeksforgeeks.org/named-entity-recognition/">Überblick/Tutorial zu Named Entity Recognition mit Python</a></p></li>
-<li><p><a class="reference external" href="https://python-textbook.pythonhumanities.com/04_topic_modeling/04_01_01_intro.html">Einführung/Tutorial zu Topic Modelling mit Python</a></p></li>
-</ul>
 </section>
+<section class="tex2jax_ignore mathjax_ignore" id="quellen-und-weiterfuhrende-ressourcen">
+<h1>Quellen und weiterführende Ressourcen<a class="headerlink" href="#quellen-und-weiterfuhrende-ressourcen" title="Link to this heading">#</a></h1>
+<p>Die Chancen und Herausforderungen von LLMs in der Geschichtswissenschaft schlüsselt auch <a class="reference external" href="https://dhdhi.hypotheses.org/9197">dieser</a> Blogbeitrag auf.</p>
 <section id="zitierte-literatur">
 <h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Link to this heading">#</a></h2>
-<div class="docutils container" id="id2">
-<div role="list" class="citation-list">
-<div class="citation" id="id16" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">LSHL22</a><span class="fn-bracket">]</span></span>
-<p>Jing Li, Aixin Sun, Jianglei Han, and Chenliang Li. A Survey on Deep Learning for Named Entity Recognition. <em>IEEE Transactions on Knowledge and Data Engineering</em>, 34(1):50–70, 2022. <a class="reference external" href="https://doi.org/10.1109/TKDE.2020.2981314">doi:10.1109/TKDE.2020.2981314</a>.</p>
-</div>
-</div>
-</div>
-</section>
+<span class="target" id="id1"></span></section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -680,18 +559,18 @@ Alle politischen Parteien Deutschlands verknüpfen mit dem Namen Erfurt besonder
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">LLMs in der Geschichtswissenschaft</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arbeit-mit-historischen-quellen">Arbeit mit historischen Quellen</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verstehen-und-analysieren-von-text">Verstehen und Analysieren von Text</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#named-entity-recognition">Named Entity Recognition</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sentiment-analysis">Sentiment Analysis</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-modelling">Topic Modelling</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stilometrie-autorschaftsanalyse">Stilometrie/Autorschaftsanalyse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verstehen-und-analysieren-von-text">Verstehen und Analysieren von Text</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fazit">Fazit</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quellen-und-weiterfuhrende-links">Quellen und weiterführende Links</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#quellen-und-weiterfuhrende-ressourcen">Quellen und weiterführende Ressourcen</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
 </ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>

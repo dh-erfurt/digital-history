@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -449,6 +457,7 @@ document.write(`
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-strategien">Weitere Strategien</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-engineering-im-kontext-aktueller-modelle">Prompt Engineering im Kontext aktueller Modelle</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a></li>
@@ -489,7 +498,7 @@ Diese sind: <strong>Kontext, Rolle, Erwartung</strong>.</p>
 <figure class="align-left" id="id1">
 <img alt="Aspekte eines guten Prompts: Kontext, Rolle, Erwartung" src="../_images/prompting.drawio.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 14 </span><span class="caption-text">Ein guter Prompt definiert Kontext, Rolle und Erwartung.</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Ein guter Prompt definiert Kontext, Rolle und Erwartung.</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="beispiel-fur-die-formulierung-von-kontext-rolle-und-erwartung">
@@ -524,6 +533,16 @@ Diese sind: <strong>Kontext, Rolle, Erwartung</strong>.</p>
 <li><p>Kontext geben (Fachrichtung, Tonfall, Anwendungsziel)</p></li>
 </ul>
 </section>
+<section id="prompt-engineering-im-kontext-aktueller-modelle">
+<h3>Prompt Engineering im Kontext aktueller Modelle<a class="headerlink" href="#prompt-engineering-im-kontext-aktueller-modelle" title="Link to this heading">#</a></h3>
+<p>Mit neueren Modellen wie GPT‑5 hat sich die Rolle des Prompt Engineerings weiterentwickelt. Die Modelle unterscheiden nun zwischen Standard- und Reasoning-Modellen:</p>
+<ul class="simple">
+<li><p>Standard-Modelle liefern schnelle Antworten für einfache oder klar strukturierte Aufgaben.</p></li>
+<li><p>Reasoning-Modelle sind auf schrittweises Denken und komplexe Aufgaben ausgelegt. Sie eignen sich besonders, wenn logische Abfolgen, mehrere Zwischenschritte oder tiefere Analysen notwendig sind.</p></li>
+</ul>
+<p>Für einfache Fragen reicht oft ein kurzer, unkomplizierter Prompt im Standardmodus. Für komplexere Problemstellungen kann es hingegen sinnvoll sein, gezielt das Reasoning-Modell zu nutzen. Dieses lässt sich auch aktiv über den Prompt ansprechen (durch Formulierungen wie „Denke Schritt für Schritt“ oder „Überlege genau“).</p>
+<p>Bewährte „Prompting-Tricks“ – wie Few-Shot-Beispiele, Schritt-für-Schritt-Anweisungen oder die Definition einer Rolle – können nach wie vor hilfreich sein, insbesondere für komplexe oder stark strukturierte Aufgaben. Gleichzeitig sollten Nutzer*innen sich bewusst machen, welchen Modus sie einsetzen, um die Ergebnisse besser steuern und reproduzieren zu können.</p>
+</section>
 </section>
 <section id="worauf-kann-prompt-engineering-keinen-einfluss-nehmen">
 <h2>Worauf kann Prompt Engineering keinen Einfluss nehmen?<a class="headerlink" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen" title="Link to this heading">#</a></h2>
@@ -542,7 +561,7 @@ Diese sind: <strong>Kontext, Rolle, Erwartung</strong>.</p>
 <p class="sd-card-text">Über Partnerschaften mit Unternehmen wurden weitere, ansonsten kostenpflichtige Inhalte einbezogen, in Deutschland beispielsweise mit Axel Springer (<a class="reference external" href="https://www.axelspringer.com/de/ax-press-release/axel-springer-und-openai-neue-partnerschaft-staerkt-nutzen-von-ki-im-journalismus">Pressemitteilung von Axel Springer</a>).</p>
 </div>
 </details><p>Diese Daten sind somit nur ein Ausschnitt und können gesellschaftliche, kulturelle oder politische Verzerrungen enthalten, die sich auch in den Antworten widerspiegeln – unabhängig davon, wie der Prompt formuliert ist.
-<strong>Bias in den Trainingsdaten</strong> hat somit einen großen Einfluss auf die Ergebnisse. Weitere Faktoren sind begrenztes Wissen („Cut off“, sich danamisch veränderndes Echtzeit-Wissen) und Halluzinationen (Modell kann Inhalte generieren, die zwar plausibel klingen, aber faktisch falsch oder frei erfunden sind) sowie grundlegende (statistische) „Fähigkeit“ des Modells.</p>
+<strong>Bias in den Trainingsdaten</strong> hat somit einen großen Einfluss auf die Ergebnisse. Weitere Faktoren sind begrenztes Wissen („Cut off“, sich dynamisch veränderndes Echtzeit-Wissen) und Halluzinationen (Modell kann Inhalte generieren, die zwar plausibel klingen, aber faktisch falsch oder frei erfunden sind) sowie grundlegende (statistische) „Fähigkeit“ des Modells.</p>
 </section>
 <section id="literatur-und-hinweise">
 <h2>Literatur und Hinweise<a class="headerlink" href="#literatur-und-hinweise" title="Link to this heading">#</a></h2>
@@ -625,6 +644,7 @@ Diese sind: <strong>Kontext, Rolle, Erwartung</strong>.</p>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-strategien">Weitere Strategien</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zusammenfassung-grundregeln-fur-effektive-prompts">Zusammenfassung: Grund„regeln“ für effektive Prompts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-engineering-im-kontext-aktueller-modelle">Prompt Engineering im Kontext aktueller Modelle</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#worauf-kann-prompt-engineering-keinen-einfluss-nehmen">Worauf kann Prompt Engineering keinen Einfluss nehmen?</a></li>

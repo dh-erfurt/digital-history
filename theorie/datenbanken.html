@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../praxis/formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="../praxis/llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -418,7 +426,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -434,6 +444,22 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung">Einführung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sql-als-datenbankabfragesprache">SQL als Datenbankabfragesprache</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-datenbankkonzepte">Weitere Datenbankkonzepte</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datenbanken-in-der-praxis">Datenbanken in der Praxis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wann-und-wo-werden-datenbanken-eingesetzt">Wann und wo werden Datenbanken eingesetzt?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-weiterfuhrende-informationen">Literatur und weiterführende Informationen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -447,8 +473,149 @@ document.write(`
 <h1>Datenbanken<a class="headerlink" href="#datenbanken" title="Link to this heading">#</a></h1>
 <p>Datenbanken sind strukturierte Sammlungen von Informationen, deren Organisation es erlaubt, Inhalte effizient zu speichern, zu durchsuchen, abzurufen und zu analysieren. Im Wesentlichen machen Datenbanken Informationen sowie die Beziehungen zwischen diesen Informationen sichtbar und nutzbar.</p>
 <p>Für geisteswissenschaftliche Forschung und speziell im Kontext der Digital Humanities sind Datenbanken zentral, da hier oft mit großen Mengen strukturierter Informationen gearbeitet wird (z. B. Texte, Metadaten, Netzwerke). Sie sind ein elementares Werkzeug, das Forschung unterstützt und weitere Zugänge schafft.</p>
-<p>Dieses Kapitel wird sich einführend zentralen Konzepten im Bereich <em>Datenbanken</em> widmen.</p>
-<p>Diese Seite befindet sich im Aufbau.</p>
+<p>Dieses Kapitel widmet sich einführend zentralen Konzepten im Bereich <em>Datenbanken</em>.</p>
+<section id="einfuhrung">
+<h2>Einführung<a class="headerlink" href="#einfuhrung" title="Link to this heading">#</a></h2>
+<p><em>“Eine Datenbank hat die Aufgabe, große Datenmengen in einer strukturierten Form widerspruchsfrei zu speichern und vor Verlust und unbefugtem Zugriff zu schützen.”</em> <span id="id1">[<a class="reference internal" href="#id6" title="Peter Bühler, Patrick Schlaich, and Dominik Sinner. Webtechnologien : JavaScript – PHP – Datenbank. Springer Vieweg, Berlin, 2018.">BSS18</a>]</span></p>
+<p>Es gibt verschiedene Arten von Datenbanksystemen.
+<strong>Relationale Datenbanken</strong> speichern die Daten in Tabellen mit verschiedenen Beziehungen zwischeneinander und sind seit Jahrzehnten weit verbreitet. Sie bestehen aus folgenden Elementen:</p>
+<ul class="simple">
+<li><p><strong>Tabelle</strong>: strukturierte Darstellung großer Datenmengen, lassen sich sortieren, filtern und miteinander in Verbindung setzen</p></li>
+<li><p><strong>Datensatz / Tupel</strong>: zusammengehörende Daten (= Reihe in Tabelle), besteht aus mehreren <strong>Datenfelder</strong> und muss über einen <strong>Schlüssel</strong> eindeutig identifizierbar sein</p></li>
+<li><p><strong>Attribute</strong>: gleichartige Datenfelder (= Spalten)</p></li>
+</ul>
+<p>Diese Grundbegriffe werden in <a class="reference internal" href="#grundbegriffe-rel-db"><span class="std std-numref">Fig. 3</span></a> veranschaulicht.</p>
+<figure class="align-left" id="grundbegriffe-rel-db">
+<img alt="Grundbegriffe Datenbank" src="../_images/grundbegriffe-db.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Veranschaulichung der Bestandteile einer relationalen Datenbank, nach <span id="id2">[<a class="reference internal" href="#id4" title="Peter Bühler, Patrick Schlaich, and Dominik Sinner. Datenmanagement: Daten – Datenbanken – Datensicherheit. Bibliothek der Mediengestaltung. Springer Berlin Heidelberg, Berlin, Heidelberg, 1. aufl. 2019 edition, 2019. ISBN 9783662555064 9783662555071.">BSS19</a>]</span></span><a class="headerlink" href="#grundbegriffe-rel-db" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br/>
+</section>
+<section id="sql-als-datenbankabfragesprache">
+<h2>SQL als Datenbankabfragesprache<a class="headerlink" href="#sql-als-datenbankabfragesprache" title="Link to this heading">#</a></h2>
+<p><strong>SQL (Structured Query Language)</strong> ist eine Abfragesprache für programmunabhängigen Zugriff auf Datenbanken. Sie ermöglicht u. a. das</p>
+<ul class="simple">
+<li><p>Erstellen von Datenbanken und Tabellen</p></li>
+<li><p>Eingeben, Ändern und Löschen von Datensätzen</p></li>
+<li><p>Abfragen (= Query) von Daten nach gewünschten Kriterien</p></li>
+</ul>
+<p>In folgendem einfachen Beispiel wählt Spalten (<code class="docutils literal notranslate"><span class="pre">SELECT</span></code>) in einer bestimmten Tabellen (<code class="docutils literal notranslate"><span class="pre">FROM</span></code>) aus und wendet Bedingungen / Filter (<code class="docutils literal notranslate"><span class="pre">WHERE</span></code>) auf die Daten an.</p>
+<div class="highlight-sql notranslate"><div class="highlight"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">BriefID</span><span class="p">,</span><span class="w"> </span><span class="n">Datum</span><span class="w"> </span>
+<span class="k">FROM</span><span class="w"> </span><span class="n">Briefe</span><span class="w"> </span>
+<span class="k">WHERE</span><span class="w"> </span><span class="n">VerfasserID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Mit SQL sind aber auch weitaus komplexere Abfragen möglich.</p>
+</section>
+<section id="weitere-datenbankkonzepte">
+<h2>Weitere Datenbankkonzepte<a class="headerlink" href="#weitere-datenbankkonzepte" title="Link to this heading">#</a></h2>
+<p><strong>Graphdatenbanken</strong> verwenden Graphen (bestehend aus Knoten und Kanten) zur Darstellung und Speicherung von Daten. Damit eignen sie sich besonders für die Abbildung komplexer Netzwerke, etwa sozialer Beziehungen oder intertextueller Bezüge – ein Ansatz, der in den Digital Humanities häufig eingesetzt wird. Ein verbreitetes System ist Neo4j, das sich z. B. für Netzwerkanalysen eignet.</p>
+<p><strong>NoSQL-Datenbanken</strong> umfassen verschiedene Systeme, die nicht dem klassischen relationalen Modell folgen und für besonders flexible oder skalierbare Anwendungen entwickelt wurden. Beispiele sind MongoDB, das häufig für die Speicherung unstrukturierter oder halbstrukturierter Daten (z. B. Texte, JSON-Dokumente) genutzt wird, sowie eXist-db, eine XML-basierte Datenbank, die speziell in den Geisteswissenschaften Verwendung findet, etwa zur Verwaltung und Edition digitaler Texte.</p>
+</section>
+<section id="datenbanken-in-der-praxis">
+<h2>Datenbanken in der Praxis<a class="headerlink" href="#datenbanken-in-der-praxis" title="Link to this heading">#</a></h2>
+<p>Will man nun in der Praxis eine Datenbank umsetzen, geht man nach folenden Schritten vor:</p>
+<ol class="arabic simple">
+<li><p>Auswahl eines passenden Datenbankkonzepts (relational, Graphdatenbank, …)</p></li>
+<li><p>Auswahl eines passenden Tools</p>
+<ul class="simple">
+<li><p>Microsoft Access (bzw. LibreOffice Base), allerdings begrenzte Skalierbarkeit und Kompatiblität mit anderen Systemen</p></li>
+<li><p>MySQL / PostgreSQL</p></li>
+<li><p>SQLite etc.</p></li>
+</ul>
+</li>
+<li><p>Entwickeln eines Datenmodells (z. B. mithilfe von ERM)</p></li>
+<li><p>Anlegen der Tabellen</p></li>
+<li><p>Einpflegen der Daten</p></li>
+<li><p>Abfragen und Auswertungen</p></li>
+</ol>
+<section id="wann-und-wo-werden-datenbanken-eingesetzt">
+<h3>Wann und wo werden Datenbanken eingesetzt?<a class="headerlink" href="#wann-und-wo-werden-datenbanken-eingesetzt" title="Link to this heading">#</a></h3>
+<p>Datenbanken sind zentrale Bausteine moderner Informationssysteme und kommen in nahezu allen Bereichen zum Einsatz.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Bereich</p></th>
+<th class="head"><p>Beispielhafte Anwendung</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Medizin</p></td>
+<td><p>Patientendaten, Krankheitsverläufe, Medikamente</p></td>
+</tr>
+<tr class="row-odd"><td><p>Verwaltung / Staat</p></td>
+<td><p>Melderegister, Steuerdaten, Wahlregister</p></td>
+</tr>
+<tr class="row-even"><td><p>Bildung</p></td>
+<td><p>Notenverwaltung, Kursbelegung, Lernmanagementsysteme (z. B. Moodle)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Soziale Netzwerke</p></td>
+<td><p>Nutzerprofile, Beiträge, Beziehungen</p></td>
+</tr>
+<tr class="row-even"><td><p>Apps / Smartphones</p></td>
+<td><p>Chatverläufe, Kontaktdaten, Kalendereinträge</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In der Digital History finden sich insbesondere folgende Einsatzgebiete:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Bereich</p></th>
+<th class="head"><p>Beispielhafte Anwendung</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Quelleneditionen</strong></p></td>
+<td><p>Speicherung von digitalisierten Briefen, Urkunden, Tagebüchern, inkl. Metadaten</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Personendatenbanken</strong></p></td>
+<td><p>Register historischer Personen (z. B. Gelehrtennetzwerke, Biographien)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Orts- und Kartenbezug (GIS)</strong></p></td>
+<td><p>Verknüpfung historischer Orte mit Karten oder Koordinaten (z. B. mittelalterliche Städte)</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Textanalyse / Korpusdatenbanken</strong></p></td>
+<td><p>Volltexte historischer Dokumente zur Analyse (Stil, Begriffe, Entwicklung)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Projektdokumentation</strong></p></td>
+<td><p>Speicherung von Projekt-Metadaten, Provenienzen, Arbeitsschritten</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Museums- und Archivdatenbanken</strong></p></td>
+<td><p>Sammlungen, Digitalisate, Objektbeschreibungen, Inventare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="literatur-und-weiterfuhrende-informationen">
+<h2>Literatur und weiterführende Informationen<a class="headerlink" href="#literatur-und-weiterfuhrende-informationen" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Andreas Heuer, Gunter Saake, Kai-Uwe Satler, Holger Meyer, Hannes Grunert. Datenbanken. Kompaktkurs. mitp 2020.</p></li>
+<li><p>Wolfgang Gerken. Datenbanksysteme für dummies. Wiley Weinheim. 2018.</p></li>
+<li><p>Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.</p></li>
+<li><p><a class="reference external" href="https://www.w3schools.com/sql/">SQL Tutorial</a></p></li>
+<li><p>Andreas Kuczera. Graphentechnologien in den digitalen Geisteswissenschaften. Modellierung – Import – Analyse. <a class="reference external" href="https://kuczera.github.io/Graphentechnologien/">https://kuczera.github.io/Graphentechnologien/</a></p></li>
+<li><p><a class="reference external" href="https://neo4j.com/videos/graphs-in-the-digital-humanities-andreas-kuczera-akademie-der-wissenschaften/">Vortrag von Andreas Kuczera zum Thema “Graphs in the (Digital) Humanities”</a></p></li>
+</ul>
+</section>
+<section id="zitierte-literatur">
+<h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Link to this heading">#</a></h2>
+<div class="docutils container" id="id3">
+<div role="list" class="citation-list">
+<div class="citation" id="id6" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">BSS18</a><span class="fn-bracket">]</span></span>
+<p>Peter Bühler, Patrick Schlaich, and Dominik Sinner. <em>Webtechnologien : JavaScript – PHP – Datenbank</em>. Springer Vieweg, Berlin, 2018.</p>
+</div>
+<div class="citation" id="id4" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">BSS19</a><span class="fn-bracket">]</span></span>
+<p>Peter Bühler, Patrick Schlaich, and Dominik Sinner. <em>Datenmanagement: Daten – Datenbanken – Datensicherheit</em>. Bibliothek der Mediengestaltung. Springer Berlin Heidelberg, Berlin, Heidelberg, 1. aufl. 2019 edition, 2019. ISBN 9783662555064 9783662555071.</p>
+</div>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -505,6 +672,29 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung">Einführung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sql-als-datenbankabfragesprache">SQL als Datenbankabfragesprache</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-datenbankkonzepte">Weitere Datenbankkonzepte</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datenbanken-in-der-praxis">Datenbanken in der Praxis</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wann-und-wo-werden-datenbanken-eingesetzt">Wann und wo werden Datenbanken eingesetzt?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-weiterfuhrende-informationen">Literatur und weiterführende Informationen</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

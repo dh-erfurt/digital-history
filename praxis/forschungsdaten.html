@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,7 +183,9 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/webentwicklung.html">Grundlagen Webentwicklung</a></li>
@@ -207,12 +209,15 @@
 <li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +228,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -460,6 +469,7 @@ Forschungsdaten bilden die Grundlage für viele wissenschaftliche Analysen, Erke
 <p>Ein Kernkriterium für die Nachnutzbarkeit von Forschungsdaten ist, dass sie der Forschungscommunity offen, frei lizenziert und dokumentiert verfügbar gemacht werden – als <em>Open Data</em>. Zur Bereitstellung und Speicherung dieser Daten sind leistungsfähige Infrastrukturen (Forschungsdateninfrastrukturen) erforderlich.</p>
 <p>Dieses Kapitel gibt einen Überblick zu Forschungsdaten, den verschiedenen Stadien im Verlauf des Forschungsprozesses (<em>Datenlebenszyklus</em> oder <em>data life cycle</em>), Open Data, Open Access, sowie zu Datenpublikationen und Rezensionswesen zu Forschungsdaten.</p>
 <p>Diese Seite befindet sich im Aufbau.</p>
+<!-- hier auch FAIR Prinzipien -->
 <section id="literaturhinweise">
 <h2>Literaturhinweise<a class="headerlink" href="#literaturhinweise" title="Link to this heading">#</a></h2>
 <p>Fabian Cremer, Marina Lemaire, Katrin Moeller, Clio-Guide: Forschungsdaten, in: Clio Guide – Ein Handbuch zu digitalen Ressourcen für die Geschichtswissenschaften, hrsg. von Silvia Daniel, Wilfried Enderle, Rüdiger Hohls, Thomas Meyer, Jens Prellwitz, Claudia Prinz, Annette Schuhmann, Silke Schwandt, 3. erw. und aktualisierte Aufl., Berlin 2023–2024, <a class="reference external" href="https://doi.org/10.60693/hqgv-qz86">https://doi.org/10.60693/hqgv-qz86</a></p>

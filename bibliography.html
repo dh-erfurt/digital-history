@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=8c6fb475" />
@@ -62,7 +62,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Weiterführende Ressourcen" href="praxis/hinweise-werkzeuge-quellen-projekte.html" />
+    <link rel="prev" title="Von der Quelle zur webbasierten Präsentation" href="projekte/scan-zu-html.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -170,7 +170,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -182,6 +182,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="theorie/datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="theorie/xml.html">XML</a></li>
@@ -206,12 +207,15 @@
 <li class="toctree-l2"><a class="reference internal" href="praxis/formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="praxis/natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="praxis/geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="praxis/natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="praxis/computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="praxis/nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="praxis/kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="praxis/ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="praxis/llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="praxis/ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="praxis/ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="praxis/prompting.html">Prompting und Prompt Engineering</a></li>
@@ -222,8 +226,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="praxis/historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="praxis/geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="praxis/geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="praxis/hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="current nav bd-sidenav">
@@ -446,71 +454,87 @@ document.write(`
 <h1>Bibliografie<a class="headerlink" href="#bibliografie" title="Link to this heading">#</a></h1>
 <div class="docutils container" id="id1">
 <div role="list" class="citation-list">
-<div class="citation" id="id5" role="doc-biblioentry">
+<div class="citation" id="id9" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>BD24<span class="fn-bracket">]</span></span>
 <p>Christiane Birr and Thomas Duve. Das digitale Nadelöhr: Die Arbeit an einer digitalen Edition im Projekt „Die Schule von Salamanca “. <em>Legal History Insights</em>, 2024.</p>
 </div>
-<div class="citation" id="id16" role="doc-biblioentry">
+<div class="citation" id="id20" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Buc25<span class="fn-bracket">]</span></span>
 <p>Isabella Buck. <em>Wissenschaftliches Schreiben mit KI</em>. Studieren, aber richtig. UVK Verlag, Konstanz, 1 edition, March 2025. ISBN 9783825263652. <a class="reference external" href="https://doi.org/10.36198/9783838563657">doi:10.36198/9783838563657</a>.</p>
 </div>
-<div class="citation" id="id18" role="doc-biblioentry">
+<div class="citation" id="id4" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>BSS18<span class="fn-bracket">]</span></span>
+<p>Peter Bühler, Patrick Schlaich, and Dominik Sinner. <em>Webtechnologien : JavaScript – PHP – Datenbank</em>. Springer Vieweg, Berlin, 2018.</p>
+</div>
+<div class="citation" id="id2" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>BSS19<span class="fn-bracket">]</span></span>
+<p>Peter Bühler, Patrick Schlaich, and Dominik Sinner. <em>Datenmanagement: Daten – Datenbanken – Datensicherheit</em>. Bibliothek der Mediengestaltung. Springer Berlin Heidelberg, Berlin, Heidelberg, 1. aufl. 2019 edition, 2019. ISBN 9783662555064 9783662555071.</p>
+</div>
+<div class="citation" id="id22" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>CWW+24<span class="fn-bracket">]</span></span>
 <p>Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A Survey on Evaluation of Large Language Models. <em>ACM Trans. Intell. Syst. Technol.</em>, March 2024. URL: <a class="reference external" href="https://doi.org/10.1145/3641289">https://doi.org/10.1145/3641289</a>, <a class="reference external" href="https://doi.org/10.1145/3641289">doi:10.1145/3641289</a>.</p>
 </div>
-<div class="citation" id="id10" role="doc-biblioentry">
+<div class="citation" id="id3" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>Che76<span class="fn-bracket">]</span></span>
+<p>Peter Pin-Shan Chen. The entity-relationship model—toward a unified view of data. <em>ACM transactions on database systems (TODS)</em>, 1(1):9–36, 1976.</p>
+</div>
+<div class="citation" id="id14" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>CG24<span class="fn-bracket">]</span></span>
 <p>Elisa Cugliana and Tessa Gengnagel. Diplomatische Transkription. In <em>KONDE Weißbuch</em>. 2024. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.65">https://www.digitale-edition.at/o:konde.65</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id3" role="doc-biblioentry">
+<div class="citation" id="id7" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>CDF+24<span class="fn-bracket">]</span></span>
 <p>Alexander Czmiel, Stefan Dumont, Franz Fischer, Christopher Pollin, Patrick Sahle, Torsten Schaßan, Martina Scholger, Georg Vogeler, Torsten Roeder, Christiane Fritze, and Ulrike Henny-Krahmer. Generative KI, LLMs und GPT bei digitalen Editionen. February 2024. URL: <a class="reference external" href="https://doi.org/10.5281/zenodo.10698210">https://doi.org/10.5281/zenodo.10698210</a>, <a class="reference external" href="https://doi.org/10.5281/zenodo.10698210">doi:10.5281/zenodo.10698210</a>.</p>
 </div>
-<div class="citation" id="id11" role="doc-biblioentry">
+<div class="citation" id="id15" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Fri19<span class="fn-bracket">]</span></span>
 <p>Christiane Fritze. Wohin mit der digitalen Edition?: Ein Beitrag aus der Perspektive der österreichischen Nationalbibliothek. <em>Bibliothek Forschung und Praxis</em>, 43(3):432–440, December 2019. URL: <a class="reference external" href="https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html">https://www.degruyterbrill.com/document/doi/10.1515/bfp-2019-2068/html</a> (visited on 2025-05-26), <a class="reference external" href="https://doi.org/10.1515/bfp-2019-2068">doi:10.1515/bfp-2019-2068</a>.</p>
 </div>
-<div class="citation" id="id8" role="doc-biblioentry">
+<div class="citation" id="id12" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Gal21<span class="fn-bracket">]</span></span>
 <p>Selina Galka. Normalisierung. In <em>KONDE Weißbuch</em>. 2021. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.146">https://www.digitale-edition.at/o:konde.146</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id13" role="doc-biblioentry">
+<div class="citation" id="id17" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>JZH21<span class="fn-bracket">]</span></span>
 <p>Christian Janiesch, Patrick Zschech, and Kai Heinrich. Machine learning and deep learning. <em>Electronic Markets</em>, 31(3):685–695, September 2021. URL: <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">https://doi.org/10.1007/s12525-021-00475-2</a>, <a class="reference external" href="https://doi.org/10.1007/s12525-021-00475-2">doi:10.1007/s12525-021-00475-2</a>.</p>
 </div>
-<div class="citation" id="id12" role="doc-biblioentry">
+<div class="citation" id="id16" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>JKR17<span class="fn-bracket">]</span></span>
 <p>Fotis Jannidis, Hubertus Kohle, and Malte Rehbein. <em>Digital Humanities. Eine Einführung.</em> J.B. Metzler Stuttgart, 2017. ISBN 978-3-476-02622-4. URL: <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">https://doi.org/10.1007/978-3-476-05446-3</a>, <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">doi:10.1007/978-3-476-05446-3</a>.</p>
 </div>
-<div class="citation" id="id9" role="doc-biblioentry">
+<div class="citation" id="id13" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Klu21<span class="fn-bracket">]</span></span>
 <p>Helmut W. Klug. Transkription. In <em>KONDE Weißbuch</em>. 2021. URL: <a class="reference external" href="https://www.digitale-edition.at/o:konde.197">https://www.digitale-edition.at/o:konde.197</a> (visited on 2025-05-26).</p>
 </div>
-<div class="citation" id="id15" role="doc-biblioentry">
+<div class="citation" id="id19" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>LSHL22<span class="fn-bracket">]</span></span>
 <p>Jing Li, Aixin Sun, Jianglei Han, and Chenliang Li. A Survey on Deep Learning for Named Entity Recognition. <em>IEEE Transactions on Knowledge and Data Engineering</em>, 34(1):50–70, 2022. <a class="reference external" href="https://doi.org/10.1109/TKDE.2020.2981314">doi:10.1109/TKDE.2020.2981314</a>.</p>
 </div>
-<div class="citation" id="id4" role="doc-biblioentry">
+<div class="citation" id="id8" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>MNK+25<span class="fn-bracket">]</span></span>
 <p>Martin Mayr, Katharina Neumeier, Julian Krenz, Simon Bürcky, Florian Kordon, Mathias Seuret, Jochen Zöllner, Fei Wu, Andreas Maier, and Vincent Christlein. Data-efficient handwritten text recognition of diplomatic historical text. <em>Multimedia Tools and Applications</em>, January 2025. URL: <a class="reference external" href="https://doi.org/10.1007/s11042-024-20545-9">https://doi.org/10.1007/s11042-024-20545-9</a> (visited on 2025-06-06), <a class="reference external" href="https://doi.org/10.1007/s11042-024-20545-9">doi:10.1007/s11042-024-20545-9</a>.</p>
 </div>
-<div class="citation" id="id17" role="doc-biblioentry">
+<div class="citation" id="id21" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>OP25<span class="fn-bracket">]</span></span>
 <p>Sarah Oberbichler and Cindarella Petz. Working Paper: Implementing Generative AI in the Historical Studies. February 2025. URL: <a class="reference external" href="https://doi.org/10.5281/zenodo.14924737">https://doi.org/10.5281/zenodo.14924737</a>, <a class="reference external" href="https://doi.org/10.5281/zenodo.14924737">doi:10.5281/zenodo.14924737</a>.</p>
 </div>
-<div class="citation" id="id7" role="doc-biblioentry">
+<div class="citation" id="id11" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Sah16<span class="fn-bracket">]</span></span>
 <p>Patrick Sahle. What is a Scholarly Digital Edition? In Matthew James Driscoll and Elena Pierazzo, editors, <em>Digital Scholarly Editing : Theories and Practices</em>, Digital Humanities Series, pages 19–39. Open Book Publishers, Cambridge, 2016. URL: <a class="reference external" href="https://books.openedition.org/obp/3397">https://books.openedition.org/obp/3397</a> (visited on 2025-05-23).</p>
 </div>
-<div class="citation" id="id6" role="doc-biblioentry">
+<div class="citation" id="id10" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>Sah17<span class="fn-bracket">]</span></span>
 <p>Patrick Sahle. Digitale Editionen. In Fotis Jannidis, Hubertus Kohle, and Malte Rehbein, editors, <em>Digital Humanities. Eine Einführung.</em> J.B. Metzler Stuttgart, 2017. URL: <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">https://doi.org/10.1007/978-3-476-05446-3</a>, <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">doi:10.1007/978-3-476-05446-3</a>.</p>
 </div>
-<div class="citation" id="id14" role="doc-biblioentry">
+<div class="citation" id="id18" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>SBS18<span class="fn-bracket">]</span></span>
 <p>Dipanjan Sarkar, Raghav Bali, and Tushar Sharma. <em>Practical Machine Learning with Python</em>. Apress, 2018. ISBN 978-1-4842-3207-1. <a class="reference external" href="https://doi.org/10.1007/978-1-4842-3207-1">doi:10.1007/978-1-4842-3207-1</a>.</p>
 </div>
-<div class="citation" id="id2" role="doc-biblioentry">
+<div class="citation" id="id5" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>Sch23<span class="fn-bracket">]</span></span>
+<p>Mareike Schumacher. „word2vec“. In <em>forTEXT. Literatur digital erforschen.</em> 2023. URL: <a class="reference external" href="https://fortext.net/routinen/methoden/word2vec-1">https://fortext.net/routinen/methoden/word2vec-1</a> (visited on 2025-08-11).</p>
+</div>
+<div class="citation" id="id6" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span>SG21<span class="fn-bracket">]</span></span>
 <p>Harini Suresh and John Guttag. A Framework for Understanding Sources of Harm throughout the Machine Learning Life Cycle. In <em>Proceedings of the 1st ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization</em>, EAAMO '21, 1–9. New York, NY, USA, November 2021. Association for Computing Machinery. URL: <a class="reference external" href="https://dl.acm.org/doi/10.1145/3465416.3483305">https://dl.acm.org/doi/10.1145/3465416.3483305</a> (visited on 2025-06-17), <a class="reference external" href="https://doi.org/10.1145/3465416.3483305">doi:10.1145/3465416.3483305</a>.</p>
 </div>
@@ -549,12 +573,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="praxis/hinweise-werkzeuge-quellen-projekte.html"
+       href="projekte/scan-zu-html.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Weiterführende Ressourcen</p>
+        <p class="prev-next-title">Von der Quelle zur webbasierten Präsentation</p>
       </div>
     </a>
 </div>

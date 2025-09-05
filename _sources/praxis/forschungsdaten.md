@@ -9,6 +9,8 @@ Dieses Kapitel gibt einen Überblick zu Forschungsdaten, den verschiedenen Stadi
 
 Diese Seite befindet sich im Aufbau.
 
+<!-- hier auch FAIR Prinzipien -->
+
 
 #### Literaturhinweise
 

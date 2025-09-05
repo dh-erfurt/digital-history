@@ -54,6 +54,17 @@ Weitere Strategien, um die Ausgabe präzise an die eigenen Bedarfe anzupassen, s
 - Format festlegen (Liste, Gliederung, ausformulierter Text…)
 - Kontext geben (Fachrichtung, Tonfall, Anwendungsziel)
 
+### Prompt Engineering im Kontext aktueller Modelle 
+Mit neueren Modellen wie GPT‑5 hat sich die Rolle des Prompt Engineerings weiterentwickelt. Die Modelle unterscheiden nun zwischen Standard- und Reasoning-Modellen:
+
+- Standard-Modelle liefern schnelle Antworten für einfache oder klar strukturierte Aufgaben.
+
+- Reasoning-Modelle sind auf schrittweises Denken und komplexe Aufgaben ausgelegt. Sie eignen sich besonders, wenn logische Abfolgen, mehrere Zwischenschritte oder tiefere Analysen notwendig sind.
+
+Für einfache Fragen reicht oft ein kurzer, unkomplizierter Prompt im Standardmodus. Für komplexere Problemstellungen kann es hingegen sinnvoll sein, gezielt das Reasoning-Modell zu nutzen. Dieses lässt sich auch aktiv über den Prompt ansprechen (durch Formulierungen wie „Denke Schritt für Schritt“ oder „Überlege genau“).
+
+Bewährte „Prompting-Tricks“ – wie Few-Shot-Beispiele, Schritt-für-Schritt-Anweisungen oder die Definition einer Rolle – können nach wie vor hilfreich sein, insbesondere für komplexe oder stark strukturierte Aufgaben. Gleichzeitig sollten Nutzer*innen sich bewusst machen, welchen Modus sie einsetzen, um die Ergebnisse besser steuern und reproduzieren zu können.
+
 ## Worauf kann Prompt Engineering keinen Einfluss nehmen?
 
 Auch wenn klar formulierte Prompts helfen können, eine bessere Ausgabe zu erhalten, gibt es Grenzen, auf die Prompt Engineering keinen Einfluss hat. Diese betreffen grundlegende Eigenschaften und Beschränkungen von KI-Modellen, sowie die Daten, auf denen sie trainiert wurden.
@@ -75,7 +86,7 @@ Quelle: Dennis Layton, ChatGPT — Show me the Data Sources, 30.1.2023, Medium, 
 
 
 Diese Daten sind somit nur ein Ausschnitt und können gesellschaftliche, kulturelle oder politische Verzerrungen enthalten, die sich auch in den Antworten widerspiegeln – unabhängig davon, wie der Prompt formuliert ist. 
-**Bias in den Trainingsdaten** hat somit einen großen Einfluss auf die Ergebnisse. Weitere Faktoren sind begrenztes Wissen („Cut off“, sich danamisch veränderndes Echtzeit-Wissen) und Halluzinationen (Modell kann Inhalte generieren, die zwar plausibel klingen, aber faktisch falsch oder frei erfunden sind) sowie grundlegende (statistische) „Fähigkeit“ des Modells.
+**Bias in den Trainingsdaten** hat somit einen großen Einfluss auf die Ergebnisse. Weitere Faktoren sind begrenztes Wissen („Cut off“, sich dynamisch veränderndes Echtzeit-Wissen) und Halluzinationen (Modell kann Inhalte generieren, die zwar plausibel klingen, aber faktisch falsch oder frei erfunden sind) sowie grundlegende (statistische) „Fähigkeit“ des Modells.
 
 ## Literatur und Hinweise
 

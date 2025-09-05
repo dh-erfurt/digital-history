@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../praxis/formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="../praxis/llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -418,7 +426,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -434,6 +444,41 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-xml">Einführung XML</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel">Beispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-zentrale-xml-konzepte">Weitere zentrale XML-Konzepte</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wohlgeformtheit">Wohlgeformtheit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vokabulare">Vokabulare</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tei">TEI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grundlagen">Grundlagen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Beispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-beispiele">Weitere Beispiele</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#xslt">XSLT</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrungsbeispiel">Einführungsbeispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-stylesheet-mit-zwei-templates">Beispiel: Stylesheet mit zwei Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#was-passiert-hier">Was passiert hier?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#xslt-stylesheet-elemente">XSLT-Stylesheet-Elemente</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-value-of-element">&lt;xsl:value-of&gt;-Element</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-if-element">&lt;xsl:if&gt;-Element</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-sort-element">&lt;xsl:sort&gt;-Element</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weiterfuhrende-informationen">Weiterführende Informationen</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -445,10 +490,316 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="xml">
 <h1>XML<a class="headerlink" href="#xml" title="Link to this heading">#</a></h1>
-<p>XML (Extensible Markup Language) ist ein standardisiertes Format für hierarchisch strukturierte Daten, welches sowohl von Menschen als auch von Maschinen lesbar ist und plattformunabhängig ist.</p>
-<p>In den Digital Humanities ist XML ein zentrales Werkzeug, da es erlaubt, geisteswissenschaftliche Daten (Texte, Metadaten, Editionsprojekte, …) strukturiert und langfristig zugänglich aufzubereiten.</p>
-<p>Dieses Kapitel führt in die grundlegenden Prinzipien von XML ein und widmet sich darauf aufbauend den Grundlagen von TEI (Text Encoding Initiative), XSLT  (eXtensible Stylesheet Language Transformations) und anderen XML-basierten Technologien.</p>
-<p>Diese Seite befindet sich im Aufbau.</p>
+<p>XML (Extensible Markup Language) ist ein standardisiertes Format für hierarchisch strukturierte Daten. XML ist sowohl von Menschen als auch von Maschinen lesbar und es ist plattformunabhängig.</p>
+<p>In den Digital Humanities ist XML ein zentrales Format und auch Werkzeug, da es erlaubt, geisteswissenschaftliche Daten (Texte, Metadaten, Editionsprojekte, …) strukturiert und langfristig zugänglich aufzubereiten.</p>
+<p>Dieses Kapitel führt in die grundlegenden Prinzipien von XML ein und widmet sich darauf aufbauend den Grundlagen des auf XML basierenden Dokumentenformats zur Kodierung und zum Austausch von Texten <strong>TEI (Text Encoding Initiative)</strong>, der Programmiersprache zur Transformation von XML-Dokumenten <strong>XSLT (eXtensible Stylesheet Language Transformations)</strong> und anderen XML-basierten Technologien.</p>
+<section id="einfuhrung-xml">
+<h2>Einführung XML<a class="headerlink" href="#einfuhrung-xml" title="Link to this heading">#</a></h2>
+<p>XML wurde 1998 vom <em>W3C (World Wide Web Consortium)</em> als Auszeichnungssprache und einheitliches, plattformunabhängiges und menschen- sowie maschinenlesbares Format für den Austausch strukturierter Daten entwickelt. XML ist eine Metasprache, d. h. eine Sprache, mit der man andere Sprachen definieren kann.</p>
+<p>Im Gegensatz zu HTML, der Auszeichnungssprache für Webseiten, beschreibt XML die Bedeutung seiner Inhalte, nicht ihre Formatierung.</p>
+<section id="beispiel">
+<h3>Beispiel<a class="headerlink" href="#beispiel" title="Link to this heading">#</a></h3>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;buch&gt;</span>
+<span class="w">  </span><span class="nt">&lt;titel&gt;</span>Der<span class="w"> </span>Graf<span class="w"> </span>von<span class="w"> </span>Monte<span class="w"> </span>Cristo<span class="nt">&lt;/titel&gt;</span>
+<span class="w">  </span><span class="nt">&lt;autor&gt;</span>Alexandre<span class="w"> </span>Dumas<span class="nt">&lt;/autor&gt;</span>
+<span class="w">  </span><span class="nt">&lt;preis&gt;</span>12.99<span class="nt">&lt;/preis&gt;</span>
+<span class="nt">&lt;/buch&gt;</span>
+</pre></div>
+</div>
+<p>XML verwendet eine hierarchische Struktur bzw. eine Baumform zur Strukturierung der Daten. Es ist möglich, eigene <em>Tags</em> (z. B. <code class="docutils literal notranslate"><span class="pre">buch</span></code>, <code class="docutils literal notranslate"><span class="pre">autor</span></code>) zu definieren, XML legt lediglich die Syntax fest. Wichtig ist vor allem, dass jeder öffnende Tag einen schließenden Tag hat und die Verschachtelung korrekt ist, d. h. Tags nicht überlappen dürfen.</p>
+<p>Zwar ist die Benennung der Tags grundsätzlich frei, sie sollte aber aussagekräftig, konsistent und fachlich sinnvoll sein. So ist <titel> besser verständlich als ein unspezifisches <t1>. Oft orientiert man sich an den Inhalten oder am Anwendungsgebiet (z. B. <gedicht>, <vers> in einer Edition von Gedichten). Einheitliche Benennungen erleichtern sowohl das Lesen durch Menschen als auch die Verarbeitung durch Maschinen.</p>
+</section>
+<section id="weitere-zentrale-xml-konzepte">
+<h3>Weitere zentrale XML-Konzepte<a class="headerlink" href="#weitere-zentrale-xml-konzepte" title="Link to this heading">#</a></h3>
+<p>Zentral für XML sind darüber hinaus:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Konzept</p></th>
+<th class="head"><p>Beispiel / Syntax</p></th>
+<th class="head"><p>Beschreibung</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>XML-Deklaration</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;?xml</span> <span class="pre">version=&quot;1.0&quot;</span> <span class="pre">encoding=&quot;UTF-8&quot;?&gt;</span></code></p></td>
+<td><p>Steht ganz oben in der XML-Datei, gibt Version und Zeichencodierung an, optional</p></td>
+</tr>
+<tr class="row-odd"><td><p>Attribute</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;person</span> <span class="pre">name=&quot;Goethe&quot;</span> <span class="pre">birth=&quot;1749-08-28&quot;/&gt;</span></code></p></td>
+<td><p>Zusätzliche Informationen zu einem Element (Metadaten, IDs), stehen im Start-Tag</p></td>
+</tr>
+<tr class="row-even"><td><p>Kommentare</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">&lt;!--</span> <span class="pre">Das</span> <span class="pre">ist</span> <span class="pre">ein</span> <span class="pre">Kommentar</span> <span class="pre">--&gt;</span></code></p></td>
+<td><p>Wie in HTML, werden vom Parser ignoriert</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="wohlgeformtheit">
+<h3>Wohlgeformtheit<a class="headerlink" href="#wohlgeformtheit" title="Link to this heading">#</a></h3>
+<p>Ein XML-Dokument ist <strong>wohlgeformt</strong>, wenn es sich korrekt an die Syntaxregeln von XML hält. Dazu gehört, dass das Dokument genau ein Wurzelelement hat, dass jeder öffnende Tag einen entsprechenden schließenden Tag hat und dass Elemente korrekt ineinander verschachtelt sind.</p>
+<p>Die offizielle Definition von XML-Wohlgeformtheit findet sich <a class="reference external" href="https://www.w3.org/TR/xml/#dt-wellformed">hier</a>.</p>
+</section>
+<section id="vokabulare">
+<h3>Vokabulare<a class="headerlink" href="#vokabulare" title="Link to this heading">#</a></h3>
+<p>Ein Vokabular ist eine Sammlung von Elementnamen und Attributen. Es legt fest, welche Tags (und Attribute) erlaubt sind, was sie bedeuten und wie sie verschachtelt werden dürfen.
+Vokabulare machen Gebrauch von XML als Metasprache und ermöglichen Wiederverwendbarkeit und Interoperabilität.
+Beispiele für XML-Vokabulare sind TEI (Text Encoding Initiative) für geisteswissenschaftliche Texte, RSS/Atom (Nachrichten-Feeds) oder MODS (Metadata Object Description Schema) für Bibliotheksmetadaten.</p>
+</section>
+</section>
+<section id="tei">
+<h2>TEI<a class="headerlink" href="#tei" title="Link to this heading">#</a></h2>
+<p><em>TEI (Text Encoding Initiative)</em> ist ein internationaler Standard zur Auszeichnung von Texten in den Geisteswissenschaften, der XML zur Codierung verwendet und communitybasiert und -entwickelt ist.
+Ziele sind hierbei:</p>
+<ul class="simple">
+<li><p>Strukturierung, Durchsuchbarkeit und Interoperabilität von Texten</p></li>
+<li><p>präzise Repräsentation komplexer textueller Strukturen (z. B. Varianten, Kommentare)</p></li>
+<li><p>Langzeitarchivierung und Wiederverwendbarkeit</p></li>
+<li><p>erleichterte Zusammenarbeit zwischen Projekten durch Standardisierung</p></li>
+</ul>
+<p>TEI ist so konzipiert, dass vielfältige geisteswissenschaftliche Textsorten adäquat modelliert werden können. Gerade für die Arbeit an <a class="reference internal" href="../praxis/digitale-editionen.html"><span class="std std-doc">digitalen Editionen</span></a> ist es zentral. Sichtbar gemacht werden mit TEI sowohl Struktur (Absätze, Gedichtzeilen, Marginalien…) als auch Semantik (z. B. durch <a class="reference internal" href="../praxis/nlp-methoden-in-der-digital-history.html"><span class="std std-doc">NER-Auszeichnung</span></a>).</p>
+<section id="grundlagen">
+<h3>Grundlagen<a class="headerlink" href="#grundlagen" title="Link to this heading">#</a></h3>
+<p>TEI bietet ein umfangreiches Schema mit über 500 Elementen, u. a.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;teiHeader/&gt;</span></code>: Metadaten des Textes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;div/&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;p/&gt;</span></code>: Strukturierung in Absätze, Kapitel etc.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;persName/&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;placeName/&gt;</span></code>: Personen- und Ortsnamen</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;note&gt;</span></code>: Anmerkungen</p></li>
+</ul>
+<p>Der volle Umfang des TEI-Vokabulars ist <a class="reference external" href="https://tei-c.org/release/doc/tei-p5-doc/de/html/">hier</a> dokumentiert.</p>
+</section>
+<section id="id1">
+<h3>Beispiel<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<figure class="align-left" id="sonnet">
+<a class="reference internal image-reference" href="../_images/shakespeare-sonnet.png"><img alt="Shakespeare-Sonnett" src="../_images/shakespeare-sonnet.png" style="width: 800px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Shakespeares Sonnett 130 als Beispiel für TEI-Codierung [<a class="reference external" href="https://books.openedition.org/oep/688#tocfrom1n2">Quelle Bild</a>]</span><a class="headerlink" href="#sonnet" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br/>
+<p>Dieses Sonnett kann folgendermaßen in TEI codiert werden:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;lg</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;sonnet&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;head&gt;</span>130<span class="nt">&lt;/head&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>My<span class="w"> </span>Mistres<span class="w"> </span>eyes<span class="w"> </span>are<span class="w"> </span>nothing<span class="w"> </span>like<span class="w"> </span>the<span class="w"> </span>Sunne,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>Currall<span class="w"> </span>is<span class="w"> </span>farre<span class="w"> </span>more<span class="w"> </span>red,<span class="w"> </span>then<span class="w"> </span>her<span class="w"> </span>lips<span class="w"> </span>red,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>If<span class="w"> </span>snow<span class="w"> </span>be<span class="w"> </span>white<span class="w"> </span>why<span class="w"> </span>then<span class="w"> </span>her<span class="w"> </span>brests<span class="w"> </span>are<span class="w"> </span>dun:<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>If<span class="w"> </span>haires<span class="w"> </span>be<span class="w"> </span>wiers,<span class="w"> </span>black<span class="w"> </span>wiers<span class="w"> </span>grow<span class="w"> </span>on<span class="w"> </span>her<span class="w"> </span>head:<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>I<span class="w"> </span>have<span class="w"> </span>seene<span class="w"> </span>Roses<span class="w"> </span>damaskt,<span class="w"> </span>red<span class="w"> </span>and<span class="w"> </span>white,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>But<span class="w"> </span>no<span class="w"> </span>such<span class="w"> </span>Roses<span class="w"> </span>see<span class="w"> </span>I<span class="w"> </span>in<span class="w"> </span>her<span class="w"> </span>cheekes,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>And<span class="w"> </span>in<span class="w"> </span>some<span class="w"> </span>perfumes<span class="w"> </span>is<span class="w"> </span>there<span class="w"> </span>more<span class="w"> </span>delight,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>Then<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>breath<span class="w"> </span>that<span class="w"> </span>from<span class="w"> </span>my<span class="w"> </span>Mistres<span class="w"> </span>reekes.<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>I<span class="w"> </span>loue<span class="w"> </span>to<span class="w"> </span>heare<span class="w"> </span>her<span class="w"> </span>speake,<span class="w"> </span>yet<span class="w"> </span>well<span class="w"> </span>I<span class="w"> </span>know.<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>That<span class="w"> </span>Musicke<span class="w"> </span>hath<span class="w"> </span>a<span class="w"> </span>farre<span class="w"> </span>more<span class="w"> </span>pleasing<span class="w"> </span>sound:<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>I<span class="w"> </span>graunt<span class="w"> </span>I<span class="w"> </span>never<span class="w"> </span>saw<span class="w"> </span>a<span class="w"> </span>goddesse<span class="w"> </span>goe,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>My<span class="w"> </span>Mistress<span class="w"> </span>when<span class="w"> </span>she<span class="w"> </span>walkes<span class="w"> </span>treads<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>ground.<span class="nt">&lt;/l&gt;</span>
+<span class="w">    </span><span class="nt">&lt;lg</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;couplet&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>And<span class="w"> </span>yet<span class="w"> </span>by<span class="w"> </span>heaven<span class="w"> </span>I<span class="w"> </span>thinke<span class="w"> </span>my<span class="w"> </span>love<span class="w"> </span>as<span class="w"> </span>rare,<span class="nt">&lt;/l&gt;</span>
+<span class="w">        </span><span class="nt">&lt;l&gt;</span>As<span class="w"> </span>any<span class="w"> </span>she<span class="w"> </span>beli&#39;d<span class="w"> </span>with<span class="w"> </span>false<span class="w"> </span>compare.<span class="nt">&lt;/l&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/lg&gt;</span>
+<span class="nt">&lt;/lg&gt;</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html">Quelle Beispiel</a></p>
+</section>
+<section id="weitere-beispiele">
+<h3>Weitere Beispiele<a class="headerlink" href="#weitere-beispiele" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sturm-edition.de/edition.html">Editionsrichtlinien “Der Sturm” (digitale Quellenedition zur Geschichte der internationalen Avantgarde)</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/records/16541945">TEI-XML-Datenset der Tagebücher, Briefe, Dokumente, Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt digital</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/records/13881575">Nuremberg Letterbooks: A Multi-Transcriptional Dataset of Early 15th Century Manuscripts for Document Analysis</a></p></li>
+</ul>
+</section>
+</section>
+<section id="xslt">
+<h2>XSLT<a class="headerlink" href="#xslt" title="Link to this heading">#</a></h2>
+<p><em>XSLT (Extensible Stylesheet Language Transformations)</em> ist eine Programmiersprache zur Transformation von XML-Dokumenten, entweder in andere XML-Dokumente (d. h. veränderte Struktur) oder andere Formate (z. B. HTML für die Publikation im Web). Sie wurde im Kontext des World Wide Web Consortium entwickelt und 1999 veröffentlicht.</p>
+<p>Grundlegende Funktionsweise:</p>
+<p>Definition eines XSLT-Stylesheets und eines Input-XMLs → XSLT Processor → Ausgabe eines HTML-Dokuments</p>
+<section id="einfuhrungsbeispiel">
+<h3>Einführungsbeispiel<a class="headerlink" href="#einfuhrungsbeispiel" title="Link to this heading">#</a></h3>
+<p>Es gibt online XSLT-Prozessoren, mit denen man sein Stylesheet testen kann, z. B. <a class="reference external" href="https://linangdata.com/xslt-tester/">https://linangdata.com/xslt-tester/</a>.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Beispiel-XML</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;books&gt;</span>
+<span class="w">    </span><span class="nt">&lt;book&gt;</span>
+<span class="w">        </span><span class="nt">&lt;title&gt;</span>Der<span class="w"> </span>Graf<span class="w"> </span>von<span class="w"> </span>Monte<span class="w"> </span>Cristo<span class="nt">&lt;/title&gt;</span>
+<span class="w">        </span><span class="nt">&lt;author&gt;</span>Alexandre<span class="w"> </span>Dumas<span class="nt">&lt;/author&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/book&gt;</span>
+<span class="nt">&lt;/books&gt;</span>
+</pre></div>
+</div>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Beispiel-Stylesheet</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<span class="w">   </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nt">&lt;html&gt;</span>
+<span class="w">         </span><span class="nt">&lt;body&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsl:apply-templates/&gt;</span>
+<span class="w">         </span><span class="nt">&lt;/body&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/html&gt;</span>
+<span class="w">   </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="nt">&lt;/xsl:stylesheet&gt;</span>
+</pre></div>
+</div>
+</div>
+</details><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;xsl:template\&gt;</span></code> definiert ein Template, das mit <em>match</em> einen Tag des XML-Dokuments anspricht</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">match=&quot;\\&quot;</span></code> spricht das Root-Element des XML-Dokuments an, d. h. das ganze Dokument</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;xsl:apply-templates\&gt;</span></code> wendet das Template auf das aktuelle Element an</p></li>
+</ul>
+<p>Die Funktionsweise wird anhand eines zweiten Beispiels klarer:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;title&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;h1&gt;&lt;xsl:apply-templates/&gt;&lt;/h1&gt;</span>
+<span class="nt">&lt;/xsl:template&gt;</span>
+</pre></div>
+</div>
+<p>Wenn ein <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code>-Element gefunden wird, wird daraus eine HTML-Überschrift <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> gemacht.</p>
+</section>
+<section id="beispiel-stylesheet-mit-zwei-templates">
+<h3>Beispiel: Stylesheet mit zwei Templates<a class="headerlink" href="#beispiel-stylesheet-mit-zwei-templates" title="Link to this heading">#</a></h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Beispiel mit zwei Templates</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;html&gt;</span>
+<span class="w">            </span><span class="nt">&lt;body&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsl:apply-templates/&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/body&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/html&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;title&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;h1&gt;&lt;xsl:apply-templates/&gt;&lt;/h1&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="nt">&lt;/xsl:stylesheet&gt;</span>
+</pre></div>
+</div>
+</div>
+</details><section id="was-passiert-hier">
+<h4>Was passiert hier?<a class="headerlink" href="#was-passiert-hier" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Der Prozessor startet mit dem Root-Template <code class="docutils literal notranslate"><span class="pre">match=&quot;/&quot;</span></code>.</p></li>
+<li><p>Er erzeugt das Grundgerüst <code class="docutils literal notranslate"><span class="pre">&lt;html&gt;&lt;body&gt;...&lt;/body&gt;&lt;/html&gt;</span></code>.</p></li>
+<li><p>Im <code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code> steht &lt;xsl:apply-templates/&gt;: Der Prozessor überprüft: Was liegt direkt unter der Wurzel im XML? → Das Element <code class="docutils literal notranslate"><span class="pre">&lt;book&gt;</span></code>.</p></li>
+<li><p>Er sucht nach einem Template für <code class="docutils literal notranslate"><span class="pre">&lt;book&gt;</span></code>: Gibt es kein passendes Template, wird <code class="docutils literal notranslate"><span class="pre">apply-templates</span></code> auf die Kinder von <code class="docutils literal notranslate"><span class="pre">&lt;book&gt;</span></code> angewendet, dann auf deren Kinder usw.</p></li>
+<li><p>Er findet <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code> und <code class="docutils literal notranslate"><span class="pre">&lt;author&gt;</span></code>:</p>
+<ul class="simple">
+<li><p>Für <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code> existiert ein Template → Template wird angewendet: <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;...&lt;/h1&gt;</span></code></p></li>
+<li><p>Für <code class="docutils literal notranslate"><span class="pre">&lt;author&gt;</span></code> existiert kein Template → Text wird direkt ausgegeben</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+<section id="xslt-stylesheet-elemente">
+<h3>XSLT-Stylesheet-Elemente<a class="headerlink" href="#xslt-stylesheet-elemente" title="Link to this heading">#</a></h3>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">XML-Beispiel</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;books&gt;</span>
+<span class="w">    </span><span class="nt">&lt;book&gt;</span>
+<span class="w">        </span><span class="nt">&lt;title&gt;</span>Der<span class="w"> </span>Graf<span class="w"> </span>von<span class="w"> </span>Monte<span class="w"> </span>Cristo<span class="nt">&lt;/title&gt;</span>
+<span class="w">        </span><span class="nt">&lt;author&gt;</span>Alexandre<span class="w"> </span>Dumas<span class="nt">&lt;/author&gt;</span>
+<span class="w">        </span><span class="nt">&lt;year&gt;</span>1845<span class="nt">&lt;/year&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/book&gt;</span>
+<span class="w">    </span><span class="nt">&lt;book&gt;</span>
+<span class="w">        </span><span class="nt">&lt;title&gt;</span>I<span class="w"> </span>Who<span class="w"> </span>Have<span class="w"> </span>Never<span class="w"> </span>Known<span class="w"> </span>Men<span class="nt">&lt;/title&gt;</span>
+<span class="w">        </span><span class="nt">&lt;author&gt;</span>Jacqueline<span class="w"> </span>Harpman<span class="nt">&lt;/author&gt;</span>
+<span class="w">        </span><span class="nt">&lt;year&gt;</span>1995<span class="nt">&lt;/year&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/book&gt;</span>
+<span class="w">    </span><span class="nt">&lt;book&gt;</span>
+<span class="w">        </span><span class="nt">&lt;title&gt;</span>Effi<span class="w"> </span>Briest<span class="nt">&lt;/title&gt;</span>
+<span class="w">        </span><span class="nt">&lt;author&gt;</span>Theodor<span class="w"> </span>Fontante<span class="nt">&lt;/author&gt;</span>
+<span class="w">        </span><span class="nt">&lt;year&gt;</span>1895<span class="nt">&lt;/year&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/book&gt;</span>
+<span class="nt">&lt;/books&gt;</span>
+</pre></div>
+</div>
+</div>
+</details><section id="xsl-value-of-element">
+<h4>&lt;xsl:value-of&gt;-Element<a class="headerlink" href="#xsl-value-of-element" title="Link to this heading">#</a></h4>
+<p>Mit &lt;xsl:value-of&gt; kann der Wert eines XML-Elements extrahiert und dem HTML-Output hinzugefügt werden.</p>
+<p>z. B.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<span class="w">   </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nt">&lt;html&gt;</span>
+<span class="w">         </span><span class="nt">&lt;body&gt;</span>
+<span class="w">            </span><span class="nt">&lt;xsl:apply-templates/&gt;</span>
+<span class="w">         </span><span class="nt">&lt;/body&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/html&gt;</span>
+<span class="w">   </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="w">   </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;book&quot;</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nt">&lt;h2&gt;&lt;xsl:value-of</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;&lt;/h2&gt;</span>
+<span class="w">      </span><span class="nt">&lt;p&gt;</span>Autor:<span class="w"> </span><span class="nt">&lt;xsl:value-of</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;author&quot;</span><span class="nt">/&gt;&lt;/p&gt;</span>
+<span class="w">      </span><span class="nt">&lt;p&gt;</span>Erscheinungsjahr:<span class="w"> </span><span class="nt">&lt;xsl:value-of</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;year&quot;</span><span class="nt">/&gt;&lt;/p&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="nt">&lt;/xsl:stylesheet&gt;</span>
+</pre></div>
+</div>
+</section>
+<section id="xsl-if-element">
+<h4>&lt;xsl:if&gt;-Element<a class="headerlink" href="#xsl-if-element" title="Link to this heading">#</a></h4>
+<p>Mit &lt;xsl:if&gt; wird eine Bedingung anhand des XML-Inhaltes überprüft.</p>
+<p>z. B.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;html&gt;</span>
+<span class="w">            </span><span class="nt">&lt;body&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsl:apply-templates</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;books/book&quot;</span><span class="nt">&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsl:sort</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;year&quot;</span><span class="w"> </span><span class="na">data-type=</span><span class="s">&quot;number&quot;</span><span class="w"> </span><span class="na">order=</span><span class="s">&quot;ascending&quot;</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/xsl:apply-templates&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/body&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/html&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="nt">&lt;/xsl:stylesheet&gt;</span>
+</pre></div>
+</div>
+<p>In XML-Code müssen spitze Klammern (&lt;, &gt;) <em>escapet</em> werden, wie z. B. hier in der Bedingung, dass Bücher mit Erscheinungsjahr vor 1900 als Klassiker ausgezeichnet werden.</p>
+</section>
+<section id="xsl-sort-element">
+<h4>&lt;xsl:sort&gt;-Element<a class="headerlink" href="#xsl-sort-element" title="Link to this heading">#</a></h4>
+<p>Mit &lt;xsl:sort&gt; kann man die Inhalte sortieren.</p>
+<p>z. B.</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;xsl:stylesheet</span><span class="w"> </span><span class="na">xmlns:xsl=</span><span class="s">&quot;http://www.w3.org/1999/XSL/Transform&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;xsl:template</span><span class="w"> </span><span class="na">match=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;html&gt;</span>
+<span class="w">            </span><span class="nt">&lt;body&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsl:apply-templates</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;books/book&quot;</span><span class="nt">&gt;</span>
+<span class="w">                </span><span class="nt">&lt;xsl:sort</span><span class="w"> </span><span class="na">select=</span><span class="s">&quot;year&quot;</span><span class="w"> </span><span class="na">data-type=</span><span class="s">&quot;number&quot;</span><span class="w"> </span><span class="na">order=</span><span class="s">&quot;ascending&quot;</span><span class="nt">/&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/xsl:apply-templates&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/body&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/html&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/xsl:template&gt;</span>
+<span class="nt">&lt;/xsl:stylesheet&gt;</span>
+</pre></div>
+</div>
+<p>Weitere Elemente und Möglichkeiten eines XSL-Stylesheets finden sich u. a. hier:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.w3schools.com/xml/xsl_intro.asp">https://www.w3schools.com/xml/xsl_intro.asp</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/XSLT_elements">https://en.wikipedia.org/wiki/XSLT_elements</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="weiterfuhrende-informationen">
+<h2>Weiterführende Informationen<a class="headerlink" href="#weiterfuhrende-informationen" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>TEI Dokumentation: <a class="reference external" href="https://tei-c.org/release/doc/tei-p5-doc/de/html/">https://tei-c.org/release/doc/tei-p5-doc/de/html/</a></p></li>
+<li><p>Crashkurs TEI: <a class="reference external" href="https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html">https://www.dh.unibe.ch/dienstleistungen/tei/index_ger.html</a></p></li>
+<li><p>Elsner, Frank: Einführung in XML. <a class="reference external" href="https://www.home.uni-osnabrueck.de/elsner/Skripte/xml.pdf">https://www.home.uni-osnabrueck.de/elsner/Skripte/xml.pdf</a></p></li>
+<li><p>Thilo Rottach, Sascha Groß. XML kompakt: die wichtigsten Standards. Spektrum 2002.</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -505,6 +856,48 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-xml">Einführung XML</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel">Beispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-zentrale-xml-konzepte">Weitere zentrale XML-Konzepte</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wohlgeformtheit">Wohlgeformtheit</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vokabulare">Vokabulare</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tei">TEI</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grundlagen">Grundlagen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Beispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#weitere-beispiele">Weitere Beispiele</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#xslt">XSLT</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrungsbeispiel">Einführungsbeispiel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#beispiel-stylesheet-mit-zwei-templates">Beispiel: Stylesheet mit zwei Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#was-passiert-hier">Was passiert hier?</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#xslt-stylesheet-elemente">XSLT-Stylesheet-Elemente</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-value-of-element">&lt;xsl:value-of&gt;-Element</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-if-element">&lt;xsl:if&gt;-Element</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#xsl-sort-element">&lt;xsl:sort&gt;-Element</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#weiterfuhrende-informationen">Weiterführende Informationen</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

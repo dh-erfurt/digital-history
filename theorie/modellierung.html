@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../praxis/formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/natural-language-processing.html">Natural Language Processing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../praxis/nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../praxis/kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="../praxis/llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../praxis/prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../praxis/geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../praxis/hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -418,7 +426,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -434,6 +444,23 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Modellierung</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung">Einführung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entity-relationship-modell-erm">Entity-Relationship-Modell (ERM)</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-weiterfuhrende-informationen">Literatur und weiterführende Informationen</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -445,7 +472,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="modellierung">
 <h1>Modellierung<a class="headerlink" href="#modellierung" title="Link to this heading">#</a></h1>
-<p>Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der Annotation eines Textes, beim Aufbau einer Datenbank zu historischen Personen oder bei der Visualisierung politischer Netzwerke -  am Anfang steht die Frage nach der <em>Datenmodellierung</em>. Welche Form und Struktur sollten die Daten haben?</p>
+<p>Die Arbeit an und mit Daten ist zentral für die Digital Humanities: Ob bei der Annotation eines Textes, beim Aufbau einer Datenbank zu historischen Personen oder bei der Visualisierung politischer Netzwerke – am Anfang steht die Frage nach der <em>Datenmodellierung</em>. Welche Form und Struktur sollten die Daten haben?</p>
 <p><em>Datenmodelle</em> bezeichnen formale Modelle, die zur Repräsentation von Objekten dienen. Sie</p>
 <ul class="simple">
 <li><p>ermöglichen komplexe maschinelle Operationen auf den Daten</p></li>
@@ -453,16 +480,62 @@ document.write(`
 <li><p>sichern eine höhere Qualität der Daten, indem sie Bedingungen formulieren, denen Daten bei der Eingabe entsprechen müssen</p></li>
 <li><p>ermöglichen den Austausch oder das Zusammenführen von Daten (→ Nachhaltigkeit)</p></li>
 </ul>
-<p>Diese Definition und eine tiefergehende Einführung finden sich bei <span id="id1">[<a class="reference internal" href="#id13" title="Fotis Jannidis, Hubertus Kohle, and Malte Rehbein. Digital Humanities. Eine Einführung. J.B. Metzler Stuttgart, 2017. ISBN 978-3-476-02622-4. URL: https://doi.org/10.1007/978-3-476-05446-3, doi:10.1007/978-3-476-05446-3.">JKR17</a>]</span>. Dieses Kapitel wird grundlegende Begriffe und Konzepte erläutern.</p>
+<p>Diese Definition und eine tiefergehende Einführung finden sich bei <span id="id1">[<a class="reference internal" href="#id17" title="Fotis Jannidis, Hubertus Kohle, and Malte Rehbein. Digital Humanities. Eine Einführung. J.B. Metzler Stuttgart, 2017. ISBN 978-3-476-02622-4. URL: https://doi.org/10.1007/978-3-476-05446-3, doi:10.1007/978-3-476-05446-3.">JKR17</a>]</span>. Dieses Kapitel erläutert grundlegende Begriffe und Konzepte.</p>
+<section id="einfuhrung">
+<h2>Einführung<a class="headerlink" href="#einfuhrung" title="Link to this heading">#</a></h2>
+<p>Datenmodellierung bezeichnet einen Prozess, bei dem eine visuelle Darstellung der Daten und ihrer Beziehungen erstellt wird. Das Ergebnis ist ein formales Modell, das ein oder mehrere Objekte repräsentiert (= <strong>Datenmodell</strong>). Das Datenmodell wiederum ist eine Blaupause dafür, wie Daten strukturiert, gespeichert und abgerufen werden, um Konsistenz und Klarheit im Datenmanagement zu gewährleisten. Durch die Datenmodellierung wird ihre Speicherung, beispielsweise in einer Datenbank, vorbereitet.</p>
+</section>
+<section id="entity-relationship-modell-erm">
+<h2>Entity-Relationship-Modell (ERM)<a class="headerlink" href="#entity-relationship-modell-erm" title="Link to this heading">#</a></h2>
+<p>Das <em>Entity-Relationship-Modell</em> ist eine Art des Datenmodells, das von Peter Chen entwickelt wurde . Es stellt dar, wie Daten miteinander in Beziehung stehen, und besteht aus folgenden Elementen:</p>
+<ul class="simple">
+<li><p><em>Entity (Entität)</em>: beschreibt Objekt der realen Welt (z. B. “Person”, “Brief”), nicht einzelne Instanzen (z. B. “Max Müller”, “Brief vom 4. Mai”)</p></li>
+<li><p><em>Attribut</em>: beschreibt Entität näher</p></li>
+<li><p><em>Relation (Beziehung)</em>: beschreibt, wie Entitäten zueinander in Verbindung stehen</p></li>
+</ul>
+<figure class="align-left" id="simples-erm">
+<img alt="Beispiel simples ERM Briefe" src="../_images/simples-erm.drawio.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Simples ERM, das den Prozess der Briefkorrespondenz modelliert</span><a class="headerlink" href="#simples-erm" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br/>
+<p><a class="reference internal" href="#simples-erm"><span class="std std-numref">Fig. 1</span></a> zeigt ein simples ERM, in dem der Prozess des Verschickens und Empfangens von Briefkorrespondenz modelliert ist. Jede Entität hat genau einen <strong>Primärschlüssel</strong>, der sie eindeutig identifiziert (<code class="docutils literal notranslate"><span class="pre">PersonID</span></code>, <code class="docutils literal notranslate"><span class="pre">BriefID</span></code>).</p>
+<p>In einem komplexeren Szenario kann es auch <strong>Fremdschlüssel</strong> geben, welche auf den Primärschlüssel einer anderen Entität verweisen. <strong>Kardinalitäten</strong> beschreiben, wie viele Entitäten eines Typs an einer Beziehung beteiligt sein können: <em>z. B.: Jeder Brief wird von einer Person gesendet, eine Person kann n Briefe senden.</em></p>
+<p>Für ein Szenario, angelehnt an die <a class="reference external" href="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/index.html">Nürnberger Briefbücher</a>, in dem Briefe von Personen und Städten versendet und empfangen werden können, sie aber von einem Stadtschreiber verfasst werden, reicht obiges ERM nicht mehr aus.</p>
+<figure class="align-left" id="nbb-erm">
+<img alt="Beispiel-ERM Briefbücher-Korrespondenz" src="../_images/erm-briefbuecher.drawio.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Komplexeres ERM, das den Prozess der Briefkorrespondenz in den Nürnberger Briefbüchern modelliert</span><a class="headerlink" href="#nbb-erm" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br/>
+<p><a class="reference internal" href="#nbb-erm"><span class="std std-numref">Fig. 2</span></a> zeigt ein komplexeres ERM, in dem auch diese Informationen erfasst werden können. Hier kommen nicht nur Fremdschlüssel zum Einsatz, sondern auch Unter- bzw. Superklassen (Vererbung), verdeutlicht durch die “Ist”-Beziehung.</p>
+<p>ERMs bieten darüber hinaus auch weitere komplexere Möglichkeiten, Daten und Informationen zu modellieren.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section class="tex2jax_ignore mathjax_ignore" id="literatur-und-weiterfuhrende-informationen">
+<h1>Literatur und weiterführende Informationen<a class="headerlink" href="#literatur-und-weiterfuhrende-informationen" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Andreas Heuer, Gunter Saake, Kai-Uwe Satler, Holger Meyer, Hannes Grunert. Datenbanken. Kompaktkurs. mitp 2020.</p></li>
+<li><p>Wolfgang Gerken. Datenbanksysteme für Dummies. Wiley Weinheim 2018.</p></li>
+<li><p>Peter Bühler, Patrick Schlaich, Dominik Sinner. Datenmanagement. Daten – Datenbanken – Datensicherheit. Springer Vieweg 2019.</p></li>
+<li><p><a class="reference external" href="https://studyflix.de/informatik/er-modell-7476?topic_id=16">Erklärvideo zu ERM</a></p></li>
+<li><p>Ciula A, Eide Ø, Marras C, Sahle P. Modelling between digital and humanities: thinking in practice. Open Book Publishers 2023. <a class="reference external" href="https://www.openbookpublishers.com/books/10.11647/OBP.0369">https://www.openbookpublishers.com/books/10.11647/OBP.0369</a></p></li>
+<li><p>Ciula A, Eide Ø, Marras C, Sahle P. Models and modelling between digital and humanities. remarks from a multidisciplinary perspective. Historical Social Research/Historische Sozialforschung. 2018 Jan 1;43(4):343-61. <a class="reference external" href="https://www.gesis.org/hsr/volltext-archiv/2018/suppl-31-models-and-modelling-between-digital-humanities">https://www.gesis.org/hsr/volltext-archiv/2018/suppl-31-models-and-modelling-between-digital-humanities</a></p></li>
+</ul>
+<section id="zitierte-literatur">
+<h2>Zitierte Literatur<a class="headerlink" href="#zitierte-literatur" title="Link to this heading">#</a></h2>
 <div class="docutils container" id="id2">
 <div role="list" class="citation-list">
-<div class="citation" id="id13" role="doc-biblioentry">
+<div class="citation" id="id17" role="doc-biblioentry">
 <span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">JKR17</a><span class="fn-bracket">]</span></span>
 <p>Fotis Jannidis, Hubertus Kohle, and Malte Rehbein. <em>Digital Humanities. Eine Einführung.</em> J.B. Metzler Stuttgart, 2017. ISBN 978-3-476-02622-4. URL: <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">https://doi.org/10.1007/978-3-476-05446-3</a>, <a class="reference external" href="https://doi.org/10.1007/978-3-476-05446-3">doi:10.1007/978-3-476-05446-3</a>.</p>
 </div>
 </div>
 </div>
-<p>Diese Seite befindet sich im Aufbau.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -519,6 +592,30 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Modellierung</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung">Einführung</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#entity-relationship-modell-erm">Entity-Relationship-Modell (ERM)</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#literatur-und-weiterfuhrende-informationen">Literatur und weiterführende Informationen</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zitierte-literatur">Zitierte Literatur</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>

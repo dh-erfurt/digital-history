@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8c6fb475" />
@@ -62,7 +62,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Geschichtswissenschaft und KI" href="geschichtswissenschaft-und-ki.html" />
+    <link rel="next" title="Grundlagen der Computerlinguistik" href="computerlinguistische-grundlagen.html" />
     <link rel="prev" title="Konzepte und Formate" href="formate.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -171,7 +171,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../home.html">
-                    Home
+                    Grundlagen, Methoden und Anwendungen der Digital History
                 </a>
             </li>
         </ul>
@@ -183,6 +183,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technologische Grundlagen</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../theorie/modellierung.html">Modellierung</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="../theorie/datenbanken.html">Datenbanken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/informationssuche.html">Informationssuche</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../theorie/xml.html">XML</a></li>
@@ -207,12 +208,15 @@
 <li class="toctree-l2"><a class="reference internal" href="formate.html">Konzepte und Formate</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Natural Language Processing</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="geschichtswissenschaft-und-ki.html">Geschichtswissenschaft und KI</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Natural Language Processing</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="computerlinguistische-grundlagen.html">Grundlagen der Computerlinguistik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nlp-methoden-in-der-digital-history.html">NLP-Methoden in der Digital History</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="kuenstliche-intelligenz.html">Künstliche Intelligenz</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="ki-und-llms.html">Grundlagen: KI und LLMs</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="llms-geschichtswissenschaft.html">LLMs in der Geschichtswissenschaft</a></li>
+
 <li class="toctree-l2"><a class="reference internal" href="ki-erinnerungskultur.html">KI und Erinnerungskultur</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ki-texte-schreiben.html">Texte schreiben mit KI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompting.html">Prompting und Prompt Engineering</a></li>
@@ -223,8 +227,12 @@
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="historische-netzwerkanalyse.html">Historische Netzwerkanalyse</a></li>
-<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographischen Daten und Karten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geographische-daten.html">Geographische Daten und Karten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hinweise-werkzeuge-quellen-projekte.html">Weiterführende Ressourcen</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projekte</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../projekte/scan-zu-html.html">Von der Quelle zur webbasierten Präsentation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bibliografie</span></p>
 <ul class="nav bd-sidenav">
@@ -446,9 +454,11 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="natural-language-processing">
 <h1>Natural Language Processing<a class="headerlink" href="#natural-language-processing" title="Link to this heading">#</a></h1>
 <p><em>Natural Language Processing (NLP)</em> ist eine Teildisziplin der Informatik, in der Methoden der künstlichen Intelligenz besonders relevant sind. Sie befasst sich damit, wie Computer natürliche Sprache interpretieren, analysieren und generieren können.</p>
-<p>Für die Digital Humanities ist <em>NLP</em> wesentlich, da es die automatisierte Verarbeitung großer Textmengen ermöglicht und so neue Perspektiven auf historische Quellen und kulturelle Artefakte eröffnet. Typische DH-Methoden, die dem Bereich zugeordnet werden, sind z. B. <em>Named Entity Recognition</em>, <em>Topic Modelling</em> oder <em>Sentiment Analysis</em>, welche im Rahmen dieses Kapitels näher vorgestellt werden sollen.</p>
-<p>Die <em>Computerlinguistik</em> wiederum ist eine eigenständige wissenschaftliche Disziplin an der Schnittstelle von Sprachwissenschaft und Informatik. Sie beschäftigt sich mit der computergestützten Verarbeitung natürlicher Sprache und bearbeitet insbesondere sprachtheoretische Fragestellungen mit digitalen Methoden. So stellt sie einen theoretischen und technologischen Rahmen für viele NLP-Methoden und -Verfahren zur Verfügung.</p>
+<p>Für die Digital Humanities ist <em>NLP</em> wesentlich, da es die automatisierte Verarbeitung großer Textmengen ermöglicht und so neue Perspektiven auf historische Quellen und kulturelle Artefakte eröffnet. Typische DH-Methoden, die dem Bereich zugeordnet werden, sind z. B. <em>Named Entity Recognition</em>, <em>Topic Modelling</em> oder <em>Sentiment Analysis</em>, welche im Unterkapitel <a class="reference internal" href="nlp-methoden-in-der-digital-history.html"><span class="std std-doc">NLP-Methoden in der Geschichtswissenschaft</span></a> näher vorgestellt werden.</p>
+<p>Die <em>Computerlinguistik</em> wiederum ist eine eigenständige wissenschaftliche Disziplin an der Schnittstelle von Sprachwissenschaft und Informatik. Sie beschäftigt sich mit der computergestützten Verarbeitung natürlicher Sprache und bearbeitet insbesondere sprachtheoretische Fragestellungen mit digitalen Methoden. So stellt sie einen theoretischen und technologischen Rahmen für viele NLP-Methoden und -Verfahren zur Verfügung. Grundlegende Verfahren und Konzepte werden im Unterkapitel <a class="reference internal" href="computerlinguistische-grundlagen.html"><span class="std std-doc">Computerlinguistische Grundlagen</span></a> betrachtet.</p>
 <p>Zudem wird Computerlinguistik gemeinhin als die Disziplin betrachtet, aus der sich die Digital Humanities entwickelt haben. Bereits in den 1950ern begannen Sprachwissenschaftler*innen, computergestützte Methoden zur Analyse von Texten zu nutzen. Als Pionier der Digital Humanities gilt hier Roberto Busa, der mit dem <em>Index Thomasticus</em> eines der ersten großen geisteswissenschaftlichen Textkorpusprojekte in Zusammenarbeit mit IBM realisierte.</p>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -491,11 +501,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="geschichtswissenschaft-und-ki.html"
+       href="computerlinguistische-grundlagen.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Geschichtswissenschaft und KI</p>
+        <p class="prev-next-title">Grundlagen der Computerlinguistik</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
