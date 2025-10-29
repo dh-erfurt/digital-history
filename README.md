@@ -17,11 +17,9 @@ Für die Erstellung dieser OER waren folgende Ressourcen besonders hilfreich:
 
 Als Inspiration dienten außerdem die folgenden großartigen JupyterBooks:
 
-- **Melanie Althage, Martin Dröge, Torsten Hiltmann, Philipp Schneider**  
-  [*Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022* ](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
+- [**Melanie Althage, Martin Dröge, Torsten Hiltmann, Philipp Schneider**: *Python für Historiker:innen. Ein anwendungsorientierter und interaktiver Einstieg, 20.07.2022* ](https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/home.html)
 
-- **William Mattingly**  
-  [*Introduction to Named Entity Recognition, 2021*](https://ner.pythonhumanities.com/intro.html)
+- [**William Mattingly**: *Introduction to Named Entity Recognition, 2021*](https://ner.pythonhumanities.com/intro.html)
 
 ---
 
