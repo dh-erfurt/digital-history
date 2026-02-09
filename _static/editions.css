@@ -1,0 +1,7 @@
+.edition-frame {
+  width: 100%;
+  height: 90vh;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+}
