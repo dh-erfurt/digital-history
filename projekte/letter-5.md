@@ -1,6 +1,6 @@
 # Briefedition Brief 5
 
 <iframe
-  src="{{ pathto('_static/editions/damm.html', 1) }}"
+  src="https://dh-erfurt.github.io/digital-history/editionen/lukas-d.html"
   class="edition-frame">
 </iframe>
