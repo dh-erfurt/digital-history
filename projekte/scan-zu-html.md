@@ -73,4 +73,5 @@ Abschließend erstellen sie, aufbauend auf einem simplen XSL-Stylesheet für die
 
 ## Ergebnisse
 Nach Abschluss des Seminars werden hier die Ergebnisse veröffentlicht, die die Studierenden erarbeitet haben.
+ <iframe src="./brief_edition.html" width="100%" height="600px" frameborder="0"></iframe>
 <!-- hier Link zu Ergebnissen>##

@@ -37,6 +37,8 @@ html:
   use_edit_page_button: true
   extra_css:
     - custom.css
+    - editions.css
+
   extra_static_paths:
     - img
 
