@@ -54,7 +54,14 @@ parts:
 - caption: Projekte
   chapters:
     - file: projekte/scan-zu-html
-    - file: projekte/letter-5
+      sections:
+      - file: projekte/letter-2
+      - file: projekte/letter-3
+      - file: projekte/letter-5
+      - file: projekte/letter-6
+      - file: projekte/letter-10
+      - file: projekte/letter-15
+      - file: projekte/letter-16
 - caption: Bibliografie
   chapters:
     - file: bibliography
